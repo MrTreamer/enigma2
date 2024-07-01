@@ -1119,7 +1119,7 @@ class PowerTimerOverview(TimerOverviewBase):
 class RecordTimerOverview(TimerOverviewBase):
 	def __init__(self, session):
 		self["timerlist"] = RecordTimerList([])
-		self.fallbackTimer = FallbackTimerList(self, self.loadTimerList)
+		self.fallbackTimer = FallbackTimerList(self, self.fallbackRefresh)
 		TimerOverviewBase.__init__(self, session, mode=MODE_RECORD)
 		self["Event"] = Event()
 		self["Service"] = ServiceEvent()
@@ -1129,6 +1129,10 @@ class RecordTimerOverview(TimerOverviewBase):
 
 	def doChangeCallbackRemove(self):
 		self.session.nav.RecordTimer.on_state_change.remove(self.onStateChange)
+
+	def fallbackRefresh(self):
+		self.loadTimerList()
+		self.selectionChanged()
 
 	def loadTimerList(self):
 		def condition(element):
@@ -1238,7 +1242,7 @@ class RecordTimerOverview(TimerOverviewBase):
 		if result[0]:
 			entry = result[1]
 			if entry.external:
-				self.fallbackTimer.addTimer(entry, self.loadTimerList)
+				self.fallbackTimer.addTimer(entry, self.fallbackRefresh)
 			else:
 				simulTimerList = self.session.nav.RecordTimer.record(entry)
 				if simulTimerList:
@@ -1895,6 +1899,9 @@ class RecordTimerEdit(Setup):
 
 	def fallbackResult(self, locations, default, tags):
 		self.fallbackInfo = (locations, default, tags)
+		if self.timer.dirname and self.timer.dirname not in locations:
+			locations.append(self.timer.dirname)
+		self.timerLocation.setChoices(choices=locations, default=self.timer.dirname)
 
 	def createConfig(self):
 		days = {}
@@ -2212,8 +2219,12 @@ class RecordTimerEdit(Setup):
 			default = self.timer.dirname or defaultMoviePath()
 			locations = config.movielist.videodirs.value
 			return (default, locations)
-		elif self.fallbackInfo:
+		elif self.fallbackInfo and len(self.fallbackInfo) > 1:
 			return (self.fallbackInfo[1], self.fallbackInfo[0])
+		elif self.timer.dirname:
+			return (self.timer.dirname, [self.timer.dirname])
+		else:
+			return (defaultMoviePath(), [defaultMoviePath()])
 
 	def getLocation(self):
 		if not self.timer.external:  # TODO Fallback
