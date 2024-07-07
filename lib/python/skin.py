@@ -153,9 +153,7 @@ def InitSkins():
 		getDesktop(GUI_SKIN_ID).resize(eSize(resolution[0], resolution[1]))
 	runCallbacks = True
 	# Load all XML templates.
-	skinTemplatesFileName = resolveFilename(SCOPE_SKINS, pathjoin(dirname(currentPrimarySkin), "skinTemplates.xml"))
-	if isfile(skinTemplatesFileName):
-		loadSkinTemplates(skinTemplatesFileName)
+	reloadSkinTemplates()
 
 
 # Method to load a skin XML file into the skin data structures.
@@ -203,22 +201,39 @@ def loadSkin(filename, scope=SCOPE_SKINS, desktop=getDesktop(GUI_SKIN_ID), scree
 	return False
 
 
-# Method to load a skinTemplates.xml if one exists.
+# Method to load a skinTemplates.xml if one exists or load the templates from the screens.
 #
 def loadSkinTemplates(skinTemplatesFileName):
-	print(f"[Skin] Loading XML templates from '{skinTemplatesFileName}'.")
-	domStyles = fileReadXML(skinTemplatesFileName, source=MODULE_NAME)
-	if domStyles is not None:
-		for template in domStyles.findall("template"):
-			component = template.get("component")
-			name = template.get("name")
-			if component and name:
-				if component in componentTemplates:
-					componentTemplates[component][name] = template
-				else:
-					componentTemplates[component] = {name: template}
-		if config.crash.debugScreens.value:
-			print(f"[Skin] DEBUG: componentTemplates '{componentTemplates}'.")
+	if isfile(skinTemplatesFileName):
+		print(f"[Skin] Loading XML templates from '{skinTemplatesFileName}'.")
+		domStyles = fileReadXML(skinTemplatesFileName, source=MODULE_NAME)
+		if domStyles is not None:
+			for template in domStyles.findall("template"):
+				component = template.get("component")
+				name = template.get("name")
+				if component and name:
+					if component in componentTemplates:
+						componentTemplates[component][name] = template
+					else:
+						componentTemplates[component] = {name: template}
+	else:
+		for screen in domScreens:
+			element, path = domScreens.get(screen, (None, None))
+			for template in element.findall(".//widget/templates/template"):
+				component = template.get("component")
+				name = template.get("name")
+				if component and name:
+					if component in componentTemplates:
+						componentTemplates[component][name] = template
+					else:
+						componentTemplates[component] = {name: template}
+	if config.crash.debugScreens.value:
+		print(f"[Skin] DEBUG: componentTemplates '{componentTemplates}'.")
+
+
+def reloadSkinTemplates():
+	skinTemplatesFileName = resolveFilename(SCOPE_SKINS, pathjoin(dirname(currentPrimarySkin), "skinTemplates.xml"))
+	loadSkinTemplates(skinTemplatesFileName)
 
 
 def reloadSkins():
@@ -1817,7 +1832,7 @@ class TemplateParser():
 				attributes[color] = translatedColor
 		return attributes
 
-	def collectAttributes(self, node, context, ignore=(), excludeItemValues=None, includeItemValues=None):
+	def collectAttributes(self, node, context, ignore=(), excludeItemIndexes=None, includeItemIndexes=None):
 		horizontalAlignments = {
 			"left": 1,
 			"center": 4,
@@ -1846,7 +1861,7 @@ class TemplateParser():
 		pos = None
 		size = None
 		skinAttributes = []
-		itemValue = ""
+		itemIndex = ""
 		for attrib, value in node.items():  # Walk all attributes.
 			if attrib not in ignore:
 				newValue = value
@@ -1855,13 +1870,14 @@ class TemplateParser():
 						pos = newValue
 					case "size":
 						size = newValue
-					case "value":
-						itemValue = value
+					case "index":
+						itemIndex = value
+						skinAttributes.append((attrib, newValue))
 					case _:
 						skinAttributes.append((attrib, newValue))
-		if itemValue and includeItemValues and itemValue not in includeItemValues:
+		if itemIndex and includeItemIndexes and itemIndex not in includeItemIndexes:
 			return []
-		if itemValue and excludeItemValues and itemValue in excludeItemValues:
+		if itemIndex and excludeItemIndexes and itemIndex in excludeItemIndexes:
 			return []
 		if pos is not None:
 			pos, size = context.parse(pos, size, None)
@@ -1884,7 +1900,7 @@ class TemplateParser():
 		attributes = self.collectColors(attributes)
 		return [attributes]
 
-	def processPanel(self, widget, context, excludeItemValues=None, includeItemValues=None):
+	def processPanel(self, widget, context, excludeItemIndexes=None, includeItemIndexes=None):
 		if self.debug:
 			print(f"[TemplateParser] processPanel DEBUG: Position={widget.attrib.get("position")}, Size={widget.attrib.get("size")}.")
 			print(f"[TemplateParser] processPanel DEBUG: Parent x={context.x}, width={context.w}.")
@@ -1909,7 +1925,7 @@ class TemplateParser():
 		items = []
 		for element in list(widget):
 			processor = self.processors.get(element.tag, self.processNone)
-			newItems = processor(element, newContext, excludeItemValues=excludeItemValues, includeItemValues=includeItemValues)
+			newItems = processor(element, newContext, excludeItemIndexes=excludeItemIndexes, includeItemIndexes=includeItemIndexes)
 			if newItems:
 				items += newItems
 		if layout == "horizontal" and newContext.w > 0:
@@ -2047,14 +2063,6 @@ def readSkin(screen, skin, names, desktop):
 				raise SkinError(f"Component with name '{widgetName}' was not found in skin of screen '{myName}'")
 			# assert screen[widgetName] is not Source
 			collectAttributes(attributes, widget, context, skinPath, ignore=("name",))
-			for widgetTemplate in widget.findall("template"):
-				widgetTemplateComponent = widgetTemplate.get("component")
-				widgetTemplateName = widgetTemplate.get("name")
-				if widgetTemplateComponent and widgetTemplateName:
-					if widgetTemplateComponent in componentTemplates:
-						componentTemplates[widgetTemplateComponent][widgetTemplateName] = widgetTemplateComponent
-					else:
-						componentTemplates[widgetTemplateComponent] = {widgetTemplateName: widgetTemplateComponent}
 		elif widgetSource:
 			# print(f"[Skin] DEBUG: Widget source='{widgetSource}'.")
 			while True:  # Get corresponding source until we found a non-obsolete source.
