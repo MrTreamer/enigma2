@@ -4,7 +4,7 @@ from time import localtime, mktime, strftime, time
 
 from enigma import BT_SCALE, RT_HALIGN_LEFT, RT_HALIGN_RIGHT, RT_VALIGN_CENTER, eEPGCache, eLabel, eListbox, eListboxPythonMultiContent, eSize, eTimer
 
-from Janitor import AFTEREVENT as JANITOR_AFTEREVENT, JanitorEntry, TIMERTYPE as JANITOR_TYPE
+from Janitor import AFTEREVENT as JANITOR_AFTEREVENT, JanitorEntry, TIMERTYPE as JANITOR_TYPE, functionTimer
 from PowerTimer import AFTEREVENT as POWER_AFTEREVENT, PowerTimerEntry, TIMERTYPE as POWER_TIMERTYPE
 from RecordTimer import AFTEREVENT as RECORD_AFTEREVENT, RecordTimerEntry, TIMERTYPE as RECORD_TIMERTYPE, parseEvent
 from ServiceReference import ServiceReference
@@ -1525,6 +1525,7 @@ class JanitorEdit(Setup):
 			repeated = None
 			weekday = DAY_LIST[int(strftime("%u", localtime(self.timer.begin))) - 1]
 			days[weekday] = True
+		functionTimerItems = functionTimer.get()
 		choices = [
 			# (JANITOR_TYPES.get(JANITOR_TYPE.NONE), JANITOR_TYPE_NAMES.get(JANITOR_TYPE.NONE)),
 			(JANITOR_TYPES.get(JANITOR_TYPE.WAKEUP), JANITOR_TYPE_NAMES.get(JANITOR_TYPE.WAKEUP)),
@@ -1535,9 +1536,7 @@ class JanitorEdit(Setup):
 			(JANITOR_TYPES.get(JANITOR_TYPE.DEEPSTANDBY), JANITOR_TYPE_NAMES.get(JANITOR_TYPE.DEEPSTANDBY)),
 			(JANITOR_TYPES.get(JANITOR_TYPE.REBOOT), JANITOR_TYPE_NAMES.get(JANITOR_TYPE.REBOOT)),
 			(JANITOR_TYPES.get(JANITOR_TYPE.RESTART), JANITOR_TYPE_NAMES.get(JANITOR_TYPE.RESTART))
-		]
-		functionTimerItems = functionTimer.get()
-		choices.append((x, functionTimerItems[x]['name']) for x in functionTimerItems)
+		] + [(x, functionTimerItems[x]['name']) for x in functionTimerItems]
 		default = self.timer.function or JANITOR_TYPES.get(self.timer.timerType, "wakeup")
 		self.timerType = ConfigSelection(default=default, choices=choices)
 		self.timerActiveInStandby = ConfigSelection(default=self.timer.autosleepinstandbyonly, choices=[
@@ -2431,22 +2430,3 @@ class TimerLogSummary(ScreenSummary):
 	def __init__(self, session, parent):
 		ScreenSummary.__init__(self, session, parent=parent)
 		self["logname"] = StaticText(parent.timer.name if hasattr(parent.timer, "name") else _("PowerTimer log"))
-
-
-class FunctionTimer:
-	def __init__(self):
-		self.items = {}
-
-	def add(self, fnc):
-		if isinstance(fnc, (tuple, list)) and len(fnc) == 2 and isinstance(fnc[0], str) and isinstance(fnc[1], dict) and fnc[0] not in self.items:
-			self.items[fnc[0]] = fnc[1]
-
-	def remove(self, fncid):
-		if isinstance(fncid, str) and fncid in self.items:
-			self.items.pop(fncid)
-
-	def get(self):
-		return self.items
-
-
-functionTimer = FunctionTimer()
