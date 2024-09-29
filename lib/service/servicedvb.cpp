@@ -404,7 +404,7 @@ int eStaticServiceDVBPVRInformation::getLength(const eServiceReference &ref)
 	if (tstools.openFile(ref.path.c_str(), 1))
 		return 0;
 
-	struct stat s;
+	struct stat s = {};
 	stat(ref.path.c_str(), &s);
 
 			/* check if cached data is still valid */
@@ -754,6 +754,7 @@ RESULT eDVBServiceList::getContent(std::list<eServiceReference> &list, bool sort
 //   R = Service Reference (as swig object .. this is very slow)
 //   S = Service Reference (as python string object .. same as ref.toString())
 //   C = Service Reference (as python string object .. same as ref.toCompareString())
+//   L = Service LCN (as python int object)
 //   N = Service Name (as python string object)
 //   n = Short Service Name (short name brakets used) (as python string object)
 //   when exactly one return value per service is selected in the format string,
@@ -791,6 +792,9 @@ PyObject *eDVBServiceList::getContent(const char* format, bool sorted)
 				ePyObject tmp;
 				switch(format[i])
 				{
+				case 'L':  // service LCN
+					tmp = PyLong_FromLong(ref.getChannelNum());
+					break;
 				case 'R':  // service reference (swig)object
 					tmp = NEW_eServiceReference(ref);
 					break;
@@ -1507,7 +1511,11 @@ RESULT eDVBServicePlay::setTarget(int target, bool noaudio = false)
 	return 0;
 }
 
+#if SIGCXX_MAJOR_VERSION == 2
 RESULT eDVBServicePlay::connectEvent(const sigc::slot2<void,iPlayableService*,int> &event, ePtr<eConnection> &connection)
+#else
+RESULT eDVBServicePlay::connectEvent(const sigc::slot<void(iPlayableService*,int)> &event, ePtr<eConnection> &connection)
+#endif
 {
 	connection = new eConnection((iPlayableService*)this, m_event.connect(event));
 	return 0;
@@ -1802,7 +1810,7 @@ RESULT eDVBServicePlay::timeshift(ePtr<iTimeshiftService> &ptr)
 			}
 			tspath.append("/");
 			/* we need enough diskspace */
-			struct statfs fs;
+			struct statfs fs = {};
 			if (statfs(tspath.c_str(), &fs) < 0)
 			{
 				eDebug("[eDVBServicePlay] time shift %s statfs failed: %m", tspath.c_str());
@@ -3215,7 +3223,7 @@ void eDVBServicePlay::updateDecoder(bool sendSeekableStateChanged)
 			m_subtitle_parser->connectNewPage(sigc::mem_fun(*this, &eDVBServicePlay::newDVBSubtitlePage), m_new_dvb_subtitle_page_connection);
 			if (m_timeshift_changed)
 			{
-				struct SubtitleTrack track;
+				struct SubtitleTrack track = {};
 				if (getCachedSubtitle(track) >= 0)
 				{
 					if (track.type == 0) // dvb
@@ -3544,7 +3552,7 @@ RESULT eDVBServicePlay::getSubtitleList(std::vector<SubtitleTrack> &subtitlelist
 		for (std::vector<eDVBServicePMTHandler::subtitleStream>::iterator it(program.subtitleStreams.begin());
 			it != program.subtitleStreams.end(); ++it)
 		{
-			struct SubtitleTrack track;
+			struct SubtitleTrack track = {};
 			switch(it->subtitling_type)
 			{
 				case 0x01: // ebu teletext subtitles
@@ -3587,7 +3595,7 @@ RESULT eDVBServicePlay::getSubtitleList(std::vector<SubtitleTrack> &subtitlelist
 		int hash = magazine_number << 8 | page_number;
 		if (added_ttx_pages.find(hash) == added_ttx_pages.end())
 		{
-			struct SubtitleTrack track;
+			struct SubtitleTrack track = {};
 			track.type = 1;
 			track.pid = it->pid;
 			track.page_number = page_number;
@@ -3614,8 +3622,9 @@ void eDVBServicePlay::newSubtitlePage(const eDVBTeletextSubtitlePage &page)
 		m_decoder->getPTS(0, pts);
 		if (m_is_pvr || m_timeshift_enabled)
 		{
-			eDebug("[eDVBServicePlay] Subtitle in recording/timeshift");
-			subtitledelay = eSubtitleSettings::subtitle_noPTSrecordingdelay;
+			// This is wrong!
+			// eDebug("[eDVBServicePlay] Subtitle in recording/timeshift");
+			// subtitledelay = eSubtitleSettings::subtitle_noPTSrecordingdelay;
 		}
 		else
 		{

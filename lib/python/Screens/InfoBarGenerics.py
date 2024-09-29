@@ -10,7 +10,7 @@ from socket import AF_UNIX, SOCK_STREAM, socket
 from sys import maxsize
 from time import localtime, strftime, time
 
-from enigma import eActionMap, eAVControl, eDBoxLCD, eDVBDB, eDVBServicePMTHandler, eDVBVolumecontrol, eEPGCache, eServiceCenter, eServiceReference, eTimer, getBsodCounter, getDesktop, iPlayableService, iServiceInformation, quitMainloop, resetBsodCounter, eDVBVolumecontrol
+from enigma import eActionMap, eAVControl, eDBoxLCD, eDVBDB, eDVBServicePMTHandler, eDVBVolumecontrol, eEPGCache, eServiceCenter, eServiceReference, eTimer, getBsodCounter, getDesktop, iPlayableService, iServiceInformation, quitMainloop, resetBsodCounter
 
 from keyids import KEYFLAGS, KEYIDNAMES, KEYIDS
 from RecordTimer import AFTEREVENT, RecordTimer, RecordTimerEntry, findSafeRecordPath, parseEvent
@@ -36,7 +36,7 @@ from Components.Sources.Boolean import Boolean
 from Components.Sources.ServiceEvent import ServiceEvent
 from Components.Sources.StaticText import StaticText
 from Plugins.Plugin import PluginDescriptor
-from Screens.ChannelSelection import BouquetSelector, ChannelSelection, EpgBouquetSelector, PiPZapSelection, SilentBouquetSelector, service_types_tv
+from Screens.ChannelSelection import BouquetSelector, ChannelSelection, EpgBouquetSelector, PiPZapSelection, SilentBouquetSelector, service_types_tv, service_types_radio
 from Screens.ChoiceBox import ChoiceBox
 from Screens.DateTimeInput import InstantRecordingEndTime
 from Screens.Dish import Dish
@@ -877,11 +877,12 @@ class InfoBarShowHide(InfoBarScreenSaver):
 				if self.secondInfoBarScreen and self.secondInfoBarScreen.shown:
 					self.secondInfoBarScreen.hide()
 					self.secondInfoBarWasShown = False
-			if self.session.pipshown and "popup" in config.usage.pip_hideOnExit.value:
-				if config.usage.pip_hideOnExit.value == "popup":
-					self.session.openWithCallback(self.hidePipOnExitCallback, MessageBox, _("Disable Picture in Picture"), simple=True)
-				else:
-					self.hidePipOnExitCallback(True)
+			if SHOW:
+				if self.session.pipshown and "popup" in config.usage.pip_hideOnExit.value:
+					if config.usage.pip_hideOnExit.value == "popup":
+						self.session.openWithCallback(self.hidePipOnExitCallback, MessageBox, _("Disable Picture in Picture"), simple=True)
+					else:
+						self.hidePipOnExitCallback(True)
 		else:
 			self.hide()
 			if hasattr(self, "pvrStateDialog"):
@@ -1536,7 +1537,7 @@ class InfoBarChannelSelection:
 		elif config.usage.channelbutton_mode.value == "2":
 			self.serviceListType = "Norm"
 			self.servicelist.showFavourites()
-			self.session.execDialog(self.servicelist)
+			self.openServiceList()
 
 	def ChannelMinusPressed(self):
 		if config.usage.channelbutton_mode.value == "0":
@@ -1546,21 +1547,21 @@ class InfoBarChannelSelection:
 		elif config.usage.channelbutton_mode.value == "2":
 			self.serviceListType = "Norm"
 			self.servicelist.showFavourites()
-			self.session.execDialog(self.servicelist)
+			self.openServiceList()
 
 	def showTvChannelList(self, zap=False):
 		self.servicelist.setModeTv()
 		if zap:
 			self.servicelist.zap()
 		if config.usage.show_servicelist.value:
-			self.session.execDialog(self.servicelist)
+			self.openServiceList()
 
 	def showRadioChannelList(self, zap=False):
 		self.servicelist.setModeRadio()
 		if zap:
 			self.servicelist.zap()
 		if config.usage.show_servicelist.value:
-			self.session.execDialog(self.servicelist)
+			self.openServiceList()
 
 	def historyBack(self):
 		if config.usage.historymode.value == "0":
@@ -1581,18 +1582,18 @@ class InfoBarChannelSelection:
 				if not config.usage.show_bouquetalways.value:
 					if "keep" not in config.usage.servicelist_cursor_behavior.value:
 						self.servicelist.moveUp()
-					self.session.execDialog(self.servicelist)
+					self.openServiceList()
 				else:
 					self.servicelist.showFavourites()
-					self.session.execDialog(self.servicelist)
+					self.openServiceList()
 			elif self.LongButtonPressed:
 				if not config.usage.show_bouquetalways.value:
 					if "keep" not in config.usage.servicelist_cursor_behavior.value:
 						self.servicelist2.moveUp()
-					self.session.execDialog(self.servicelist2)
+					self.openServiceListPiP()
 				else:
 					self.servicelist2.showFavourites()
-					self.session.execDialog(self.servicelist2)
+					self.openServiceListPiP()
 
 	def switchChannelDown(self):
 		if not self.secondInfoBarScreen or not self.secondInfoBarScreen.shown:
@@ -1601,20 +1602,22 @@ class InfoBarChannelSelection:
 				if not config.usage.show_bouquetalways.value:
 					if "keep" not in config.usage.servicelist_cursor_behavior.value:
 						self.servicelist.moveDown()
-					self.session.execDialog(self.servicelist)
+					self.openServiceList()
 				else:
 					self.servicelist.showFavourites()
-					self.session.execDialog(self.servicelist)
+					self.openServiceList()
 			elif self.LongButtonPressed:
 				if not config.usage.show_bouquetalways.value:
 					if "keep" not in config.usage.servicelist_cursor_behavior.value:
 						self.servicelist2.moveDown()
-					self.session.execDialog(self.servicelist2)
+					self.openServiceListPiP()
 				else:
 					self.servicelist2.showFavourites()
-					self.session.execDialog(self.servicelist2)
+					self.openServiceListPiP()
 
 	def openServiceList(self):
+		if config.skin.autorefresh.value:
+			self.servicelist.servicelist.reloadSkin()
 		self.session.execDialog(self.servicelist)
 
 	def openServiceListPiP(self):
@@ -1622,15 +1625,15 @@ class InfoBarChannelSelection:
 
 	def openSatellites(self):
 		self.servicelist.showSatellites()
-		self.session.execDialog(self.servicelist)
+		self.openServiceList()
 
 	def openBouquets(self):
 		self.servicelist.showFavourites()
-		self.session.execDialog(self.servicelist)
+		self.openServiceList()
 
 	def openSubservices(self):
 		self.servicelist.enterSubservices()
-		self.session.execDialog(self.servicelist)
+		self.openServiceList()
 
 	def zapUp(self):
 		if not self.LongButtonPressed or BoxInfo.getItem("NumVideoDecoders", 1) <= 1:
@@ -1753,10 +1756,10 @@ class InfoBarChannelSelection:
 			self["SeekActionsPTS"].setEnabled(True)
 
 	def volumeUp(self):  # Called from ButtonSetup
-		VolumeControl.instance.volUp()
+		VolumeControl.instance.keyVolumeUp()
 
 	def volumeDown(self):  # Called from ButtonSetup
-		VolumeControl.instance.volDown()
+		VolumeControl.instance.keyVolumeDown()
 
 
 class InfoBarMenu:
@@ -2070,9 +2073,10 @@ class InfoBarEPG:
 	def openBouquetEPG(self, bouquet=None, bouquets=None):
 		if bouquet:
 			self.StartBouquet = bouquet
-		elif bouquets and not self.servicelist.isSubservices():  # Current service not found in any bouquet so add all services
+		elif bouquets and not self.servicelist.isSubservices():
 			root = self.servicelist.getRoot()
-			bouquets.insert(0, (self.servicelist.getServiceName(root), root))
+			if root.toString().startswith((service_types_tv, service_types_radio)):  # Current service not found in any bouquet so add all services
+				bouquets.insert(0, (self.servicelist.getServiceName(root), root))
 		self.dlg_stack.append(self.session.openWithCallback(self.closed, EPGSelection, None, zapFunc=self.zapToService, EPGtype=self.EPGtype, StartBouquet=self.StartBouquet, StartRef=self.StartRef, bouquets=bouquets))
 
 	def closed(self, ret=False):
@@ -3141,10 +3145,12 @@ class ExtensionsList(ChoiceBox):
 		extensionListAll = []
 		for extension in extensions:
 			if extension[0] == 0:  # EXTENSION_SINGLE
-				extensionListAll.append((extension[1][0](), extension[1], extension[2], colorKeys.get(extension[2], 0)))
+				if extension[1][2]():
+					extensionListAll.append((extension[1][0](), extension[1], extension[2], colorKeys.get(extension[2], 0)))
 			else:
 				for subExtension in extension[1]():
-					extensionListAll.append((subExtension[0][0](), subExtension[0], subExtension[1], colorKeys.get(subExtension[1], 0)))
+					if subExtension[0][2]():
+						extensionListAll.append((subExtension[0][0](), subExtension[0], subExtension[1], colorKeys.get(subExtension[1], 0)))
 
 		if config.usage.sortExtensionslist.value == "alpha":
 			extensionListAll.sort(key=lambda x: (x[3], x[0]))

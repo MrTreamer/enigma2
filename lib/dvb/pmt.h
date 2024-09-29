@@ -111,6 +111,7 @@ class eDVBServicePMTHandler: public eDVBPMTParser
 
 	bool m_pmt_ready;
 	bool m_ca_disabled;
+	static int m_debug;
 public:
 	eDVBServicePMTHandler();
 	~eDVBServicePMTHandler();
@@ -144,7 +145,11 @@ public:
 		eventChannelAllocated,
 	};
 #ifndef SWIG
+#if SIGCXX_MAJOR_VERSION == 2
 	sigc::signal1<void,int> serviceEvent;
+#else
+	sigc::signal<void(int)> serviceEvent;
+#endif
 
 	int getProgramInfo(program &program);
 	int getDataDemux(ePtr<iDVBDemux> &demux);

@@ -16,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 15:20+0000\n"
-"PO-Revision-Date: 2024-07-25 08:42+0000\n"
+"POT-Creation-Date: 2024-09-12 21:03+0000\n"
+"PO-Revision-Date: 2024-09-16 19:28+0000\n"
 "Last-Translator: Makumbo <tokioplo@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/de/>\n"
 "Language: de\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.8-dev\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 msgid ""
@@ -1082,7 +1082,7 @@ msgid "%d.%B %Y"
 msgstr "%d.%B %Y"
 
 msgid "%d.%m"
-msgstr "%d.%m."
+msgstr "%d.%m"
 
 #
 msgid "%d.%m.%Y"
@@ -1209,7 +1209,7 @@ msgstr "%s wurde deaktiviert."
 
 #, python-format
 msgid "%s imported from remote receiver."
-msgstr "%s vom Reserve-Tuner importiert"
+msgstr "%s vom Reserve-Receiver importiert."
 
 #. TRANSLATORS: The satellite with name '%s' is no longer used after a configuration change. The user is asked whether or not the satellite should be deleted.
 #, python-format
@@ -1524,6 +1524,9 @@ msgstr "4x"
 msgid "5"
 msgstr "5"
 
+msgid "50-200 Mbps"
+msgstr "50-200 Mbps"
+
 #
 msgid "6"
 msgstr "6"
@@ -1775,17 +1778,20 @@ msgstr "AC3+-Transkodierung"
 msgid "AFL"
 msgstr "AFL"
 
-msgid "AI-Powered translation color"
+msgid "AI-Powered Translation color"
 msgstr "Textfarbe für KI-gestützte Übersetzung"
 
-msgid "AI-Powered translation enabled"
+msgid "AI-Powered Translation enabled"
 msgstr "KI-gestützte Übersetzung aktiviert"
 
-msgid "AI-Powered translation language"
+msgid "AI-Powered Translation language"
 msgstr "Sprache der KI-gestützten Übersetzung"
 
-msgid "AI-Powered translation subscription code"
-msgstr "Abo Code für KI-gestützte Übersetzung"
+msgid "AI-Powered Translation optimization"
+msgstr "KI-gestützte Übersetzung Optimierung"
+
+msgid "AI-Powered Translation subscription code"
+msgstr "Abo-Code für KI-gestützte Übersetzung"
 
 msgid "ARM"
 msgstr "ARM"
@@ -1841,6 +1847,9 @@ msgstr "Über openATV"
 #
 msgid "About to start"
 msgstr "Startet gleich"
+
+msgid "Above 200 Mbps"
+msgstr "Über 200 Mbps"
 
 msgid "Access point"
 msgstr "Access Point"
@@ -2091,6 +2100,12 @@ msgstr "Aufnahme hinzufügen (aktuelle Sendung)"
 #
 msgid "Add service"
 msgstr "Kanal hinzufügen"
+
+msgid "Add service names"
+msgstr "Sendername hinzufügen"
+
+msgid "Add service names to each #SERVICE entry."
+msgstr "Servicename an jeden #SERVICE-Eintrag hinzufügen."
 
 msgid "Add service to AutoCam"
 msgstr "Sender zu AutoCam hinzufügen"
@@ -2363,6 +2378,9 @@ msgstr "Auch imporieren, wenn die Box aus dem Standby kommt"
 msgid "Also on standby"
 msgstr "Auch im Standby"
 
+msgid "Also use a #DESCRIPTION line after each #SERVICE line to hold the service's name."
+msgstr "Auch eine #DESCRIPTION-Zeile nach jeder #SERVICE-Zeile einfügen."
+
 msgid "Alternative"
 msgstr "Alternative"
 
@@ -2377,9 +2395,6 @@ msgstr "Alternativen-Bearbeitung"
 
 msgid "Alternative URLs for DVB-T/C or ATSC"
 msgstr "Alternative URLs für DVB-T / C oder ATSC"
-
-msgid "Alternative numbering mode"
-msgstr "Alternative Nummerierung"
 
 msgid "Alternative radio mode"
 msgstr "Alternativer Radiomodus"
@@ -2481,6 +2496,18 @@ msgstr "Die aktuell markierte Sprache anwenden und beenden."
 
 msgid "Arabic"
 msgstr "Arabisch"
+
+msgid "Arabic (Egyptian)"
+msgstr "Arabisch (Egyptisch)"
+
+msgid "Arabic (Moroccan)"
+msgstr "Arabisch (Marokkanisch)"
+
+msgid "Arabic (Syro-Lebanese)"
+msgstr "Arabisch (Syro-Libanesisch)"
+
+msgid "Arabic (Tunisian)"
+msgstr "Arabisch (Tunesisch)"
 
 msgid "Aragonese"
 msgstr "Aragonesisch"
@@ -2724,12 +2751,6 @@ msgstr "Ton-Sprachauswahl 4"
 msgid "Audio options..."
 msgstr "Toneinstellungen..."
 
-msgid "Audio volume step size"
-msgstr "Lautstärke Schrittweite"
-
-msgid "Audio volume step size fast mode"
-msgstr "Lautstärke Schrittweite im Schnellmodus"
-
 msgid "Australia"
 msgstr "Australien"
 
@@ -2817,6 +2838,9 @@ msgstr "AutoFS"
 #
 msgid "AutoMountManager"
 msgstr "Automatisches Mount-Management"
+
+msgid "AutoRefresh"
+msgstr "AutoRefresh"
 
 msgid "AutoTimer"
 msgstr "AutoTimer"
@@ -3273,8 +3297,11 @@ msgstr "Favoritenauswahl Navigationsaktionen"
 msgid "Bouquets"
 msgstr "Favoriten"
 
+msgid "Bouquets start at 1"
+msgstr "Favoriten beginnen bei 1"
+
 msgid "Bouvet Island"
-msgstr "Bouvet Insel"
+msgstr "Bouvetinsel"
 
 msgid "Boxing"
 msgstr "Boxen"
@@ -3328,6 +3355,9 @@ msgstr "Pufferung %d%%"
 
 msgid "Buffers"
 msgstr "Puffer"
+
+msgid "Build"
+msgstr "Build"
 
 msgid "Build Brand"
 msgstr "OEM-Hersteller"
@@ -4527,6 +4557,9 @@ msgstr "Auszuführender Befehl"
 msgid "Command type"
 msgstr "Befehlsart"
 
+msgid "Commit"
+msgstr "Commit"
+
 msgid "Commit Information Actions"
 msgstr "Commit-Informationsaktionen"
 
@@ -4694,9 +4727,6 @@ msgstr ""
 msgid "Configure remote control type"
 msgstr "Fernbedienungstyp einstellen"
 
-msgid "Configure the AI-Powered translation language."
-msgstr "Sprache der für KI-gestützten Übersetzung auswählen."
-
 msgid "Configure the DiSEqC mode for this LNB."
 msgstr "DiSEqC-Modus für diesen LNB einstellen."
 
@@ -4752,9 +4782,6 @@ msgstr "Die Helligkeit für das Display im Normalbetrieb einstellen."
 msgid "Configure the brightness level of the front panel display for standby."
 msgstr "Die Helligkeit für das Display im Standby einstellen."
 
-msgid "Configure the color of the AI-Powered translations."
-msgstr "Textfarbe der für KI-gestützten Übersetzung auswählen."
-
 msgid "Configure the color of the external subtitles, alternative (normal in white, italic in yellow, bold in cyan, underscore in green), white or yellow."
 msgstr "Farbe der externen Untertitel, Alternativ (normal in Weiß, kursiv in Gelb, fett in Cyan, Unterstriche in Grün), Weiß oder Gelb."
 
@@ -4789,9 +4816,6 @@ msgstr "Bestimmt die X-Endkoordinate des Anzeigebereichs für Videotext."
 msgid "Configure the end coordinate in y of the teletext display area."
 msgstr "Bestimmt die Y-Endkoordinate des Anzeigebereichs für Videotext."
 
-msgid "Configure the fast mode audio volume step size (limit 1-10). Activated when volume key permanent press or press fast in a row."
-msgstr "Die Schrittweite (von 1 bis 10) für die Lautstärke im Schnellmodus einstellen. Wird aktiviert, wenn die Lautstärketaste permanent oder mehrfach schnell hintereinander gedrückt wird."
-
 msgid "Configure the first audio language (highest priority)."
 msgstr "Ton-Sprachauswahl 1 (höchste Priorität) einstellen."
 
@@ -4825,9 +4849,6 @@ msgstr "Auswählen, was die Tasten < und > bewirken sollen."
 
 msgid "Configure the gateway."
 msgstr "Das Gateway einstellen."
-
-msgid "Configure the general audio volume step size (limit 1-10)."
-msgstr "Die generelle Schrittweite (von 1 bis 10) für die Lautstärke einstellen."
 
 msgid "Configure the hard disk drive to go to standby after the specified idle time when the box is in standby."
 msgstr "Die Leerlaufzeit einstellen, nach welcher die Festplatte in den Ruhezustand gehen soll, wenn sich der Receiver im Standby befindet."
@@ -6585,7 +6606,7 @@ msgid "Djibouti"
 msgstr "Dschibuti"
 
 msgid "Do another manual service scan?"
-msgstr "Einen weiteren manuellen Service-Scan durchführen?"
+msgstr "Einen weiteren manuellen Suchlauf durchführen?"
 
 msgid "Do not backup the image"
 msgstr "Das Image nicht sichern"
@@ -6594,7 +6615,7 @@ msgid "Do not change"
 msgstr "Nicht ändern"
 
 msgid "Do not flash image"
-msgstr "Jetzt nicht flashen"
+msgstr "Jetzt nicht flashen."
 
 #
 msgid "Do not record"
@@ -6758,7 +6779,7 @@ msgstr "Jetzt nach Sendern suchen?"
 
 #
 msgid "Do you want to do another manual service scan?"
-msgstr "Eine weitere manuelle Suche durchführen?"
+msgstr "Einen weiteren manuellen Suchlauf durchführen?"
 
 #, python-format
 msgid "Do you want to flash the image '%s'?"
@@ -6831,6 +6852,9 @@ msgstr "Dominikanische Republik"
 
 msgid "Don't Center DVB Subs On This Service"
 msgstr "Untertitel auf diesem Sender niemals zentrieren"
+
+msgid "Don't Translate Subs On This Service"
+msgstr "Untertitel auf diesem Sender nicht übersetzen"
 
 msgid "Don't add this recording"
 msgstr "Diese Aufnahme nicht hinzufügen"
@@ -7225,9 +7249,6 @@ msgstr "Aktiviere %s pro:"
 msgid "Enable 5V for active antenna"
 msgstr "5V für aktive Antenne aktivieren"
 
-msgid "Enable AI-Powered translation for all teletext and DVB subtitles."
-msgstr "KI-gestützte Übersetzung für Teletext und DVB Untertitel aktivieren."
-
 msgid "Enable Autorecord"
 msgstr "Automatische Aufnahme aktivieren"
 
@@ -7340,11 +7361,14 @@ msgstr "Automatische Schnellsuche aktivieren"
 msgid "Enable auto fast scan for %s"
 msgstr "Automatische Schnellsuche aktivieren für %s"
 
+msgid "Enable autorefresh templates."
+msgstr "AutoRefresh-Vorgaben aktivieren."
+
 msgid "Enable blinking rec symbol on the LCD Display in Standby."
-msgstr "Bei 'Ja' wird das blinkende Aufnahmesymbol im Display auch im Standby aktiviert (nicht alle Receiver unterstützen das)."
+msgstr "Bei 'Ja' blinkt das Aufnahmesymbol bei Aufnahmen im Standby, bei 'Nein' wird es dauerhaft angezeigt (nicht alle Receiver unterstützen das)."
 
 msgid "Enable blinking rec symbol on the LCD Display."
-msgstr "Bei 'Ja' wird das blinkende Aufnahmesymbol im Display aktiviert."
+msgstr "Bei 'Ja' blinkt das Aufnahmesymbol bei Aufnahmen im Betrieb, bei 'Nein' wird es dauerhaft angezeigt."
 
 msgid "Enable chapter support for video files"
 msgstr "Kapitelunterstützung für Videodateien aktivieren"
@@ -7413,9 +7437,6 @@ msgstr "Mit 'Ja' Remote-Enigma2-Receiver aktivieren, der versucht wird, wenn ein
 msgid "Enable teletext caching"
 msgstr "Videotext-Zwischenspeicher aktivieren"
 
-msgid "Enable terrestrial LCN:"
-msgstr "Terrestrisches LCN aktivieren:"
-
 msgid "Enable the advanced HDMI-CEC setting options."
 msgstr "Erweiterte HDMI-CEC-Einstellungsoptionen aktivieren."
 
@@ -7425,11 +7446,17 @@ msgstr "Aktivieren, um dem Debug-Log während des Systemstarts erkannte Multiboo
 msgid "Enable this option to add action map / remote control mapping data to the debug log file."
 msgstr "Aktivieren, um dem Debug-Log Action-Map-Daten hinzuzufügen."
 
+msgid "Enable this option to add extra DVB details to the debug log file."
+msgstr "Aktivieren, um dem Debug-Log zusätzlich DVB-Details hinzuzufügen."
+
 msgid "Enable this option to add extra DVB scan data to the debug log file."
-msgstr "Aktivieren, um dem Debug-Log DVB-Scan-Daten hinzuzufügen."
+msgstr "Aktivieren, um dem Debug-Log zusätzlich DVB-Scan-Daten hinzuzufügen."
+
+msgid "Enable this option to add extra DVB time sync data to the debug log file."
+msgstr "Aktivieren, um dem Debug-Log zusätzlich DVB-Timesync-Daten hinzuzufügen."
 
 msgid "Enable this option to add extra EPG data to the debug log file."
-msgstr "Aktivieren, um dem Debug-Log extra EPG-Daten hinzuzufügen."
+msgstr "Aktivieren, um dem Debug-Log zusätzlich EPG-Daten hinzuzufügen."
 
 msgid "Enable this option to add international language and country load information detected during system boot to the debug log file."
 msgstr "Aktivieren, um dem Debug-Log internationale Sprach- und Länderinformationen hinzuzufügen, die während des Systemstarts erkannt wurden."
@@ -7448,6 +7475,9 @@ msgstr "Aktivieren, um dem Debug-Log Bildschirmnamen und Auflösungsdaten hinzuz
 
 msgid "Enable this option to add timer debugging data to the debug log file."
 msgstr "Aktivieren, um dem Debug-Log Timer-Daten hinzuzufügen."
+
+msgid "Enable this option to show all the available Information screens in the Information menu item list."
+msgstr "Aktivieren, um alle verfügbaren Informations-Bildschirme in der Informations-Menü-Liste anzuzeigen."
 
 msgid "Enable this setting if your aerial system needs power."
 msgstr "Diese Einstellung aktivieren, wenn das Antennensystem Strom benötigt."
@@ -7644,6 +7674,9 @@ msgstr "Die Nummer eingeben, die im Stellungsregler für diesen Satelliten gespe
 msgid "Enter the service pin"
 msgstr "Den PIN-Code des Kanals eingeben"
 
+msgid "Enter the subscription code to fully enable the AI-Powered Translation plugin, the unified code for trial is 15."
+msgstr "Abo-Code der KI-gestützten Übersetzung eingeben. Code '15' ist für den Testmodus."
+
 msgid "Enter your current latitude. This is the number of degrees you are from the equator as a decimal."
 msgstr "Den aktuellen Breitengrad eingeben. Dies ist die Anzahl der Grade (als Dezimalzahl) der Entfernung zum Äquator."
 
@@ -7658,9 +7691,6 @@ msgstr "Die Frequenz des lokalen Low-Band-Oszillators eingeben. Weitere Informat
 
 msgid "Enter your personal feed URL to allow you to select packages from your personal feed."
 msgstr "Die persönliche Feed-URL eingeben, um Pakete auswählen zu können."
-
-msgid "Enter your subscription code, the unified code for trial is 15."
-msgstr "Abo Code der KI-gestützten Übersetzung eingeben. Code '15' ist für den Testmodus."
 
 #
 msgid "Entertainment"
@@ -7834,11 +7864,20 @@ msgstr ""
 "Fehler beim Abrufen des Links über %s\n"
 "%s!"
 
+msgid "Error moving 'epg.dat' to its destination!"
+msgstr "Fehler beim Verschieben der Datei 'epg.dat'!"
+
 msgid "Error opening recording file"
 msgstr "Fehler beim Öffnen der Aufnahmedatei!"
 
 msgid "Error reading webpage!"
 msgstr "Fehler beim Lesen der Webseite!"
+
+msgid "Error retrieving 'epg.dat' from the remote receiver!"
+msgstr "Fehler beim Empfangen der Datei 'epg.dat' vom Reserve-Receiver!"
+
+msgid "Error retrieving location of 'epg.dat' on the remote receiver!"
+msgstr "Fehler beim Abrufen des Standorts der Datei 'epg.dat' des Reserve-Receivers!"
 
 msgid "Error text:"
 msgstr "Fehlertext:"
@@ -7846,15 +7885,6 @@ msgstr "Fehlertext:"
 #, python-format
 msgid "Error unzipping image '%s'!"
 msgstr "Fehler beim Entpacken des Images '%s'!"
-
-msgid "Error writing 'epg.dat' on the remote receiver!"
-msgstr "Fehler beim Schreiben der 'epg.dat' Datei auf den Reserve-Receiver!"
-
-msgid "Error moving 'epg.dat' to its destination!"
-msgstr "Fehler beim Verschieben der 'epg.dat' Datei!"
-
-msgid "Error retrieving 'epg.dat' from the remote receiver!"
-msgstr "Fehler beim Empfang der 'epg.dat' Datei vom Reserve-Receiver!"
 
 #, python-format
 msgid ""
@@ -7864,8 +7894,11 @@ msgstr ""
 "Fehler beim Abrufen der Informationen des Reserve-Timers\n"
 "%s"
 
-msgid "Error retrieving location of 'epg.dat' on the remote receiver!"
-msgstr "Fehler beim Abrufen des Standorts der 'epg.dat' Datei des Reserve-Timers!"
+msgid "Error writing '/etc/enigma2/epg.dat' on the remote receiver!"
+msgstr "Fehler beim Schreiben der Datei '/etc/enigma2/epg.dat' auf den Reserve-Receiver!"
+
+msgid "Error writing 'epg.dat' on the remote receiver!"
+msgstr "Fehler beim Schreiben der Datei 'epg.dat' auf den Reserve-Receiver!"
 
 msgid "Error, unknown Result!"
 msgstr "Fehler: Unbekanntes Ergebnis!"
@@ -8721,10 +8754,10 @@ msgid "Flash Online a new image"
 msgstr "Online/Offline flashen"
 
 msgid "Flash and restore settings and no plugins"
-msgstr "Flashen und wiederherstellen der Einstellungen, ohne Plugins"
+msgstr "Flashen und Einstellungen wiederherstellen, ohne Plugins."
 
 msgid "Flash and restore settings and selected plugins (Ask user)"
-msgstr "Flashen und wiederherstellen der Einstellungen, Plugins abfragen"
+msgstr "Flashen, Einstellungen wiederherstellen und Plugins abfragen."
 
 #, python-format
 msgid "Flash directory '%s' not allowed!"
@@ -9484,9 +9517,6 @@ msgstr "Meldungen des CI-Moduls unterdrücken."
 msgid "Hide known extensions"
 msgstr "Bekannte Dateiendungen ausblenden"
 
-msgid "Hide mute notification"
-msgstr "Die Stummschaltungsanzeige ausblenden"
-
 msgid "Hide number markers"
 msgstr "Nummerierte Marker verstecken"
 
@@ -9858,9 +9888,6 @@ msgstr ""
 msgid "If logs are using the set maximum space used the eldest will be deleted."
 msgstr "Wenn die Logdateien zu viel Speicher belegen, werden die ältesten Dateien gelöscht."
 
-msgid "If muted, hide mute icon or mute information after few seconds."
-msgstr "Legt fest, ob das Anzeigesymbol oder die Information der Stummschaltung nach wenigen Sekunden ausgeblendet wird."
-
 msgid "If possible, x minutes before a timer starts VPS-Plugin will control whether the programme begins earlier. (0 disables feature)"
 msgstr "Wenn möglich, wird die angegebene Anzahl von Minuten vor eigentlichem Beginn der Aufnahme überprüft, ob die Sendung früher anfängt. 0 deaktiviert diese Funktion."
 
@@ -9965,20 +9992,16 @@ msgid "Import channels and/or EPG from remote receiver URL also when the receive
 msgstr "Kanäle und / oder EPG von der Empfänger-URL importieren, auch wenn der Receiver den Standby-Modus verlässt."
 
 msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
-msgstr "Kanäle und / oder den EPG von der Receiver-URL des Remote-Receivers beim Booten des Receivers importieren."
+msgstr "Kanäle und/oder den EPG von der Receiver-URL des Reserve-Receivers beim Booten des Receivers importieren."
 
 msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
-msgstr "Kanäle und / oder EPG von der Remote-Receiver-URL importieren wenn der Receiver oder Enigma2 neu gestartet wird."
-
-#, python-format
-msgid "Import from remote receiver failed, %s!"
-msgstr "Import vom Reserve-Tuner fehlgeschlagen! %s"
+msgstr "Kanäle und/oder EPG von der Reserve-Receiver-URL importieren wenn der Receiver oder Enigma2 neu gestartet wird."
 
 msgid "Import from remote receiver URL"
-msgstr "Import der Remote-Receiver-URL"
+msgstr "Import der Reserve-Receiver-URL"
 
 msgid "Import remote receiver URL"
-msgstr "Remote-Receiver-URL importieren"
+msgstr "Reserve-Receiver-URL importieren"
 
 msgid "In addition to the check at an event start, a repetitive check can be used, so that the conditions 'buffer limit in hours' or 'check free space' are detected earlier."
 msgstr "Zusätzlich zur Überprüfung bei Beginn eines Ereignisses kann diese Einstellung verwendet werden, um die Bedingung 'Puffer Limit in Stunden' oder 'Überprüfung auf freien Speicherplatz eher zu erkennen."
@@ -10034,8 +10057,14 @@ msgstr "AIT-Daten in Aufnahmen integrieren"
 msgid "Include CI assignment"
 msgstr "Berücksichtigung der CI-Zuweisung"
 
+msgid "Include DVB details"
+msgstr "Inklusive DVB-Details"
+
 msgid "Include DVB scan data"
 msgstr "Inklusive DVB-Scan-Daten"
+
+msgid "Include DVB timesync data"
+msgstr "Inklusive DVB-Timesync-Daten"
 
 msgid "Include ECM in http streams"
 msgstr "ECM in HTTP-Streams integrieren"
@@ -10650,9 +10679,6 @@ msgstr "Kuanyama / Kwanyama"
 msgid "Kurdish"
 msgstr "Kurdisch"
 
-msgid "Kurdish (Sorani)"
-msgstr "Kurdisch (Sorani)"
-
 msgid "Kurdistan"
 msgstr "Kurdistan"
 
@@ -10677,11 +10703,23 @@ msgstr "Display-Scrollgeschwindigkeit"
 msgid "LCD/Front panel *"
 msgstr "Displayskin *"
 
-msgid "LCN plugin for DVB-T/T2 services"
-msgstr "LCN-Plugin für DVB-T/T2-Dienste"
+msgid "LCN Scanner"
+msgstr "LCN-Scanner"
 
-msgid "LCN rules:"
-msgstr "LCN-Regeln:"
+msgid "LCN Scanner Actions"
+msgstr "LCN-Scanner Aktionen"
+
+msgid "LCN Scanner Settings"
+msgstr "LCN-Scanner Einstellungen"
+
+msgid "LCN Scanner plugin for DVB-C/T/T2 services"
+msgstr "LCN-Scanner-Plugin für DVB-C/T/T2 Sender"
+
+msgid "LCN numbering"
+msgstr "LCN-Nummerierung"
+
+msgid "LCN rules"
+msgstr "LCN-Regeln"
 
 msgid "LCN style QuickSelect entry selection"
 msgstr "Schnellauswahl via Sendernummer"
@@ -11150,6 +11188,9 @@ msgstr "Lange Dateinamen"
 
 msgid "Long press emulation with button"
 msgstr "Emulation 'Langer-Druck' mit Taste"
+
+msgid "Long press volume steps"
+msgstr "Lautstärkeschritte bei VOL +/- lang"
 
 #, python-format
 msgid "Long press: %s"
@@ -11815,6 +11856,9 @@ msgstr "Eine Seite / Bildschirm nach unten"
 msgid "Move down a screen"
 msgstr "Einen Bildschirm nach unten gehen"
 
+msgid "Move down a screen / Move to next item"
+msgstr "Einen Bildschirm nach unten / Zum nächsten Eintrag gehen"
+
 msgid "Move down a screen in the panel"
 msgstr "Einen Bildschirm nach unten gehen"
 
@@ -11929,7 +11973,7 @@ msgid "Move to first line / screen in the panel"
 msgstr "Zur ersten Zeile / Bildschirm wechseln"
 
 msgid "Move to home of list"
-msgstr "Springe zum Anfang der Liste"
+msgstr "Zum Anfang der Liste wechseln"
 
 msgid "Move to last line"
 msgstr "Zur letzten Zeile wechseln"
@@ -11973,11 +12017,17 @@ msgstr "Zur letzten Zeile / Bildschirm wechseln"
 msgid "Move to the next category in the list"
 msgstr "Zur nächsten Kategorie in der Liste gehen"
 
+msgid "Move to the next item"
+msgstr "Zum nächsten Eintrag gehen"
+
 msgid "Move to the next item in the list"
 msgstr "Zum nächsten Eintrag in der Liste gehen"
 
 msgid "Move to the previous category in the list"
 msgstr "Zur vorherigen Kategorie in der Liste gehen"
+
+msgid "Move to the previous item"
+msgstr "Zum vorherigen Eintrag gehen"
 
 msgid "Move to the previous item in list"
 msgstr "Zum vorherigen Eintrag in der Liste gehen"
@@ -11997,6 +12047,9 @@ msgstr "Eine Seite / Bildschirm nach oben"
 
 msgid "Move up a screen"
 msgstr "Einen Bildschirm nach oben gehen"
+
+msgid "Move up a screen / Move to previous item"
+msgstr "Einen Bildschirm nach oben / Zum vorherigen Eintrag gehen"
 
 msgid "Move up a screen in the panel"
 msgstr "Einen Bildschirm nach oben gehen"
@@ -12531,6 +12584,9 @@ msgstr "Niue"
 msgid "No"
 msgstr "Nein"
 
+msgid "No 'epg.dat' file found on the remote receiver!"
+msgstr "Die Datei 'epg.dat' wurde auf dem Reserve-Receiver nicht gefunden!"
+
 #
 msgid "No (supported) DVDROM found!"
 msgstr "Kein (unterstütztes) DVD-Laufwerk gefunden!"
@@ -12597,14 +12653,6 @@ msgstr "Kein Demux verfügbar!"
 #
 msgid "No displayable files on this medium found!"
 msgstr "Keine anzeigbaren Dateien auf diesem Medium gefunden!"
-
-msgid "No entry in lcn db. Please do a service scan."
-msgstr ""
-"Kein Eintrag in der LCN DB!\n"
-"Bitte einen Suchlauf durchführen."
-
-msgid "No 'epg.dat' file found on the remote receiver!"
-msgstr "Keine 'epg.dat' Datei auf dem Reserve-Receiver!"
 
 msgid "No error"
 msgstr "Kein Fehler"
@@ -12977,6 +13025,9 @@ msgstr "Die Anzahl der anzuzeigenden Zeilen."
 #
 msgid "Number or SMS style data entry"
 msgstr "Zahlen- oder SMS-Eingabemethode"
+
+msgid "Numbering mode"
+msgstr "Nummerierungsmodus"
 
 msgid "OEM model"
 msgstr "OEM-Modell"
@@ -14035,6 +14086,9 @@ msgstr "Bitte warten"
 msgid "Please wait for activation of your network configuration..."
 msgstr "Die Netzwerkkonfiguration wird aktiviert. Bitte warten..."
 
+msgid "Please wait while LCN bouquets are created/updated..."
+msgstr "Bitte warten während LCN-Bouquets erstellt/aktualisiert werden..."
+
 msgid "Please wait while feeds are updated..."
 msgstr "Feeds werden aktualisiert. Bitte warten..."
 
@@ -14873,10 +14927,10 @@ msgid "REC Symbol"
 msgstr "Aufnahmesymbol"
 
 msgid "REC Symbol in Standby"
-msgstr "Aufnahmesymbol im Standby"
+msgstr "Blinkendes Aufnahmesymbol im Standby"
 
 msgid "REC Symbol in use"
-msgstr "Aufnahmesymbol im Betrieb"
+msgstr "Blinkendes Aufnahmesymbol im Betrieb"
 
 msgid "RED button"
 msgstr "Taste ROT"
@@ -14989,12 +15043,6 @@ msgstr "Rückseite"
 msgid "Reboot"
 msgstr "Neustart"
 
-msgid "Rebuild"
-msgstr "Neuerstellung"
-
-msgid "Rebuild LCN bouquet now?"
-msgstr "LCN-Bouquet jetzt neu erstellen?"
-
 msgid "Rec"
 msgstr "Aufnahme"
 
@@ -15016,9 +15064,6 @@ msgstr "Receiver-Informationen für %s %s"
 
 msgid "Receiver name"
 msgstr "Receivername"
-
-msgid "Reception"
-msgstr "Empfang"
 
 msgid "Reception Lists"
 msgstr "Empfangslisten"
@@ -15283,7 +15328,7 @@ msgid "Remote Control Code Settings"
 msgstr "Fernbedienungscode"
 
 msgid "Remote box"
-msgstr "Remote-Receiver"
+msgstr "Reserve-Receiver"
 
 msgid "Remote control information"
 msgstr "Informationen zur Fernbedienung"
@@ -16238,6 +16283,9 @@ msgstr "Nach lokalen Erweiterungen suchen, die installiert werden können."
 msgid "Scan for local extensions and install them."
 msgstr "Nach lokalen Erweiterungen suchen, die installiert werden können."
 
+msgid "Scan for terrestrial LCNs and create LCN bouquets"
+msgstr "Suche nach terrestrischen LCNs und LCN-Bouquets erstellen"
+
 #
 msgid "Scan wireless networks"
 msgstr "WLAN-Netzwerke suchen"
@@ -16450,6 +16498,9 @@ msgstr "'Polarisation' auswählen, wenn ein 'Universal LNB' verwendet wird, ande
 msgid "Select 'Provider' to scan from the predefined list of cable multiplexes. Select 'Bands' to only scan certain parts of the spectrum. Select 'Steps' to scan in steps of a particular frequency bandwidth."
 msgstr "'Provider' auswählen, um aus der vordefinierten Liste von Kabelmultiplexen zu scannen, 'Bänder', um nur bestimmte Teile des Spektrums zu scannen, oder 'Schritte', um in Schritten einer bestimmten Frequenzbandbreite zu scannen."
 
+msgid "Select 'Unique numbering' to assign unique numbers for every service in every bouquet. Use 'Bouquets start at 1' to start numbering each bouquet from 1. Use 'LCN numbering' to use consistent service LCNs where ever that service is used."
+msgstr "'Eindeutige Nummerierung' auswählen, um allen Sendern in allen Bouquets eine eindeutige Nummer zuzuweisen. Bei 'Favoriten beginnen bei 1' beginnen die Sendernummern in jedem Bouquet mit der Nummer 1. 'LCN-Nummerierung' auswählen, um konsistente Sender-LCNs zu verwenden, wo immer dieser Dienst verwendet wird."
+
 msgid "Select 'Yes' if an end time is required for this timer."
 msgstr "'Ja' auswählen, wenn eine Endzeit für diesen Timer erforderlich ist."
 
@@ -16465,8 +16516,17 @@ msgstr "'Ja' auswählen, wenn Lautstärkeanpassungen auf Dolby-Tonspuren angewen
 msgid "Select 'Yes' if you are using a multi-switch which requires a DiSEqC Port-A command signal. Select 'No' for all other setups."
 msgstr "Wenn ein Multiswitch verwendet wird, der ein DiSEqC-Port-A-Befehlssignal benötigt 'Ja' auswählen, ansonsten 'Nein'."
 
+msgid "Select 'Yes' if you want to wake the TV for a 'Wakeup' power timer is starting."
+msgstr "'Ja', wenn der TV beim Start eines PowerTimers aufgeweckt werden soll."
+
+msgid "Select 'Yes' if you want to wake the TV for a 'Zap and Record' recording timer is starting."
+msgstr "'Ja', wenn der TV beim Start eines 'Umschalten und Aufnehmen'-Timers aufgeweckt werden soll."
+
+msgid "Select 'Yes' if you want to wake the TV for a 'Zap' recording timer is starting."
+msgstr "'Ja', wenn der TV beim Start eines 'Umschalten'-Aufnahmetimers aufgeweckt werden soll."
+
 msgid "Select 'Yes' the keep the InfoBar displayed, with no timeout, while media playback is paused."
-msgstr "Bei 'Ja' wird die Infoleiste im pausierten Zustand nicht ausgeblendet, sondern permanent angezeigt."
+msgstr "Bei 'Ja' wird die Infoleiste im pausierten Zustand nicht ausgeblendet, sondern dauerhaft angezeigt."
 
 msgid "Select 'Yes' to allow use of the seek bar to jump to a selected point within the event."
 msgstr "Bei 'Ja' kann innerhalb der Suchleiste zu jedem beliebigen Zeitpunkt vor- oder zurückgesprungen werden."
@@ -16497,6 +16557,9 @@ msgstr "Bei 'Ja' wird die Sendernummer in der Infoleiste angezeigt."
 
 msgid "Select 'Yes' to display unknown files in the File Commander file viewer, select 'No' to not process unknown files."
 msgstr "'Ja' auswählen, um unbekannte Dateien im File Commander anzuzeigen. Bei 'Nein' werden diese Dateien nicht bearbeitet."
+
+msgid "Select 'Yes' to enable AI-Powered Translation for all teletext and DVB subtitles."
+msgstr "KI-gestützte Übersetzung für Teletext und DVB Untertitel aktivieren."
 
 msgid "Select 'Yes' to enable editing of this device's settings. Selecting 'No' resets the devices settings to their default values."
 msgstr "'Ja' auswählen, um die Einstellungen dieses Gerätes bearbeiten zu können oder 'Nein', um die Geräteeinstellungen auf die Standardwerte zurückzusetzen."
@@ -16644,6 +16707,9 @@ msgid "Select 'Yes' to show the current directory in the list of directories. No
 msgstr ""
 "'Ja' auswählen, um das aktuelle Verzeichnis in der Verzeichnisliste anzuzeigen.\n"
 "Achtung: File Commander muss dafür neu gestartet werden!"
+
+msgid "Select 'Yes' to show this plugin in the Plugin Browser."
+msgstr "'Ja' auswählen, um dieses Plugin im Plugin-Manager anzuzeigen."
 
 msgid "Select 'Yes' to show web link packages in the Download Plugins screen."
 msgstr "Bei 'Ja' werden Weblink-Pakete in der Downloadliste angezeigt."
@@ -16854,8 +16920,8 @@ msgstr "Auswählen, wie lange das Popup-Fenster für Tastenfehler angezeigt werd
 msgid "Select how long to display the task and script message pop up."
 msgstr "Auswählen, wie lange Aufgaben- und Skriptmeldungen angezeigt werden sollen."
 
-msgid "Select how long, in seconds, that the volume display is shown before it automatically hides."
-msgstr "Auswählen, wie viele Sekunden das Lautstärkesymbol angezeigt werden soll, bevor es ausgeblendet wird."
+msgid "Select how long, in seconds, that the volume and mute displays are shown before they automatically hide."
+msgstr "Auswählen, wie viele Sekunden das Lautstärkesymbol oder die Stummschaltung angezeigt werden sollen, bevor sie ausgeblendet werden."
 
 msgid "Select how often this timer is to be repeated."
 msgstr "Auswählen, wie dieser Timer wiederholt werden soll."
@@ -16975,6 +17041,9 @@ msgstr "Sortierreihenfolge der Dateien für die aktuelle Spalte auswählen"
 msgid "Select the %s entry"
 msgstr "Eintrag %s auswählen"
 
+msgid "Select the AI-Powered Translation target language."
+msgstr "Sprache der für KI-gestützten Übersetzung auswählen."
+
 msgid "Select the No / False response"
 msgstr "Nein / negative Antwort auswählen"
 
@@ -17034,6 +17103,9 @@ msgstr "Den Kanal/Service auswählen, der für diesen Timer verwendet werden sol
 #
 msgid "Select the character or action under the keyboard cursor"
 msgstr "Das Zeichen oder die Aktion beim Cursor der Tastatur auswählen"
+
+msgid "Select the color to be used for the AI-Powered Translation text."
+msgstr "Textfarbe der für KI-gestützten Übersetzung auswählen."
 
 msgid "Select the current bookmarked location and exit"
 msgstr "Den aktuellen Speicherort vom Lesezeichen auswählen und beenden"
@@ -17136,6 +17208,9 @@ msgstr ""
 "Aussehen der installierten Plugins im Plugin-Manager einstellen.\n"
 "Achtung: Eine Änderung ist erst zu sehen, wenn der Plugin-Manager neu gestartet wird!"
 
+msgid "Select the list of LCN rules to be applied to the scan."
+msgstr "Auswählen, welche LCN-Regeln beim Suchlauf angewendet werden sollen."
+
 #
 msgid "Select the locale from a menu"
 msgstr "Ein anderes Tastaturlayout auswählen"
@@ -17220,6 +17295,12 @@ msgstr "Shift für die kommenden Zeichen benutzen"
 #
 msgid "Select the shifted character set for the next character only"
 msgstr "Shift nur für das nächste Zeichen benutzen"
+
+msgid "Select the size of the volume step when the VOLUME buttons are pressed."
+msgstr "Lautstärkeschritte bei Druck auf die Taste VOL +/- auswählen."
+
+msgid "Select the size of the volume steps when the VOLUME buttons are held down."
+msgstr "Lautstärkeschritte bei dauerhaftem Druck auf die Taste VOL +/- auswählen."
 
 msgid "Select the sort order for the file lines:"
 msgstr "Sortierreihenfolge der Zeilen auswählen:"
@@ -17318,9 +17399,6 @@ msgstr ""
 "Das drahtlose Netzwerk auswählen, mit dem eine Verbindung herstellt werden soll.\n"
 "\n"
 "OK drücken, um fortzufahren."
-
-msgid "Select to use logarithmic step size with more steps at the lower volume levels."
-msgstr "Auswählen, ob bei niedriger Lautstärke eine logarithmische Schrittweite mit mehr Schritten verwendet werden soll."
 
 msgid "Select update source location"
 msgstr "Updatequelle auswählen"
@@ -17534,6 +17612,9 @@ msgstr "Sendernummer und Sendername"
 msgid "Service Number, Picon and Service Name"
 msgstr "Sendernummer, Picon und Sendername"
 
+msgid "Service Scan"
+msgstr "Sendersuche"
+
 msgid "Service Selection Actions"
 msgstr "Kanalauswahl-Aktionen"
 
@@ -17603,7 +17684,7 @@ msgstr "Service-Referenz"
 
 #
 msgid "Service scan"
-msgstr "Kanalsuche"
+msgstr "Sendersuche"
 
 msgid "Service selection canceled."
 msgstr "Senderauswahl abgebrochen."
@@ -18248,9 +18329,6 @@ msgstr "Informationen anzeigen"
 msgid "Show Kernel packages"
 msgstr "Kernelmodule anzeigen"
 
-msgid "Show LCN in channel selection"
-msgstr "LCN in Senderlistenauswahl anzeigen"
-
 msgid "Show Live in MiniTV"
 msgstr "Live-TV im MiniTV anzeigen"
 
@@ -18400,6 +18478,9 @@ msgstr "Erweiterte Einstellungen anzeigen"
 msgid "Show all"
 msgstr "Alles anzeigen"
 
+msgid "Show all Information screens"
+msgstr "Alle Informations-Bildschirme anzeigen"
+
 msgid "Show all available services"
 msgstr "Alle verfügbaren Sender anzeigen"
 
@@ -18537,6 +18618,9 @@ msgstr "Bild anzeigen und als '%s' speichern"
 msgid "Show in Extension Menu"
 msgstr "Im Erweiterungsmenü anzeigen"
 
+msgid "Show in Plugin Browser"
+msgstr "Im Plugin-Manager anzeigen"
+
 msgid "Show in Standby"
 msgstr "Im Standby anzeigen"
 
@@ -18617,10 +18701,10 @@ msgid "Show next system information screen"
 msgstr "Nächsten Systeminformationsbildschirm anzeigen"
 
 msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
-msgstr "Benachrichtigung anzeigen, wenn Importkanäle und / oder EPG von der Remote-Receiver-URL nicht abgeschlossen wurden."
+msgstr "Benachrichtigung anzeigen, wenn Importkanäle und/oder EPG von der Reserve-Receiver-URL nicht abgeschlossen wurden."
 
 msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
-msgstr "Benachrichtigung anzeigen, wenn Importkanäle und / oder EPG von der Remote-Receiver-URL abgeschlossen sind."
+msgstr "Benachrichtigung anzeigen, wenn Importkanäle und/oder EPG von der Reserve-Receiver-URL abgeschlossen sind."
 
 msgid "Show notification when import channels was not successful"
 msgstr "Benachrichtigung anzeigen, wenn Importkanäle nicht erfolgreich waren"
@@ -18639,7 +18723,7 @@ msgstr "Bei 'Ja' werden Trennlinien zwischen den Sendungen angezeigt."
 
 #
 msgid "Show persistent InfoBar while paused"
-msgstr "Infoleiste während Pause permanent anzeigen"
+msgstr "Infoleiste während Pause dauerhaft anzeigen"
 
 msgid "Show picon background color"
 msgstr "Hintergrundfarbe der Senderlogos (Picons)"
@@ -20414,9 +20498,6 @@ msgstr "Tennis"
 msgid "Terrestrial"
 msgstr "Terrestrisch"
 
-msgid "Terrestrial bouquet:"
-msgstr "Terrestrisches Bouquet:"
-
 msgid "Test"
 msgstr "Test"
 
@@ -20513,6 +20594,9 @@ msgstr "Das %s Commit-Log enthält keine Informationen!"
 #, python-format
 msgid "The '%s' file can't be retrieved, please try again later."
 msgstr "Die Datei '%s' kann nicht abgerufen werden! Bitte später erneut versuchen."
+
+msgid "The AI-Powered Translation service will be optimized to provide the best performance based on the the Internet connection upload speed selected."
+msgstr "Die KI-gestützte Übersetzung wird optimiert, um das beste Ergebnis basierend auf der Upload-Geschwindigkeit der Internetverbindung zu erreichen."
 
 msgid ""
 "The AutoTimer plugin is not installed!\n"
@@ -21709,6 +21793,9 @@ msgstr "Transkodierung"
 msgid "Transcoding: "
 msgstr "Transkodierung: "
 
+msgid "Translate Subs On This Service"
+msgstr "Untertitel auf diesem Sender übersetzen"
+
 #
 msgid "Translation"
 msgstr "Übersetzung"
@@ -21891,6 +21978,9 @@ msgstr "Tuner-Art %s"
 msgid "Tuners"
 msgstr "Tuner"
 
+msgid "Tuners, Scanning & Reception"
+msgstr "Empfang"
+
 msgid "Tuning algorithm"
 msgstr "Tuning-Algorithmus"
 
@@ -22000,7 +22090,7 @@ msgid "URL"
 msgstr "URL"
 
 msgid "URL of fallback remote receiver"
-msgstr "URL vom Reserve-Receiver."
+msgstr "URL vom Reserve-Receiver"
 
 #
 msgid "USALS"
@@ -22090,6 +22180,9 @@ msgstr "Unicable-Matrix"
 
 msgid "Uninstall"
 msgstr "Entfernen"
+
+msgid "Unique numbering"
+msgstr "Eindeutige Nummerierung"
 
 msgid "United Arab Emirates"
 msgstr "Vereinigte Arabische Emirate"
@@ -22212,6 +22305,9 @@ msgstr "Hoch"
 msgid "Up / Active"
 msgstr "Aktiv"
 
+msgid "Up to 50 Mbps"
+msgstr "Bis zu 50 Mbps"
+
 msgid "Up/Down button mode"
 msgstr "Tasten Hoch/Runter"
 
@@ -22280,7 +22376,7 @@ msgid "Updating package list."
 msgstr "Paketliste aktualisieren."
 
 msgid "Upgrade (Flash & restore all)"
-msgstr "Aktualisierung (Flashen und alles wiederherstellen)"
+msgstr "Aktualisierung. Flashen und alles wiederherstellen."
 
 #
 msgid "Upgrade finished."
@@ -22434,6 +22530,9 @@ msgstr "Circularen LNB verwenden"
 msgid "Use defaults"
 msgstr "Standard verwenden"
 
+msgid "Use description lines"
+msgstr "Beschreibungszeilen"
+
 msgid "Use extended List"
 msgstr "Erweiterte Liste verwenden"
 
@@ -22470,9 +22569,6 @@ msgstr "Tastaturbelegung *"
 msgid "Use legacy navigation"
 msgstr "Alte Navigation verwenden"
 
-msgid "Use logarithmic steps"
-msgstr "Logarithmische Schritte verwenden"
-
 msgid "Use official channel numbering"
 msgstr "Offizielle Sendernummerierung verwenden"
 
@@ -22494,6 +22590,12 @@ msgstr "Stromaufnahme messen"
 
 msgid "Use small screen"
 msgstr "Small-Screen benutzen"
+
+msgid "Use spacer lines"
+msgstr "Separatorzeilen"
+
+msgid "Use spacer lines to pad the bouquet to make the #SERVICE line numbers match the LCN."
+msgstr "Separatorzeilen benutzen, um Zeilennummer mit den LCN übereinstimmen zu lassen."
 
 msgid "Use the LEFT/RIGHT buttons on your remote to adjust the height of the OSD. LEFT button decreases the height, RIGHT increases the height."
 msgstr "Die Tasten Links/Rechts benutzen, um die Höhe der Benutzeroberfläche/OSD einzustellen. LINKS verringert, RECHTS erhöht sie."
@@ -22768,6 +22870,9 @@ msgstr "Venda"
 msgid "Venezuela, Bolivarian Republic of"
 msgstr "Venezuela, Bolivarische Republik"
 
+msgid "Verbose"
+msgstr "Ausführlich"
+
 msgid "Version"
 msgstr "Version"
 
@@ -23014,9 +23119,6 @@ msgstr "Senderauswahl der Lautstärkeanpassung"
 msgid "Volume Adjust Settings"
 msgstr "Lautstärkeanpassung"
 
-msgid "Volume display timer"
-msgstr "Anzeigedauer des Lautstärkesymbols"
-
 msgid "Volume down"
 msgstr "Lautstärke -"
 
@@ -23025,8 +23127,14 @@ msgstr ""
 "Die Lautstärketasten der Receiver-Fernbedienung ändern die Lautstärke des Fernsehers.\n"
 "Wird die Funktion nicht unterstützt, haben die Tasten keine Funktion."
 
+msgid "Volume steps"
+msgstr "Lautstärkeschritte bei Taste VOL +/-"
+
 msgid "Volume up"
 msgstr "Lautstärke +"
+
+msgid "Volume/Mute display timer"
+msgstr "Timer anzeigen bei Lautstärke/Stummschaltung"
 
 msgid "Vu+ MultiBoot"
 msgstr "Vu+ MultiBoot"
@@ -23361,9 +23469,6 @@ msgstr "Bei 'Ja' werden empfangene HTTP-Streams immer entschlüsselt. Dies verbr
 msgid "When enabled, authentication is required to watch http streams."
 msgstr "Bei 'Ja' ist eine Authentifizierung erforderlich, um HTTP-Streams anzusehen."
 
-msgid "When enabled, channel numbering will start at '1' for each bouquet."
-msgstr "Bei 'Ja' fangen die Sendernummern in jeder Favoritenliste mit '1' an."
-
 msgid "When enabled, content with an aspect ratio of 4:3 will be stretched to fit the screen."
 msgstr "Wenn aktiviert, werden Videoinhalte mit einem Seitenverhältnis von 4:3 gestreckt dargestellt, um den Bildschirm zu füllen."
 
@@ -23404,9 +23509,6 @@ msgstr "Bei 'Ja' wird mit '0' zum ersten Sender der ersten Favoritenliste umgesc
 # Subtitle 5.1 ersetzt : Rewrap teletext subtitles description
 msgid "When enabled, reformat subtitles to match the width of the screen."
 msgstr "Bei 'Ja' werden Untertitel auf die Größe des Bildschirms neu formatiert."
-
-msgid "When enabled, show LCN in the channel selection screen."
-msgstr "Bei 'Ja' wird LCN in der Senderlistenauswahl angezeigt."
 
 msgid "When enabled, show channel numbers in the channel selection screen."
 msgstr "Bei 'Ja' werden Sendernummern in der Senderliste angezeigt."
@@ -25264,6 +25366,81 @@ msgstr "Ja (Feeds beibehalten)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Kurdish (Sorani)"
+#~ msgstr "Kurdisch (Sorani)"
+
+#~ msgid "Audio volume step size"
+#~ msgstr "Lautstärke Schrittweite"
+
+#~ msgid "Audio volume step size fast mode"
+#~ msgstr "Lautstärke Schrittweite im Schnellmodus"
+
+#~ msgid "Configure the fast mode audio volume step size (limit 1-10). Activated when volume key permanent press or press fast in a row."
+#~ msgstr "Die Schrittweite (von 1 bis 10) für die Lautstärke im Schnellmodus einstellen. Wird aktiviert, wenn die Lautstärketaste dauerhaft oder mehrfach schnell hintereinander gedrückt wird."
+
+#~ msgid "Configure the general audio volume step size (limit 1-10)."
+#~ msgstr "Die generelle Schrittweite (von 1 bis 10) für die Lautstärke einstellen."
+
+#~ msgid "Hide mute notification"
+#~ msgstr "Die Stummschaltungsanzeige ausblenden"
+
+#~ msgid "If muted, hide mute icon or mute information after few seconds."
+#~ msgstr "Legt fest, ob das Anzeigesymbol oder die Information der Stummschaltung nach wenigen Sekunden ausgeblendet wird."
+
+#~ msgid "Select how long, in seconds, that the volume display is shown before it automatically hides."
+#~ msgstr "Auswählen, wie viele Sekunden das Lautstärkesymbol angezeigt werden soll, bevor es ausgeblendet wird."
+
+#~ msgid "Select to use logarithmic step size with more steps at the lower volume levels."
+#~ msgstr "Auswählen, ob bei niedriger Lautstärke eine logarithmische Schrittweite mit mehr Schritten verwendet werden soll."
+
+#~ msgid "Use logarithmic steps"
+#~ msgstr "Logarithmische Schritte verwenden"
+
+#~ msgid "Volume display timer"
+#~ msgstr "Anzeigedauer des Lautstärkesymbols"
+
+#~ msgid "Reception"
+#~ msgstr "Empfang"
+
+#~ msgid "Enable terrestrial LCN:"
+#~ msgstr "Terrestrisches LCN aktivieren:"
+
+#~ msgid "LCN plugin for DVB-T/T2 services"
+#~ msgstr "LCN-Plugin für DVB-T/T2-Dienste"
+
+#~ msgid "LCN rules:"
+#~ msgstr "LCN-Regeln:"
+
+#~ msgid "No entry in lcn db. Please do a service scan."
+#~ msgstr ""
+#~ "Kein Eintrag in der LCN DB!\n"
+#~ "Bitte einen Suchlauf durchführen."
+
+#~ msgid "Rebuild"
+#~ msgstr "Neuerstellung"
+
+#~ msgid "Rebuild LCN bouquet now?"
+#~ msgstr "LCN-Bouquet jetzt neu erstellen?"
+
+#~ msgid "Terrestrial bouquet:"
+#~ msgstr "Terrestrisches Bouquet:"
+
+#~ msgid "Alternative numbering mode"
+#~ msgstr "Alternative Nummerierung"
+
+#, python-format
+#~ msgid "Import from remote receiver failed, %s!"
+#~ msgstr "Import vom Reserve-Tuner fehlgeschlagen! %s"
+
+#~ msgid "Show LCN in channel selection"
+#~ msgstr "LCN in Senderlistenauswahl anzeigen"
+
+#~ msgid "When enabled, channel numbering will start at '1' for each bouquet."
+#~ msgstr "Bei 'Ja' fangen die Sendernummern in jeder Favoritenliste mit '1' an."
+
+#~ msgid "When enabled, show LCN in the channel selection screen."
+#~ msgstr "Bei 'Ja' wird LCN in der Senderlistenauswahl angezeigt."
 
 #~ msgid "Installing feeds from IPK ..."
 #~ msgstr "Installiere Feeds aus IPK..."

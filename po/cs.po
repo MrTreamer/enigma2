@@ -1,12 +1,13 @@
 # Petr Turek <turekdesign99@gmail.com>, 2022, 2023, 2024.
 # jbleyel <jbleyel@gmx.net>, 2023.
 # Jiří Engelthaler <engycz@gmail.com>, 2023, 2024.
+# vlkan “vlkanboy” vlkan1 <vlkanboy@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 15:20+0000\n"
-"PO-Revision-Date: 2024-07-26 22:09+0000\n"
+"POT-Creation-Date: 2024-09-12 21:03+0000\n"
+"PO-Revision-Date: 2024-09-18 11:00+0000\n"
 "Last-Translator: Petr Turek <turekdesign99@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/cs/>\n"
 "Language: cs\n"
@@ -14,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.8-dev\n"
 
 msgid ""
 "\n"
@@ -90,7 +91,7 @@ msgid " of "
 msgstr " z "
 
 msgid " updated"
-msgstr " ktualizace"
+msgstr " aktualizováno"
 
 msgid "!! Boot loader Upgrade !!"
 msgstr "!! Upgrade zavaděče!!"
@@ -238,7 +239,7 @@ msgstr "%03d MB"
 
 #, python-format
 msgid "%2.1f Seconds"
-msgstr "%2.1f Seconds"
+msgstr "%2.1f Sekund"
 
 msgid "%A"
 msgstr "%A"
@@ -752,7 +753,7 @@ msgstr "%d %b %Y"
 #, python-format
 msgid "%d + %d + %d Minute"
 msgid_plural "%d + %d + %d Minutes"
-msgstr[0] "%d + %d + %d Minut"
+msgstr[0] "%d + %d + %d Minuta"
 msgstr[1] "%d + %d + %d Minuty"
 msgstr[2] "%d + %d + %d Minut"
 
@@ -774,9 +775,9 @@ msgstr[2] "%d Dní"
 #, python-format
 msgid "%d Digit"
 msgid_plural "%d Digits"
-msgstr[0] "%d Číslice"
-msgstr[1] "%d Číslic"
-msgstr[2] "%d Číslic"
+msgstr[0] "%d Číslo"
+msgstr[1] "%d Čísla"
+msgstr[2] "%d Čísel"
 
 #, python-format
 msgid "%d Event"
@@ -792,9 +793,9 @@ msgstr "%d GB"
 #, python-format
 msgid "%d Hour"
 msgid_plural "%d Hours"
-msgstr[0] "%d hodina"
-msgstr[1] "%d hodiny"
-msgstr[2] "%d hodin"
+msgstr[0] "%d Hodina"
+msgstr[1] "%d Hodiny"
+msgstr[2] "%d Hodin"
 
 #, python-format
 msgid "%d Hours"
@@ -832,9 +833,9 @@ msgstr "%d MHz"
 #, python-format
 msgid "%d Min"
 msgid_plural "%d Mins"
-msgstr[0] "%d minuta"
-msgstr[1] "%d minuty"
-msgstr[2] "%d minut"
+msgstr[0] "%d Minuta"
+msgstr[1] "%d Minuty"
+msgstr[2] "%d Minut"
 
 #, python-format
 msgid "%d Minute"
@@ -864,7 +865,7 @@ msgstr[2] "%d Pixelů"
 #, python-format
 msgid "%d Pixel wide"
 msgid_plural "%d Pixels wide"
-msgstr[0] "Šířka %d pixel"
+msgstr[0] "Šířka %d pixelu"
 msgstr[1] "Šířka %d pixelů"
 msgstr[2] "Šířka %d pixelů"
 
@@ -875,9 +876,9 @@ msgstr "%d Pixelů"
 #, python-format
 msgid "%d Second"
 msgid_plural "%d Seconds"
-msgstr[0] "%d sekunda"
-msgstr[1] "%d sekundy"
-msgstr[2] "%d sekund"
+msgstr[0] "%d Sekunda"
+msgstr[1] "%d Sekundy"
+msgstr[2] "%d Sekund"
 
 #, python-format
 msgid "%d Seconds"
@@ -902,14 +903,14 @@ msgstr[2] "%d Roků"
 msgid "%d channel found"
 msgid_plural "%d channels found"
 msgstr[0] "%d kanál nalezen"
-msgstr[1] "%d programy nalezeny"
-msgstr[2] "%d programů nalezeno"
+msgstr[1] "%d kanály nalezeny"
+msgstr[2] "%d kanálů nalezeno"
 
 #, python-format
 msgid "%d core"
 msgid_plural "%d cores"
 msgstr[0] "%d jádro"
-msgstr[1] "%d jader"
+msgstr[1] "%d jádra"
 msgstr[2] "%d jader"
 
 #, python-format
@@ -1190,7 +1191,7 @@ msgstr "%s Spravovat akce prohlížeče"
 
 #, python-format
 msgid "%s GHz"
-msgstr "%s"
+msgstr "%sGHz"
 
 #, python-format
 msgid "%s Information"
@@ -1222,7 +1223,7 @@ msgstr "%s byl zakázán."
 
 #, python-format
 msgid "%s imported from remote receiver."
-msgstr "%s importováno ze záložního tuneru"
+msgstr "%s importováno ze záložního tuneru."
 
 #. TRANSLATORS: The satellite with name '%s' is no longer used after a configuration change. The user is asked whether or not the satellite should be deleted.
 #, python-format
@@ -1251,19 +1252,19 @@ msgstr "%s/%s: %s"
 
 #, python-format
 msgid "%sMode for FHD (up to 1080p)"
-msgstr "%sRežim pro FHD (až 1080p)"
+msgstr "%sRežim pro FHD (do 1080p)"
 
 #, python-format
 msgid "%sMode for HD (up to 720p)"
-msgstr "%sRežim pro HD (až 720p)"
+msgstr "%sRežim pro HD (do 720p)"
 
 #, python-format
 msgid "%sMode for SD (up to 576p)"
-msgstr "%sRežim pro SD (až 576p)"
+msgstr "%sRežim pro SD (do 576p)"
 
 #, python-format
 msgid "%sMode for UHD (up to 2160p)"
-msgstr "%sRežim pro UHD (až 2160p)"
+msgstr "%sRežim pro UHD (do 2160p)"
 
 #, python-format
 msgid "%sRefresh rate for FHD"
@@ -1287,7 +1288,7 @@ msgstr "%szobrazit 1080i jako 1080p"
 
 #, python-format
 msgid "'%s' contains %d file(s) and %d sub-directories.\n"
-msgstr "'%s' obsahuje %d soubor(ů) a %d pod adresářů.\n"
+msgstr "'%s' obsahuje %d soubor(ů) a %d podadresářů.\n"
 
 msgid "'Buffer in hours' or 'number of last events'. For deleting older time shift files, the condition which occurred first has priority."
 msgstr "'Buffer v hodinách' nebo 'počet posledních událostí'. Pro smazání starších Timeshift souborů. Stav, který nastal dčíve má prioritu."
@@ -1514,6 +1515,9 @@ msgstr "4x"
 msgid "5"
 msgstr "5"
 
+msgid "50-200 Mbps"
+msgstr "50-200 Mbps"
+
 msgid "6"
 msgstr "6"
 
@@ -1720,16 +1724,19 @@ msgstr "Překódování AC3 plus"
 msgid "AFL"
 msgstr "AFL"
 
-msgid "AI-Powered translation color"
+msgid "AI-Powered Translation color"
 msgstr "Barva překladu s technologií AI"
 
-msgid "AI-Powered translation enabled"
+msgid "AI-Powered Translation enabled"
 msgstr "Překlad pomocí AI povolen"
 
-msgid "AI-Powered translation language"
+msgid "AI-Powered Translation language"
 msgstr "Překladatelský jazyk založený na AI"
 
-msgid "AI-Powered translation subscription code"
+msgid "AI-Powered Translation optimization"
+msgstr "Optimalizace překladu s technologií AI"
+
+msgid "AI-Powered Translation subscription code"
 msgstr "Kód předplatného překladu s podporou AI"
 
 msgid "ARM"
@@ -1779,6 +1786,9 @@ msgstr "O openATV"
 
 msgid "About to start"
 msgstr "Aktivuji"
+
+msgid "Above 200 Mbps"
+msgstr "Nad 200 Mbps"
 
 msgid "Access point"
 msgstr "Přístupový bod"
@@ -1865,10 +1875,10 @@ msgid "Add Bookmark"
 msgstr "K oblíbeným"
 
 msgid "Add Bouquet"
-msgstr "přidat přehled"
+msgstr "Přidat přehled"
 
 msgid "Add Bouquet To Parental Protection"
-msgstr "přidat přehled do rodičovské kontroly"
+msgstr "Přidat přehled do rodičovské kontroly"
 
 msgid "Add Current"
 msgstr "Přidat aktuální"
@@ -2004,6 +2014,12 @@ msgstr "Přidat nahrávání (ukončit po současné události)"
 
 msgid "Add service"
 msgstr "Přidat program"
+
+msgid "Add service names"
+msgstr "Přidat názvy služeb"
+
+msgid "Add service names to each #SERVICE entry."
+msgstr "Ke každé položce #SERVICE přidejte názvy služeb."
 
 msgid "Add service to AutoCam"
 msgstr "Přidání služby do AutoCam"
@@ -2266,6 +2282,9 @@ msgstr "Importovat též při přechodu ze standby"
 msgid "Also on standby"
 msgstr "Zahrnout také start z pohotovosti"
 
+msgid "Also use a #DESCRIPTION line after each #SERVICE line to hold the service's name."
+msgstr "Po každém řádku #SERVICE použijte také řádek #DESCRIPTION, který obsahuje název služby."
+
 msgid "Alternative"
 msgstr "Alternativní"
 
@@ -2280,9 +2299,6 @@ msgstr "[ÚPRAVA ALTERNATIV]"
 
 msgid "Alternative URLs for DVB-T/C or ATSC"
 msgstr "Alternativní záložní přijímače pro DVB-T/C nebo ATSC"
-
-msgid "Alternative numbering mode"
-msgstr "Alternativní způsob číslování"
 
 msgid "Alternative radio mode"
 msgstr "Alternativní radio mód"
@@ -2382,6 +2398,18 @@ msgstr "Použít zvýrazněné národní prostředí/jazyk a ukončit"
 
 msgid "Arabic"
 msgstr "Arabsky"
+
+msgid "Arabic (Egyptian)"
+msgstr "Arabština (Egyptština)"
+
+msgid "Arabic (Moroccan)"
+msgstr "Arabština (Marocká)"
+
+msgid "Arabic (Syro-Lebanese)"
+msgstr "Arabština (Syro-Libanonština)"
+
+msgid "Arabic (Tunisian)"
+msgstr "Arabština (Tuniština)"
 
 msgid "Aragonese"
 msgstr "Aragonský"
@@ -2606,12 +2634,6 @@ msgstr "Volba jazyka zvuku 4"
 msgid "Audio options..."
 msgstr "Zvukové možnosti..."
 
-msgid "Audio volume step size"
-msgstr "Velikost kroku hlasitosti zvuku"
-
-msgid "Audio volume step size fast mode"
-msgstr "Velikost kroku hlasitosti při rychlém režimu"
-
 msgid "Australia"
 msgstr "Austrálie"
 
@@ -2693,6 +2715,9 @@ msgstr "AutoFS"
 msgid "AutoMountManager"
 msgstr "Správce připojení"
 
+msgid "AutoRefresh"
+msgstr "Automatické obnovení"
+
 msgid "AutoTimer"
 msgstr "Automatický časovač"
 
@@ -2700,7 +2725,7 @@ msgid "AutoUpdate"
 msgstr "Automatická aktualizace"
 
 msgid "Automatic"
-msgstr "Automatické"
+msgstr "Automatický"
 
 msgid "Automatic Scan"
 msgstr "Automatické ladění programů"
@@ -3124,6 +3149,9 @@ msgstr "Akce navigace pro výběr přehledu"
 msgid "Bouquets"
 msgstr "Seznamy"
 
+msgid "Bouquets start at 1"
+msgstr "Seznamy začínají od 1"
+
 msgid "Bouvet Island"
 msgstr "Bouvetův ostrov"
 
@@ -3178,6 +3206,9 @@ msgstr "Načítání %d%%"
 
 msgid "Buffers"
 msgstr "Buffery"
+
+msgid "Build"
+msgstr "Sestavení"
 
 msgid "Build Brand"
 msgstr "Značka buildu"
@@ -4320,6 +4351,9 @@ msgstr "Příkaz spustit"
 msgid "Command type"
 msgstr "Příkaz typu"
 
+msgid "Commit"
+msgstr "Commit"
+
 msgid "Commit Information Actions"
 msgstr "Akce s informacemi commitu"
 
@@ -4467,9 +4501,6 @@ msgstr ""
 msgid "Configure remote control type"
 msgstr "Nastavit typ dálkového ovládání"
 
-msgid "Configure the AI-Powered translation language."
-msgstr "Nakonfigurujte jazyk překladu AI."
-
 msgid "Configure the DiSEqC mode for this LNB."
 msgstr "Nastavuje DiSEqC mód pro tento LNB."
 
@@ -4521,9 +4552,6 @@ msgstr "Nastavuje úroveň jasu předního displeje v běžném provozu."
 msgid "Configure the brightness level of the front panel display for standby."
 msgstr "Nastavuje úroveň jasu předního displeje v pohotovostním režimu."
 
-msgid "Configure the color of the AI-Powered translations."
-msgstr "Nakonfigurujte barvu překladů s technologií AI."
-
 msgid "Configure the color of the external subtitles, alternative (normal in white, italic in yellow, bold in cyan, underscore in green), white or yellow."
 msgstr "Nastavuje barvy externích titulků - alternativní (normální bíle, kurzíva žlutě, tučné azurově, podtržené zeleně), bílá nebo žlutá."
 
@@ -4557,9 +4585,6 @@ msgstr "Nakonfigurujte koncovou souřadnici v x oblasti zobrazení teletextu."
 msgid "Configure the end coordinate in y of the teletext display area."
 msgstr "Nakonfigurujte koncovou souřadnici v y oblasti zobrazení teletextu."
 
-msgid "Configure the fast mode audio volume step size (limit 1-10). Activated when volume key permanent press or press fast in a row."
-msgstr "Nakonfigurujte velikost kroku hlasitosti zvuku v rychlém režimu (limit 1-10). Aktivuje se při trvalém stisknutí tlačítka hlasitosti nebo rychlém stisknutí za sebou."
-
 msgid "Configure the first audio language (highest priority)."
 msgstr "Nastavuje první jazyk zvuku (nejvyšší priorita)."
 
@@ -4592,9 +4617,6 @@ msgstr "Nakonfigurujte funkci tlačítek < a >."
 
 msgid "Configure the gateway."
 msgstr "Nastavuje bránu."
-
-msgid "Configure the general audio volume step size (limit 1-10)."
-msgstr "Nakonfigurujte velikost obecného kroku hlasitosti zvuku (limit 1-10)."
 
 msgid "Configure the hard disk drive to go to standby after the specified idle time when the box is in standby."
 msgstr "Nastavuje čas nečinnosti, po kterém přejde pevný disk do úsporného režimu (jestliže je přijímač vypnutý)."
@@ -6506,6 +6528,9 @@ msgstr "Dominikánská republika"
 msgid "Don't Center DVB Subs On This Service"
 msgstr "Necentrovat titulky DVB na tomto programu"
 
+msgid "Don't Translate Subs On This Service"
+msgstr "Nepřekládat odběry v této službě"
+
 msgid "Don't add this recording"
 msgstr "Nepřidávat tuto nahrávku"
 
@@ -6874,9 +6899,6 @@ msgstr "Povolit %s pro:"
 msgid "Enable 5V for active antenna"
 msgstr "Povolit 5V pro aktivní anténu"
 
-msgid "Enable AI-Powered translation for all teletext and DVB subtitles."
-msgstr "Povolit překlad s technologií AI pro všechny teletextové a DVB titulky."
-
 msgid "Enable Autorecord"
 msgstr "Povolit Auto-nahrávání"
 
@@ -6983,6 +7005,9 @@ msgstr "Povolit automatické rychlé ladění (Fast Scan)"
 msgid "Enable auto fast scan for %s"
 msgstr "Povolit automatické rychlé vyhledávání pro %s"
 
+msgid "Enable autorefresh templates."
+msgstr "Povolit automatické obnovování šablon."
+
 msgid "Enable blinking rec symbol on the LCD Display in Standby."
 msgstr "V pohotovostním režimu nahrávání na LCD displeji."
 
@@ -7055,9 +7080,6 @@ msgstr "K naladění služeb, které nemohou být naladěny místně povolte vzd
 msgid "Enable teletext caching"
 msgstr "Povolit vyrovnávací paměť teletextu"
 
-msgid "Enable terrestrial LCN:"
-msgstr "Povolit pozemní LCN:"
-
 msgid "Enable the advanced HDMI-CEC setting options."
 msgstr "Povolit pokročilé možnosti nastavení HDMI-CEC."
 
@@ -7067,8 +7089,14 @@ msgstr "Povolením této možnosti přidáte do souboru protokolu ladění infor
 msgid "Enable this option to add action map / remote control mapping data to the debug log file."
 msgstr "Tuto možnost povolte, chcete-li do souboru protokolu ladění přidat data mapování akcí / vzdáleného ovládání."
 
+msgid "Enable this option to add extra DVB details to the debug log file."
+msgstr "Povolením této možnosti přidáte další podrobnosti DVB do souboru protokolu ladění."
+
 msgid "Enable this option to add extra DVB scan data to the debug log file."
 msgstr "Tuto možnost povolte, chcete-li do souboru protokolu ladění přidat další data skenování DVB."
+
+msgid "Enable this option to add extra DVB time sync data to the debug log file."
+msgstr "Povolením této možnosti přidáte do souboru protokolu ladění další data synchronizace času DVB."
 
 msgid "Enable this option to add extra EPG data to the debug log file."
 msgstr "Povolením této možnosti přidáte do souboru protokolu ladění další data EPG."
@@ -7090,6 +7118,9 @@ msgstr "Tuto možnost povolte, chcete-li do souboru protokolu ladění přidat n
 
 msgid "Enable this option to add timer debugging data to the debug log file."
 msgstr "Tuto možnost povolte, chcete-li do souboru protokolu ladění přidat údaje o ladění časovače."
+
+msgid "Enable this option to show all the available Information screens in the Information menu item list."
+msgstr "Povolením této možnosti zobrazíte všechny dostupné informační obrazovky v seznamu položek nabídky Informace."
 
 msgid "Enable this setting if your aerial system needs power."
 msgstr "Povolte toto nastavení, pokud váš anténní systém potřebuje napájení."
@@ -7277,6 +7308,9 @@ msgstr "Zadejte číslo uložené v pozicionéru, které odpovídá tomuto satel
 msgid "Enter the service pin"
 msgstr "Zadejte programový PIN"
 
+msgid "Enter the subscription code to fully enable the AI-Powered Translation plugin, the unified code for trial is 15."
+msgstr "Zadejte svůj předplatitelský kód, jednotný zkušební kód je 15."
+
 msgid "Enter your current latitude. This is the number of degrees you are from the equator as a decimal."
 msgstr "Zadejte svou aktuální zeměpisnou šířku. Toto je počet stupňů, ve kterých jste od rovníku, jako desetinné číslo."
 
@@ -7291,9 +7325,6 @@ msgstr "Zadejte frekvenci nízkopásmového lokálního oscilátoru. Další inf
 
 msgid "Enter your personal feed URL to allow you to select packages from your personal feed."
 msgstr "Zadejte adresu URL vašeho osobního zdroje, abyste si mohli vybrat balíčky z vašeho osobního zdroje."
-
-msgid "Enter your subscription code, the unified code for trial is 15."
-msgstr "Zadejte svůj předplatitelský kód, jednotný zkušební kód je 15."
 
 msgid "Entertainment"
 msgstr "Zábava"
@@ -7463,11 +7494,20 @@ msgstr ""
 "Chyba při získávání odkazu přes %s\n"
 "%s"
 
+msgid "Error moving 'epg.dat' to its destination!"
+msgstr "Chyba při přesunu souboru epg.dat na místo určení!"
+
 msgid "Error opening recording file"
 msgstr "Chyba při otevírání souboru záznamu"
 
 msgid "Error reading webpage!"
 msgstr "Chyba načtení webu!"
+
+msgid "Error retrieving 'epg.dat' from the remote receiver!"
+msgstr "Chyba při načítání 'epg.dat' ze vzdáleného přijímače!"
+
+msgid "Error retrieving location of 'epg.dat' on the remote receiver!"
+msgstr "Chyba při načítání umístění 'epg.dat' na vzdáleném přijímači!"
 
 msgid "Error text:"
 msgstr "Text chyby:"
@@ -7475,15 +7515,6 @@ msgstr "Text chyby:"
 #, python-format
 msgid "Error unzipping image '%s'!"
 msgstr "Chyba při rozbalování obrazu '%s'!"
-
-msgid "Error writing 'epg.dat' on the remote receiver!"
-msgstr "Chyba při zápisu epg.dat na záložním přijímači"
-
-msgid "Error moving 'epg.dat' to its destination!"
-msgstr "Při přesouvání souboru epg.dat do cíle došlo k chybě"
-
-msgid "Error retrieving 'epg.dat' from the remote receiver!"
-msgstr "Chyba při načítání souboru epg.dat ze záložního přijímače"
 
 #, python-format
 msgid ""
@@ -7493,8 +7524,11 @@ msgstr ""
 "Chyba při získávání informací ze záložního časovače\n"
 "%s"
 
-msgid "Error retrieving location of 'epg.dat' on the remote receiver!"
-msgstr "Chyba při načítání umístění epg.dat na záložním přijímači"
+msgid "Error writing '/etc/enigma2/epg.dat' on the remote receiver!"
+msgstr "Chyba při zápisu '/etc/enigma2/epg.dat' na vzdáleném přijímači!"
+
+msgid "Error writing 'epg.dat' on the remote receiver!"
+msgstr "Chyba při zápisu 'epg.dat' na vzdáleném přijímači!"
 
 msgid "Error, unknown Result!"
 msgstr "Chyba, neznámý výsledek!"
@@ -9035,9 +9069,6 @@ msgstr "Skrýt chybové zprávy z modulu Common Interface."
 msgid "Hide known extensions"
 msgstr "Nezobrazovat známé přípony"
 
-msgid "Hide mute notification"
-msgstr "Skrýt ztlumené oznámení"
-
 msgid "Hide number markers"
 msgstr "Skrýt číslo značky"
 
@@ -9394,9 +9425,6 @@ msgstr "Je-li povoleno, pomocí časového okna detekovat probuzení z hlubokéh
 msgid "If logs are using the set maximum space used the eldest will be deleted."
 msgstr "Pokud používáte zprávy a je nastaven max. využitý prostor,budou nejstarší smazány."
 
-msgid "If muted, hide mute icon or mute information after few seconds."
-msgstr "Je-li ztlumeno, po několika sekundách skryjte ikonu ztlumení nebo informace o ztlumení."
-
 msgid "If possible, x minutes before a timer starts VPS-Plugin will control whether the programme begins earlier. (0 disables feature)"
 msgstr "Pokud je to možné, kontroluje se x minut před skutečným začátkem, zda program nezačíná dříve. (0 deaktivuje tuto možnost)"
 
@@ -9503,10 +9531,6 @@ msgstr "Ze záložního přijímače se importují programy a/nebo EPG po spušt
 msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
 msgstr "Ze záložního přijímače se importují programy a/nebo EPG také v případě, že jsou přijímač nebo enigma2 zrestartovány"
 
-#, python-format
-msgid "Import from remote receiver failed, %s!"
-msgstr "Import ze záložního tuneru se nezdařil, %s"
-
 msgid "Import from remote receiver URL"
 msgstr "Importovat ze záložního přijímače"
 
@@ -9565,8 +9589,14 @@ msgstr "Zahrnout AIT do nahrávek"
 msgid "Include CI assignment"
 msgstr "Zahrnout přidělení CI"
 
+msgid "Include DVB details"
+msgstr "Zahrnout podrobnosti o DVB"
+
 msgid "Include DVB scan data"
 msgstr "Zahrnout data skenování DVB"
+
+msgid "Include DVB timesync data"
+msgstr "Zahrnout data časové synchronizace DVB"
 
 msgid "Include ECM in http streams"
 msgstr "Zahrnout ECM do http streamů"
@@ -10144,9 +10174,6 @@ msgstr "Kuanyama / Kwanyama"
 msgid "Kurdish"
 msgstr "Kurdština"
 
-msgid "Kurdish (Sorani)"
-msgstr "Kurdština (Soranština)"
-
 msgid "Kurdistan"
 msgstr "Kurdistán"
 
@@ -10171,11 +10198,23 @@ msgstr "Rychlost rolování LCD"
 msgid "LCD/Front panel *"
 msgstr "LCD/přední panel *"
 
-msgid "LCN plugin for DVB-T/T2 services"
-msgstr "LCN plugin pro DVB-T/T2 služby"
+msgid "LCN Scanner"
+msgstr "LCN skener"
 
-msgid "LCN rules:"
-msgstr "Pravidla LCN:"
+msgid "LCN Scanner Actions"
+msgstr "Akce LCN skeneru"
+
+msgid "LCN Scanner Settings"
+msgstr "Nastavení LCN skeneru"
+
+msgid "LCN Scanner plugin for DVB-C/T/T2 services"
+msgstr "Plugin LCN Scanner pro služby DVB-C/T/T2"
+
+msgid "LCN numbering"
+msgstr "Číslování LCN"
+
+msgid "LCN rules"
+msgstr "LCN pravidla"
 
 msgid "LCN style QuickSelect entry selection"
 msgstr "Výběr položky QuickSelect ve stylu LCN"
@@ -10611,6 +10650,9 @@ msgstr "Dlouhé názvy souborů"
 
 msgid "Long press emulation with button"
 msgstr "Emulace dlouhého stisku tlačítka"
+
+msgid "Long press volume steps"
+msgstr "Kroky hlasitosti při dlouhém stisknutí"
 
 #, python-format
 msgid "Long press: %s"
@@ -11230,6 +11272,9 @@ msgstr "Posunout stránku/obrazovku dolů"
 msgid "Move down a screen"
 msgstr "Posunout obrazovku dolů"
 
+msgid "Move down a screen / Move to next item"
+msgstr "Posun o obrazovku dolů / přechod na další položku"
+
 msgid "Move down a screen in the panel"
 msgstr "Posunout se v panelu o obrazovku dolů"
 
@@ -11375,11 +11420,17 @@ msgstr "Přejít na poslední řádek / obrazovku"
 msgid "Move to the next category in the list"
 msgstr "Přejít na další kategorii v seznamu"
 
+msgid "Move to the next item"
+msgstr "Přejděte na další položku"
+
 msgid "Move to the next item in the list"
 msgstr "Přejít na další položku v seznamu"
 
 msgid "Move to the previous category in the list"
 msgstr "Přejít na předchozí kategorii v seznamu"
+
+msgid "Move to the previous item"
+msgstr "Přejít na předchozí položku"
 
 msgid "Move to the previous item in list"
 msgstr "Přejít na předchozí položku v seznamu"
@@ -11398,6 +11449,9 @@ msgstr "Posunout o stránku/obrazovku nahoru"
 
 msgid "Move up a screen"
 msgstr "Posunout o obrazovku nahoru"
+
+msgid "Move up a screen / Move to previous item"
+msgstr "Posun o obrazovku nahoru / přechod na předchozí položku"
 
 msgid "Move up a screen in the panel"
 msgstr "Posunout se v panelu o obrazovku nahoru"
@@ -11887,6 +11941,9 @@ msgstr "Niue"
 msgid "No"
 msgstr "Ne"
 
+msgid "No 'epg.dat' file found on the remote receiver!"
+msgstr "Na vzdáleném přijímači nebyl nalezen žádný soubor 'epg.dat'!"
+
 msgid "No (supported) DVDROM found!"
 msgstr "Nenalezena žádná (podporovaná) DVDROM!"
 
@@ -11947,12 +12004,6 @@ msgstr "Není k dispozici žádný demux"
 
 msgid "No displayable files on this medium found!"
 msgstr "Žádné zobrazitelné soubory na tomto médiu nebyly nalezeny!"
-
-msgid "No entry in lcn db. Please do a service scan."
-msgstr "Žádný záznam v lcn db. Proveďte prosím servisní sken."
-
-msgid "No 'epg.dat' file found on the remote receiver!"
-msgstr "Na záložním přijímači nebyl nalezen žádný soubor epg.dat"
 
 msgid "No error"
 msgstr "Bez chyby"
@@ -12289,6 +12340,9 @@ msgstr "Počet zobrazených řádků."
 
 msgid "Number or SMS style data entry"
 msgstr "Zadání dat ve stylu čísla nebo SMS"
+
+msgid "Numbering mode"
+msgstr "Režim číslování"
 
 msgid "OEM model"
 msgstr "OEM model"
@@ -13262,6 +13316,9 @@ msgstr "Prosím, čekejte"
 msgid "Please wait for activation of your network configuration..."
 msgstr "Čekejte prosím na aktivaci Vaší síťové konfigurace..."
 
+msgid "Please wait while LCN bouquets are created/updated..."
+msgstr "Počkejte prosím, než budou vytvořeny/aktualizovány seznamy LCN..."
+
 msgid "Please wait while feeds are updated..."
 msgstr "Čekejte prosím na aktualizaci zdrojů..."
 
@@ -14149,12 +14206,6 @@ msgstr "Zadní"
 msgid "Reboot"
 msgstr "Restartovat"
 
-msgid "Rebuild"
-msgstr "Obnovit"
-
-msgid "Rebuild LCN bouquet now?"
-msgstr "Chcete nyní znovu vytvořit LCN přehled?"
-
 msgid "Rec"
 msgstr "Rec"
 
@@ -14176,9 +14227,6 @@ msgstr "Informace o přijímači %s %s"
 
 msgid "Receiver name"
 msgstr "Jméno přijímače"
-
-msgid "Reception"
-msgstr "Nastavení příjmu"
 
 msgid "Reception Lists"
 msgstr "Satelity"
@@ -15303,6 +15351,9 @@ msgstr "Prohlédne disky pro instalaci místních rozšíření"
 msgid "Scan for local extensions and install them."
 msgstr "Vyhledá a nainstaluje místní rozšíření."
 
+msgid "Scan for terrestrial LCNs and create LCN bouquets"
+msgstr "Vyhledejte pozemní LCN a vytvořte LCN seznamy"
+
 msgid "Scan wireless networks"
 msgstr "Vyhledat bezdrátové sítě"
 
@@ -15499,6 +15550,9 @@ msgstr "Pokud používáte 'univerzální' LNB, zvolte 'polarizaci', v opačném
 msgid "Select 'Provider' to scan from the predefined list of cable multiplexes. Select 'Bands' to only scan certain parts of the spectrum. Select 'Steps' to scan in steps of a particular frequency bandwidth."
 msgstr "Vyberte 'poskytovatele' pro skenování z předdefinovaného seznamu kabelových multiplexů. Chcete-li skenovat pouze určité části spektra, vyberte „pásma“. Vyberte „kroky“ pro skenování v krocích určité šířky frekvenčního pásma."
 
+msgid "Select 'Unique numbering' to assign unique numbers for every service in every bouquet. Use 'Bouquets start at 1' to start numbering each bouquet from 1. Use 'LCN numbering' to use consistent service LCNs where ever that service is used."
+msgstr "Vyberte 'Unikátní číslování' pro přiřazení jedinečných čísel pro každou službu v každém seznamu. Použijte 'Seznamy začínají na 1', chcete-li začít číslovat každý seznam od 1. Použijte 'Číslování LCN' k použití konzistentních LCN služeb, kdekoli se tato služba používá."
+
 msgid "Select 'Yes' if an end time is required for this timer."
 msgstr "Vyberte „Ano“, pokud je pro tento časovač vyžadován čas ukončení."
 
@@ -15513,6 +15567,15 @@ msgstr "Vyberte 'Ano', pokud mají být úpravy hlasitosti aplikovány na zvukov
 
 msgid "Select 'Yes' if you are using a multi-switch which requires a DiSEqC Port-A command signal. Select 'No' for all other setups."
 msgstr "Pokud používáte multipřepínač, který vyžaduje příkazový signál DiSEqC Port-A, vyberte „Ano“. Vyberte 'Ne' pro všechna ostatní nastavení."
+
+msgid "Select 'Yes' if you want to wake the TV for a 'Wakeup' power timer is starting."
+msgstr "Vyberte 'Ano' pokud chcete probudit TV aby se spustil časovač napájení 'Probuzení'."
+
+msgid "Select 'Yes' if you want to wake the TV for a 'Zap and Record' recording timer is starting."
+msgstr "Vyberte „Ano“, pokud chcete probudit televizor, aby se spustil časovač nahrávání."
+
+msgid "Select 'Yes' if you want to wake the TV for a 'Zap' recording timer is starting."
+msgstr "Vyberte „Ano“, pokud chcete probudit televizor, aby se spustil časovač nahrávání."
 
 msgid "Select 'Yes' the keep the InfoBar displayed, with no timeout, while media playback is paused."
 msgstr "Vyberte 'Ano', aby byl informační panel zobrazen bez časového limitu, zatímco je přehrávání médií pozastaveno."
@@ -15546,6 +15609,9 @@ msgstr "Pokud je nastaveno na 'ano' čísla programů se zobrazí v infobaru."
 
 msgid "Select 'Yes' to display unknown files in the File Commander file viewer, select 'No' to not process unknown files."
 msgstr "Vyberte 'Ano', chcete-li zobrazit neznámé soubory v prohlížeči souborů File Commander, vyberte 'Ne', pokud nechcete zpracovávat neznámé soubory."
+
+msgid "Select 'Yes' to enable AI-Powered Translation for all teletext and DVB subtitles."
+msgstr "Povolit překlad s technologií AI pro všechny teletextové a DVB titulky."
 
 msgid "Select 'Yes' to enable editing of this device's settings. Selecting 'No' resets the devices settings to their default values."
 msgstr "Chcete-li povolit úpravy nastavení tohoto zařízení, vyberte možnost Ano. Výběrem možnosti „Ne“ se resetuje nastavení zařízení na výchozí hodnoty."
@@ -15690,6 +15756,9 @@ msgstr "Pokud je nastaveno na 'ano' zobrazí se seznam kanálů po přepnutí me
 
 msgid "Select 'Yes' to show the current directory in the list of directories. Note that File Commander must be restarted for this change to take effect."
 msgstr "Vyberte 'Ano' pro zobrazení aktuálního adresáře v seznamu adresářů. Pamatujte, že aby se tato změna projevila, musí být File Commander restartován."
+
+msgid "Select 'Yes' to show this plugin in the Plugin Browser."
+msgstr "Chcete-li tento plugin zobrazit v prohlížeči pluginů, vyberte 'Ano'."
 
 msgid "Select 'Yes' to show web link packages in the Download Plugins screen."
 msgstr "Vyberte 'Ano', chcete-li zobrazit balíčky webových odkazů na obrazovce Stáhnout pluginy."
@@ -15891,8 +15960,8 @@ msgstr "Vyberte, jak dlouho se má zobrazovat vyskakovací okno s chybou tlačí
 msgid "Select how long to display the task and script message pop up."
 msgstr "Vyberte, jak dlouho se má úloha a zpráva skriptu zobrazovat."
 
-msgid "Select how long, in seconds, that the volume display is shown before it automatically hides."
-msgstr "Vyberte, jak dlouho (v sekundách) má být zobrazen displej hlasitosti, než se automaticky skryje."
+msgid "Select how long, in seconds, that the volume and mute displays are shown before they automatically hide."
+msgstr "Vyberte, jak dlouho (v sekundách) se mají displej hlasitosti a ztlumení zobrazovat, než se automaticky skryjí."
 
 msgid "Select how often this timer is to be repeated."
 msgstr "Vyberte, jak často se má tento časovač opakovat."
@@ -16006,6 +16075,9 @@ msgstr "Vyberte pořadí řazení dočasných souborů pro aktuální sloupec"
 msgid "Select the %s entry"
 msgstr "Vyberte položku %s"
 
+msgid "Select the AI-Powered Translation target language."
+msgstr "Nakonfigurujte jazyk překladu AI."
+
 msgid "Select the No / False response"
 msgstr "Vyberte odpověď Ne/Nepravda"
 
@@ -16061,6 +16133,9 @@ msgstr "Vyberte kanál nebo službu, které se mají pro tento časovač použí
 
 msgid "Select the character or action under the keyboard cursor"
 msgstr "Vyberte znak nebo akci pod kurzorem klávesnice"
+
+msgid "Select the color to be used for the AI-Powered Translation text."
+msgstr "Nakonfigurujte barvu překladů s technologií AI."
 
 msgid "Select the current bookmarked location and exit"
 msgstr "Vyberte aktuální záložku a ukončete"
@@ -16159,6 +16234,9 @@ msgstr "Vyberte rozvržení informací v seznamu služeb z možností, které po
 msgid "Select the layout of the installed plugins in the Plugin Browser screen. NOTE: The change is not immediate but will be seen when Plugin Browser is restarted!"
 msgstr "Vyberte rozložení nainstalovaných pluginů na obrazovce Prohlížeč zásuvných modulů. POZNÁMKA: Změna není okamžitá, ale bude vidět po restartu prohlížeče pluginů!"
 
+msgid "Select the list of LCN rules to be applied to the scan."
+msgstr "Vyberte seznam pravidel LCN, která se mají použít na skenování."
+
 msgid "Select the locale from a menu"
 msgstr "Z nabídky vyberte národní prostředí"
 
@@ -16239,6 +16317,12 @@ msgstr "Vyberte posunutou sadu znaků"
 
 msgid "Select the shifted character set for the next character only"
 msgstr "Vyberte posunutou znakovou sadu pouze pro další znak"
+
+msgid "Select the size of the volume step when the VOLUME buttons are pressed."
+msgstr "Vyberte velikost kroku hlasitosti při stisknutí tlačítek VOLUME."
+
+msgid "Select the size of the volume steps when the VOLUME buttons are held down."
+msgstr "Vyberte velikost kroků hlasitosti při podržení tlačítek VOLUME."
 
 msgid "Select the sort order for the file lines:"
 msgstr "Vybrat pořadí řazení řádků souborů:"
@@ -16335,9 +16419,6 @@ msgstr ""
 "Vyberte bezdrátovou síť, ke které se chcete připojit.\n"
 "\n"
 "Pokračujte stisknutím OK."
-
-msgid "Select to use logarithmic step size with more steps at the lower volume levels."
-msgstr "Vyberte, chcete-li použít logaritmickou velikost kroku s více kroky při nižších úrovních hlasitosti."
 
 msgid "Select update source location"
 msgstr "Vyberte zdroj aktualizace"
@@ -16539,6 +16620,9 @@ msgstr "Číslo programu a název programu"
 
 msgid "Service Number, Picon and Service Name"
 msgstr "Číslo programu, pikona a název programu"
+
+msgid "Service Scan"
+msgstr "Skenování služby"
 
 msgid "Service Selection Actions"
 msgstr "Akce pro výběr služeb"
@@ -17199,9 +17283,6 @@ msgstr "Zobrazit informace"
 msgid "Show Kernel packages"
 msgstr "Zobrazit balíčky jádra"
 
-msgid "Show LCN in channel selection"
-msgstr "Zobrazit LCN ve výběru kanálu"
-
 msgid "Show Live in MiniTV"
 msgstr "Zobrazit živé vysílání v MiniTV"
 
@@ -17343,6 +17424,9 @@ msgstr "Zobrazit pokročilé nastavení"
 msgid "Show all"
 msgstr "Ukázat vše"
 
+msgid "Show all Information screens"
+msgstr "Zobrazit všechny informační obrazovky"
+
 msgid "Show all available services"
 msgstr "Zobrazit všechny dostupné služby"
 
@@ -17475,6 +17559,9 @@ msgstr "Zobrazit obrázek a uložit jako '%s'"
 
 msgid "Show in Extension Menu"
 msgstr "Zobrazit v rozšířené nabídce (modré tlačítko)"
+
+msgid "Show in Plugin Browser"
+msgstr "Zobrazit v prohlížeči pluginů"
 
 msgid "Show in Standby"
 msgstr "Zobrazit v pohotovostním režimu"
@@ -19251,9 +19338,6 @@ msgstr "Tenis"
 msgid "Terrestrial"
 msgstr "Pozemní"
 
-msgid "Terrestrial bouquet:"
-msgstr "Pozemní skupina programů:"
-
 msgid "Test"
 msgstr "Test"
 
@@ -19345,6 +19429,9 @@ msgstr "Protokol revizí '%s' neobsahuje žádné informace."
 #, python-format
 msgid "The '%s' file can't be retrieved, please try again later."
 msgstr "Soubor '%s' nelze načíst, zkuste to prosím později."
+
+msgid "The AI-Powered Translation service will be optimized to provide the best performance based on the the Internet connection upload speed selected."
+msgstr "Služba AI-Powered Translation bude optimalizována tak, aby poskytovala nejlepší výkon na základě zvolené rychlosti odesílání internetového připojení."
 
 msgid ""
 "The AutoTimer plugin is not installed!\n"
@@ -20470,6 +20557,9 @@ msgstr "Překódování"
 msgid "Transcoding: "
 msgstr "Překódování: "
 
+msgid "Translate Subs On This Service"
+msgstr "Přeložit titulky této služby"
+
 msgid "Translation"
 msgstr "Překlad"
 
@@ -20635,6 +20725,9 @@ msgstr "Typ tuneru %s"
 
 msgid "Tuners"
 msgstr "Tunery"
+
+msgid "Tuners, Scanning & Reception"
+msgstr "Tunery, skenování a příjem"
 
 msgid "Tuning algorithm"
 msgstr "Ladicí algoritmus"
@@ -20821,6 +20914,9 @@ msgstr "Unicable matice"
 msgid "Uninstall"
 msgstr "Odinstalovat"
 
+msgid "Unique numbering"
+msgstr "Jedinečné číslování"
+
 msgid "United Arab Emirates"
 msgstr "Spojené arabské emiráty"
 
@@ -20934,6 +21030,9 @@ msgstr "Nahoru"
 
 msgid "Up / Active"
 msgstr "Aktivní"
+
+msgid "Up to 50 Mbps"
+msgstr "Až 50 Mbps"
 
 msgid "Up/Down button mode"
 msgstr "Režim tlačítek Nahoru/Dolu"
@@ -21144,6 +21243,9 @@ msgstr "Použít kruhové LNB"
 msgid "Use defaults"
 msgstr "Použít výchozí"
 
+msgid "Use description lines"
+msgstr "Použijte řádky popisu"
+
 msgid "Use extended List"
 msgstr "Použít rozšířený seznam"
 
@@ -21177,9 +21279,6 @@ msgstr "Použít Keymap *"
 msgid "Use legacy navigation"
 msgstr "Použít starší navigaci"
 
-msgid "Use logarithmic steps"
-msgstr "Použít logaritmické kroky"
-
 msgid "Use official channel numbering"
 msgstr "Použít ofciální číslování kanálů"
 
@@ -21200,6 +21299,12 @@ msgstr "Použít sílu měření"
 
 msgid "Use small screen"
 msgstr "Použít malou obrazovku"
+
+msgid "Use spacer lines"
+msgstr "Použijte vymezovací čáry"
+
+msgid "Use spacer lines to pad the bouquet to make the #SERVICE line numbers match the LCN."
+msgstr "K vyplnění seznamu použijte vymezovací čáry, aby čísla řádků #SERVICE odpovídala LCN."
 
 msgid "Use the LEFT/RIGHT buttons on your remote to adjust the height of the OSD. LEFT button decreases the height, RIGHT increases the height."
 msgstr "Pomocí tlačítek VLEVO/VPRAVO na dálkovém ovládání upravte výšku nabídky OSD. Tlačítko VLEVO snižuje výšku, VPRAVO zvyšuje výšku."
@@ -21464,6 +21569,9 @@ msgstr "Venda"
 msgid "Venezuela, Bolivarian Republic of"
 msgstr "Venezuela, Bolívarská republika"
 
+msgid "Verbose"
+msgstr "Upovídaný"
+
 msgid "Version"
 msgstr "Verze"
 
@@ -21695,17 +21803,20 @@ msgstr "Volba služby nastavení hlasitosti"
 msgid "Volume Adjust Settings"
 msgstr "Nastavení hlasitosti"
 
-msgid "Volume display timer"
-msgstr "Časovač zobrazení hlasitosti"
-
 msgid "Volume down"
 msgstr "Hlasitost -"
 
 msgid "Volume keys on the receiver remote will control the TV volume. If this feature is not supported the volume keys have no function!"
 msgstr "Tlačítka hlasitosti na dálkovém ovladači budou ovládat hlasitost televizoru. Pokud tato funkce není podporována, tlačítka hlasitosti nemají žádnou funkci!"
 
+msgid "Volume steps"
+msgstr "Kroky hlasitosti"
+
 msgid "Volume up"
 msgstr "Hlasitost +"
+
+msgid "Volume/Mute display timer"
+msgstr "Časovač zobrazení hlasitosti/ztlumení"
 
 msgid "Vu+ MultiBoot"
 msgstr "Vu+ MultiBoot"
@@ -22012,9 +22123,6 @@ msgstr "Pokud je tato možnost povolena, vždy dekódujte příjem http streamů
 msgid "When enabled, authentication is required to watch http streams."
 msgstr "Při povolení bude vyžadováno ověření dohledu http streamů."
 
-msgid "When enabled, channel numbering will start at '1' for each bouquet."
-msgstr "Při povolení bude číslování kanálů začínat pro každý přehled od čísla '1'."
-
 msgid "When enabled, content with an aspect ratio of 4:3 will be stretched to fit the screen."
 msgstr "Jestliže je povoleno, pak obsah s poměrem stran 4:3 bude roztažen na celou obrazovku."
 
@@ -22053,9 +22161,6 @@ msgstr "Je-li povoleno, stisknutím '0' přepnete na první kanál ve vašem prv
 
 msgid "When enabled, reformat subtitles to match the width of the screen."
 msgstr "Pokud je toto povoleno tak budou titulky formátovány tak aby odpovídaly šířce obrazovky."
-
-msgid "When enabled, show LCN in the channel selection screen."
-msgstr "Je-li povoleno, zobrazí se na obrazovce výběru kanálu LCN."
 
 msgid "When enabled, show channel numbers in the channel selection screen."
 msgstr "Při povolení zobrazuje čísla kanálů ve výběru programů."
@@ -23765,6 +23870,79 @@ msgstr "ano (uchovat zdroje)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Kurdish (Sorani)"
+#~ msgstr "Kurdština (Soranština)"
+
+#~ msgid "Audio volume step size"
+#~ msgstr "Velikost kroku hlasitosti zvuku"
+
+#~ msgid "Audio volume step size fast mode"
+#~ msgstr "Velikost kroku hlasitosti při rychlém režimu"
+
+#~ msgid "Configure the fast mode audio volume step size (limit 1-10). Activated when volume key permanent press or press fast in a row."
+#~ msgstr "Nakonfigurujte velikost kroku hlasitosti zvuku v rychlém režimu (limit 1-10). Aktivuje se při trvalém stisknutí tlačítka hlasitosti nebo rychlém stisknutí za sebou."
+
+#~ msgid "Configure the general audio volume step size (limit 1-10)."
+#~ msgstr "Nakonfigurujte velikost obecného kroku hlasitosti zvuku (limit 1-10)."
+
+#~ msgid "Hide mute notification"
+#~ msgstr "Skrýt ztlumené oznámení"
+
+#~ msgid "If muted, hide mute icon or mute information after few seconds."
+#~ msgstr "Je-li ztlumeno, po několika sekundách skryjte ikonu ztlumení nebo informace o ztlumení."
+
+#~ msgid "Select how long, in seconds, that the volume display is shown before it automatically hides."
+#~ msgstr "Vyberte, jak dlouho (v sekundách) má být zobrazen displej hlasitosti, než se automaticky skryje."
+
+#~ msgid "Select to use logarithmic step size with more steps at the lower volume levels."
+#~ msgstr "Vyberte, chcete-li použít logaritmickou velikost kroku s více kroky při nižších úrovních hlasitosti."
+
+#~ msgid "Use logarithmic steps"
+#~ msgstr "Použít logaritmické kroky"
+
+#~ msgid "Volume display timer"
+#~ msgstr "Časovač zobrazení hlasitosti"
+
+#~ msgid "Reception"
+#~ msgstr "Nastavení příjmu"
+
+#~ msgid "Enable terrestrial LCN:"
+#~ msgstr "Povolit pozemní LCN:"
+
+#~ msgid "LCN plugin for DVB-T/T2 services"
+#~ msgstr "LCN plugin pro DVB-T/T2 služby"
+
+#~ msgid "LCN rules:"
+#~ msgstr "Pravidla LCN:"
+
+#~ msgid "No entry in lcn db. Please do a service scan."
+#~ msgstr "Žádný záznam v lcn db. Proveďte prosím servisní sken."
+
+#~ msgid "Rebuild"
+#~ msgstr "Obnovit"
+
+#~ msgid "Rebuild LCN bouquet now?"
+#~ msgstr "Chcete nyní znovu vytvořit LCN přehled?"
+
+#~ msgid "Terrestrial bouquet:"
+#~ msgstr "Pozemní skupina programů:"
+
+#~ msgid "Alternative numbering mode"
+#~ msgstr "Alternativní způsob číslování"
+
+#, python-format
+#~ msgid "Import from remote receiver failed, %s!"
+#~ msgstr "Import ze záložního tuneru se nezdařil, %s"
+
+#~ msgid "Show LCN in channel selection"
+#~ msgstr "Zobrazit LCN ve výběru kanálu"
+
+#~ msgid "When enabled, channel numbering will start at '1' for each bouquet."
+#~ msgstr "Při povolení bude číslování kanálů začínat pro každý přehled od čísla '1'."
+
+#~ msgid "When enabled, show LCN in the channel selection screen."
+#~ msgstr "Je-li povoleno, zobrazí se na obrazovce výběru kanálu LCN."
 
 #~ msgid "Installing feeds from IPK ..."
 #~ msgstr "Instalace zdrojů z IPK..."

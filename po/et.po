@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV-Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 15:20+0000\n"
+"POT-Creation-Date: 2024-09-12 21:03+0000\n"
 "PO-Revision-Date: 2022-12-04 20:43+0000\n"
 "Last-Translator: rimasx <riks_12@hot.ee>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/et/>\n"
@@ -1486,6 +1486,9 @@ msgstr ""
 msgid "5"
 msgstr "5"
 
+msgid "50-200 Mbps"
+msgstr ""
+
 #
 msgid "6"
 msgstr "6"
@@ -1704,16 +1707,19 @@ msgstr "AC3+ transkodeerimine"
 msgid "AFL"
 msgstr "AFL"
 
-msgid "AI-Powered translation color"
+msgid "AI-Powered Translation color"
 msgstr ""
 
-msgid "AI-Powered translation enabled"
+msgid "AI-Powered Translation enabled"
 msgstr ""
 
-msgid "AI-Powered translation language"
+msgid "AI-Powered Translation language"
 msgstr ""
 
-msgid "AI-Powered translation subscription code"
+msgid "AI-Powered Translation optimization"
+msgstr ""
+
+msgid "AI-Powered Translation subscription code"
 msgstr ""
 
 msgid "ARM"
@@ -1764,6 +1770,9 @@ msgstr ""
 
 msgid "About to start"
 msgstr "algamas"
+
+msgid "Above 200 Mbps"
+msgstr ""
 
 msgid "Access point"
 msgstr ""
@@ -1992,6 +2001,12 @@ msgstr "Salvesta (selle saate lõpuni)"
 #
 msgid "Add service"
 msgstr "Lisa kanal"
+
+msgid "Add service names"
+msgstr ""
+
+msgid "Add service names to each #SERVICE entry."
+msgstr ""
 
 msgid "Add service to AutoCam"
 msgstr ""
@@ -2259,6 +2274,9 @@ msgstr ""
 msgid "Also on standby"
 msgstr "Ka ooteseisundis"
 
+msgid "Also use a #DESCRIPTION line after each #SERVICE line to hold the service's name."
+msgstr ""
+
 msgid "Alternative"
 msgstr "Alternatiivne"
 
@@ -2273,9 +2291,6 @@ msgstr "[asenduskanalite muutmine]"
 
 msgid "Alternative URLs for DVB-T/C or ATSC"
 msgstr ""
-
-msgid "Alternative numbering mode"
-msgstr "Alternatiivne numeratsioon"
 
 msgid "Alternative radio mode"
 msgstr "Raadio kuvamine TV stiilis"
@@ -2376,6 +2391,18 @@ msgstr ""
 
 msgid "Arabic"
 msgstr "Araabia"
+
+msgid "Arabic (Egyptian)"
+msgstr ""
+
+msgid "Arabic (Moroccan)"
+msgstr ""
+
+msgid "Arabic (Syro-Lebanese)"
+msgstr ""
+
+msgid "Arabic (Tunisian)"
+msgstr ""
 
 msgid "Aragonese"
 msgstr ""
@@ -2608,12 +2635,6 @@ msgstr "Heli keelevalik 4"
 msgid "Audio options..."
 msgstr "Heli valikud"
 
-msgid "Audio volume step size"
-msgstr "Helitugevuse sammu suurus"
-
-msgid "Audio volume step size fast mode"
-msgstr "Helitugevuse sammu suurus kiirrežiimis"
-
 msgid "Australia"
 msgstr "Austraalia"
 
@@ -2698,6 +2719,9 @@ msgstr ""
 #
 msgid "AutoMountManager"
 msgstr "Automaatne haakimine"
+
+msgid "AutoRefresh"
+msgstr ""
 
 msgid "AutoTimer"
 msgstr ""
@@ -3140,6 +3164,9 @@ msgstr ""
 msgid "Bouquets"
 msgstr ""
 
+msgid "Bouquets start at 1"
+msgstr ""
+
 msgid "Bouvet Island"
 msgstr "Lihavõttesaar"
 
@@ -3193,6 +3220,9 @@ msgid "Buffering %d%%"
 msgstr "Puhvris %d%%"
 
 msgid "Buffers"
+msgstr ""
+
+msgid "Build"
 msgstr ""
 
 msgid "Build Brand"
@@ -4345,6 +4375,9 @@ msgstr ""
 msgid "Command type"
 msgstr "Käskluse tüüp"
 
+msgid "Commit"
+msgstr ""
+
 msgid "Commit Information Actions"
 msgstr ""
 
@@ -4499,9 +4532,6 @@ msgstr ""
 msgid "Configure remote control type"
 msgstr "Määra puldi tüüp"
 
-msgid "Configure the AI-Powered translation language."
-msgstr ""
-
 msgid "Configure the DiSEqC mode for this LNB."
 msgstr "Määra selle LNB DiSEqC režiim."
 
@@ -4550,9 +4580,6 @@ msgstr "Määra esipaneeli heledus tavakasutuses."
 msgid "Configure the brightness level of the front panel display for standby."
 msgstr "Määra esipaneeli näidiku heledus ooteseisundis."
 
-msgid "Configure the color of the AI-Powered translations."
-msgstr ""
-
 msgid "Configure the color of the external subtitles, alternative (normal in white, italic in yellow, bold in cyan, underscore in green), white or yellow."
 msgstr "Määra väliste subtiitrite värv - alternatiivne, valge või kollane. Alternatiivne: tavatekst valge, kaldtekst kollane, rasvane tekst tsüaansinine, allajoonitud tekst roheline."
 
@@ -4586,9 +4613,6 @@ msgstr "Määra x-koordinaadi lõpp teleteksti kuvaalas."
 msgid "Configure the end coordinate in y of the teletext display area."
 msgstr "Määra y-koordinaadi lõpp teleteksti kuvaalas."
 
-msgid "Configure the fast mode audio volume step size (limit 1-10). Activated when volume key permanent press or press fast in a row."
-msgstr "Seadista helitugevuse kiirrežiimi sammu suurus (vahemikus 1-10). Aktiveeritakse helitugevuse nupu pikal või kiirel järjestikusel vajutusel."
-
 msgid "Configure the first audio language (highest priority)."
 msgstr "Määra heli keele esimene eelistus."
 
@@ -4621,9 +4645,6 @@ msgstr ""
 
 msgid "Configure the gateway."
 msgstr "Seadista lüüs."
-
-msgid "Configure the general audio volume step size (limit 1-10)."
-msgstr "Seadista helitugevuse muutuse sammu suurus (vahemik 1-10)."
 
 msgid "Configure the hard disk drive to go to standby after the specified idle time when the box is in standby."
 msgstr "Määra kõvaketta seiskamise aeg pärast määratud jõudeolekut, kui vastuvõtja on ooteseisundis."
@@ -6565,6 +6586,9 @@ msgstr "Dominikaani Vabariik"
 msgid "Don't Center DVB Subs On This Service"
 msgstr "Tsentreerimata DVB subtiitrid sellel kanalil"
 
+msgid "Don't Translate Subs On This Service"
+msgstr ""
+
 msgid "Don't add this recording"
 msgstr "Ära lisa seda salvestust"
 
@@ -6945,9 +6969,6 @@ msgstr "Luba %s pro:"
 msgid "Enable 5V for active antenna"
 msgstr "Luba 5 V toide aktiivantennile"
 
-msgid "Enable AI-Powered translation for all teletext and DVB subtitles."
-msgstr ""
-
 msgid "Enable Autorecord"
 msgstr "Autosalvestus lubatud"
 
@@ -7059,6 +7080,9 @@ msgstr "Luba automaatne kiirotsing"
 msgid "Enable auto fast scan for %s"
 msgstr "Kiire automaatotsing %s jaoks"
 
+msgid "Enable autorefresh templates."
+msgstr ""
+
 msgid "Enable blinking rec symbol on the LCD Display in Standby."
 msgstr "Ooteseisundis Rec-sümbol esipaneelil"
 
@@ -7133,9 +7157,6 @@ msgstr "Luba kasutada enigma2 kaugvastuvõtjat häälestumiseks kanalitele, mida
 msgid "Enable teletext caching"
 msgstr "Teleteksti puhverdamine"
 
-msgid "Enable terrestrial LCN:"
-msgstr "Luba dvb-t LCN:"
-
 msgid "Enable the advanced HDMI-CEC setting options."
 msgstr ""
 
@@ -7145,7 +7166,13 @@ msgstr ""
 msgid "Enable this option to add action map / remote control mapping data to the debug log file."
 msgstr ""
 
+msgid "Enable this option to add extra DVB details to the debug log file."
+msgstr ""
+
 msgid "Enable this option to add extra DVB scan data to the debug log file."
+msgstr ""
+
+msgid "Enable this option to add extra DVB time sync data to the debug log file."
 msgstr ""
 
 msgid "Enable this option to add extra EPG data to the debug log file."
@@ -7167,6 +7194,9 @@ msgid "Enable this option to add screen names and resolution data to the debug l
 msgstr ""
 
 msgid "Enable this option to add timer debugging data to the debug log file."
+msgstr ""
+
+msgid "Enable this option to show all the available Information screens in the Information menu item list."
 msgstr ""
 
 msgid "Enable this setting if your aerial system needs power."
@@ -7354,6 +7384,9 @@ msgstr "Sisesta ajami salvestatud number, mis vastab sellele satelliidile."
 msgid "Enter the service pin"
 msgstr "Sisesta kanali PIN"
 
+msgid "Enter the subscription code to fully enable the AI-Powered Translation plugin, the unified code for trial is 15."
+msgstr ""
+
 msgid "Enter your current latitude. This is the number of degrees you are from the equator as a decimal."
 msgstr "Sisesta asukoha laiuskraad. See on kraadide arv ekvaatorist kümnendväärtusena."
 
@@ -7367,9 +7400,6 @@ msgid "Enter your low band local oscillator frequency. For more information cons
 msgstr "Sisesta madalsagedusriba ostsillaatori sagedus. Enamat infot vaata LNB spetsifikatsioonist."
 
 msgid "Enter your personal feed URL to allow you to select packages from your personal feed."
-msgstr ""
-
-msgid "Enter your subscription code, the unified code for trial is 15."
 msgstr ""
 
 #, fuzzy
@@ -7543,6 +7573,9 @@ msgid ""
 "%s"
 msgstr ""
 
+msgid "Error moving 'epg.dat' to its destination!"
+msgstr ""
+
 # Record neu 5.1
 #, fuzzy
 msgid "Error opening recording file"
@@ -7551,20 +7584,17 @@ msgstr "Ehtsad või võltssalvestused"
 msgid "Error reading webpage!"
 msgstr "Viga veebilehe lugemisel!"
 
+msgid "Error retrieving 'epg.dat' from the remote receiver!"
+msgstr ""
+
+msgid "Error retrieving location of 'epg.dat' on the remote receiver!"
+msgstr ""
+
 msgid "Error text:"
 msgstr ""
 
 #, python-format
 msgid "Error unzipping image '%s'!"
-msgstr ""
-
-msgid "Error writing 'epg.dat' on the remote receiver!"
-msgstr ""
-
-msgid "Error moving 'epg.dat' to its destination!"
-msgstr ""
-
-msgid "Error retrieving 'epg.dat' from the remote receiver!"
 msgstr ""
 
 #, python-format
@@ -7573,7 +7603,10 @@ msgid ""
 "%s"
 msgstr ""
 
-msgid "Error retrieving location of 'epg.dat' on the remote receiver!"
+msgid "Error writing '/etc/enigma2/epg.dat' on the remote receiver!"
+msgstr ""
+
+msgid "Error writing 'epg.dat' on the remote receiver!"
 msgstr ""
 
 msgid "Error, unknown Result!"
@@ -9147,9 +9180,6 @@ msgstr ""
 msgid "Hide known extensions"
 msgstr "Peida tuntud laiendid"
 
-msgid "Hide mute notification"
-msgstr "Peida vaigistamise sümbol"
-
 #, fuzzy
 msgid "Hide number markers"
 msgstr "Pane märk siia"
@@ -9522,9 +9552,6 @@ msgstr "Kui lubatud, kasutatakse ajaakent tuvastamaks puhkeseisundist äratamist
 msgid "If logs are using the set maximum space used the eldest will be deleted."
 msgstr "Kui logidele määratud kettaruumi ülempiir on saavutatud, siis vanimad kustutatakse."
 
-msgid "If muted, hide mute icon or mute information after few seconds."
-msgstr "Heli vaigistamisel peida vaigistamise ikoon või info mõne sekundi pärast."
-
 msgid "If possible, x minutes before a timer starts VPS-Plugin will control whether the programme begins earlier. (0 disables feature)"
 msgstr ""
 
@@ -9632,10 +9659,6 @@ msgstr "Impordi kaugvastuvõtja URL-ist"
 msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
 msgstr ""
 
-#, python-format
-msgid "Import from remote receiver failed, %s!"
-msgstr ""
-
 msgid "Import from remote receiver URL"
 msgstr "Impordi kaugvastuvõtja URL-ist"
 
@@ -9693,7 +9716,13 @@ msgstr "AIT kaasatud salvestistesse"
 msgid "Include CI assignment"
 msgstr "CI määrangud kaasatud"
 
+msgid "Include DVB details"
+msgstr ""
+
 msgid "Include DVB scan data"
+msgstr ""
+
+msgid "Include DVB timesync data"
 msgstr ""
 
 msgid "Include ECM in http streams"
@@ -10293,9 +10322,6 @@ msgstr ""
 msgid "Kurdish"
 msgstr ""
 
-msgid "Kurdish (Sorani)"
-msgstr ""
-
 msgid "Kurdistan"
 msgstr ""
 
@@ -10320,11 +10346,23 @@ msgstr "Näidiku kerimise kiirus"
 msgid "LCD/Front panel *"
 msgstr ""
 
-msgid "LCN plugin for DVB-T/T2 services"
-msgstr "LCN plugin DVB-T/T2 kanalitele"
+msgid "LCN Scanner"
+msgstr ""
 
-msgid "LCN rules:"
-msgstr "LCN reeglid:"
+msgid "LCN Scanner Actions"
+msgstr ""
+
+msgid "LCN Scanner Settings"
+msgstr ""
+
+msgid "LCN Scanner plugin for DVB-C/T/T2 services"
+msgstr ""
+
+msgid "LCN numbering"
+msgstr ""
+
+msgid "LCN rules"
+msgstr ""
 
 msgid "LCN style QuickSelect entry selection"
 msgstr ""
@@ -10775,6 +10813,9 @@ msgstr "Pikad failinimed"
 
 msgid "Long press emulation with button"
 msgstr "Pika nupuvajutuse emuleerimine"
+
+msgid "Long press volume steps"
+msgstr ""
 
 # Help
 #, fuzzy, python-format
@@ -11430,6 +11471,9 @@ msgstr ""
 msgid "Move down a screen"
 msgstr ""
 
+msgid "Move down a screen / Move to next item"
+msgstr ""
+
 msgid "Move down a screen in the panel"
 msgstr ""
 
@@ -11587,10 +11631,16 @@ msgstr ""
 msgid "Move to the next category in the list"
 msgstr ""
 
+msgid "Move to the next item"
+msgstr ""
+
 msgid "Move to the next item in the list"
 msgstr ""
 
 msgid "Move to the previous category in the list"
+msgstr ""
+
+msgid "Move to the previous item"
 msgstr ""
 
 msgid "Move to the previous item in list"
@@ -11610,6 +11660,9 @@ msgid "Move up a page / screen"
 msgstr ""
 
 msgid "Move up a screen"
+msgstr ""
+
+msgid "Move up a screen / Move to previous item"
 msgstr ""
 
 msgid "Move up a screen in the panel"
@@ -12129,6 +12182,9 @@ msgstr "Niue"
 msgid "No"
 msgstr "Ei"
 
+msgid "No 'epg.dat' file found on the remote receiver!"
+msgstr ""
+
 msgid "No (supported) DVDROM found!"
 msgstr "Toetatud DVDROM puudub!"
 
@@ -12192,12 +12248,6 @@ msgstr "Vaba indeks puudub"
 
 msgid "No displayable files on this medium found!"
 msgstr "Sellel andmekandjal pole kuvatavaid faile!"
-
-msgid "No entry in lcn db. Please do a service scan."
-msgstr "LCN andmebaas on tühi. Soorita kanaliotsing."
-
-msgid "No 'epg.dat' file found on the remote receiver!"
-msgstr ""
 
 #, fuzzy
 msgid "No error"
@@ -12546,6 +12596,9 @@ msgstr "Kuvatavate ridade arv"
 
 msgid "Number or SMS style data entry"
 msgstr "Number või SMS stiilis andmesisestus"
+
+msgid "Numbering mode"
+msgstr ""
 
 msgid "OEM model"
 msgstr ""
@@ -13559,6 +13612,9 @@ msgstr "Palun oota"
 msgid "Please wait for activation of your network configuration..."
 msgstr "Võrguseaded aktiveeritakse..."
 
+msgid "Please wait while LCN bouquets are created/updated..."
+msgstr ""
+
 msgid "Please wait while feeds are updated..."
 msgstr ""
 
@@ -14469,12 +14525,6 @@ msgstr ""
 msgid "Reboot"
 msgstr "Taaskäivitus"
 
-msgid "Rebuild"
-msgstr "Loo uuesti"
-
-msgid "Rebuild LCN bouquet now?"
-msgstr "Kas luua LCN lemmiknimekiri uuesti?"
-
 msgid "Rec"
 msgstr "Rec"
 
@@ -14496,10 +14546,6 @@ msgstr ""
 
 msgid "Receiver name"
 msgstr ""
-
-#, fuzzy
-msgid "Reception"
-msgstr "Üldnimekirjad"
 
 msgid "Reception Lists"
 msgstr "Üldnimekirjad"
@@ -15661,6 +15707,9 @@ msgstr "Otsi ja paigalda IPK faile"
 msgid "Scan for local extensions and install them."
 msgstr "Otsi ja paigalda IPK faile."
 
+msgid "Scan for terrestrial LCNs and create LCN bouquets"
+msgstr ""
+
 msgid "Scan wireless networks"
 msgstr "Traadita võrkude otsing"
 
@@ -15860,6 +15909,9 @@ msgstr "Vali 'polarisatsioon', kui kasutuses on universaalne LNB. Muudel juhtude
 msgid "Select 'Provider' to scan from the predefined list of cable multiplexes. Select 'Bands' to only scan certain parts of the spectrum. Select 'Steps' to scan in steps of a particular frequency bandwidth."
 msgstr "Valides 'Levitaja', saab otsingus kasutada eelmääratud kaablioperaatorite nimekirja. Valides 'sagedusalad' skaneeritakse ainult teatud osa spektrumist. Valides 'sageduse samm' skaneeritakse sammu kaupa teatud ribalaius."
 
+msgid "Select 'Unique numbering' to assign unique numbers for every service in every bouquet. Use 'Bouquets start at 1' to start numbering each bouquet from 1. Use 'LCN numbering' to use consistent service LCNs where ever that service is used."
+msgstr ""
+
 msgid "Select 'Yes' if an end time is required for this timer."
 msgstr ""
 
@@ -15874,6 +15926,15 @@ msgstr ""
 
 msgid "Select 'Yes' if you are using a multi-switch which requires a DiSEqC Port-A command signal. Select 'No' for all other setups."
 msgstr "Vali 'jah' ainult juhul, kui kasutatav multiswich lüliti nõuab DiSEqC Port-A käsu signaali. Kõigil teistel juhtudel vali 'ei'."
+
+msgid "Select 'Yes' if you want to wake the TV for a 'Wakeup' power timer is starting."
+msgstr ""
+
+msgid "Select 'Yes' if you want to wake the TV for a 'Zap and Record' recording timer is starting."
+msgstr ""
+
+msgid "Select 'Yes' if you want to wake the TV for a 'Zap' recording timer is starting."
+msgstr ""
 
 msgid "Select 'Yes' the keep the InfoBar displayed, with no timeout, while media playback is paused."
 msgstr "Kui lubatud, kuvatakse pausil olles inforiba pidevalt."
@@ -15906,6 +15967,9 @@ msgid "Select 'Yes' to display the channel number in the InfoBar."
 msgstr "Kui lubatud, kuvatakse inforibal kanali number."
 
 msgid "Select 'Yes' to display unknown files in the File Commander file viewer, select 'No' to not process unknown files."
+msgstr ""
+
+msgid "Select 'Yes' to enable AI-Powered Translation for all teletext and DVB subtitles."
 msgstr ""
 
 msgid "Select 'Yes' to enable editing of this device's settings. Selecting 'No' resets the devices settings to their default values."
@@ -16051,6 +16115,9 @@ msgid "Select 'Yes' to show the channel list after switching between Radio and T
 msgstr "Kui lubatud, avatakse TV ja raadio režiimi vahetudes kanalinimekiri."
 
 msgid "Select 'Yes' to show the current directory in the list of directories. Note that File Commander must be restarted for this change to take effect."
+msgstr ""
+
+msgid "Select 'Yes' to show this plugin in the Plugin Browser."
 msgstr ""
 
 msgid "Select 'Yes' to show web link packages in the Download Plugins screen."
@@ -16258,7 +16325,7 @@ msgstr ""
 msgid "Select how long to display the task and script message pop up."
 msgstr ""
 
-msgid "Select how long, in seconds, that the volume display is shown before it automatically hides."
+msgid "Select how long, in seconds, that the volume and mute displays are shown before they automatically hide."
 msgstr ""
 
 msgid "Select how often this timer is to be repeated."
@@ -16374,6 +16441,9 @@ msgstr ""
 msgid "Select the %s entry"
 msgstr ""
 
+msgid "Select the AI-Powered Translation target language."
+msgstr ""
+
 msgid "Select the No / False response"
 msgstr ""
 
@@ -16431,6 +16501,9 @@ msgstr ""
 #, fuzzy
 msgid "Select the character or action under the keyboard cursor"
 msgstr "Kustuta teksti puhvri kursori alla jääv tähemärk"
+
+msgid "Select the color to be used for the AI-Powered Translation text."
+msgstr ""
 
 msgid "Select the current bookmarked location and exit"
 msgstr ""
@@ -16529,6 +16602,9 @@ msgstr ""
 msgid "Select the layout of the installed plugins in the Plugin Browser screen. NOTE: The change is not immediate but will be seen when Plugin Browser is restarted!"
 msgstr ""
 
+msgid "Select the list of LCN rules to be applied to the scan."
+msgstr ""
+
 #, fuzzy
 msgid "Select the locale from a menu"
 msgstr "Vali varukoopiast välja jäetavad failid"
@@ -16609,6 +16685,12 @@ msgstr "Vali unetaimeri tegevus."
 #, fuzzy
 msgid "Select the shifted character set for the next character only"
 msgstr "Kustuta teksti puhvri kursori alla jääv tähemärk"
+
+msgid "Select the size of the volume step when the VOLUME buttons are pressed."
+msgstr ""
+
+msgid "Select the size of the volume steps when the VOLUME buttons are held down."
+msgstr ""
 
 msgid "Select the sort order for the file lines:"
 msgstr ""
@@ -16702,9 +16784,6 @@ msgid ""
 "Select the wireless network to which you want to connect.\n"
 "\n"
 "Press OK to continue."
-msgstr ""
-
-msgid "Select to use logarithmic step size with more steps at the lower volume levels."
 msgstr ""
 
 msgid "Select update source location"
@@ -16908,6 +16987,9 @@ msgstr "Kanali number ja kanali nimi"
 
 msgid "Service Number, Picon and Service Name"
 msgstr "Kanali number, pikon ja kanali nimi"
+
+msgid "Service Scan"
+msgstr ""
 
 #, fuzzy
 msgid "Service Selection Actions"
@@ -17587,9 +17669,6 @@ msgstr "Saateinfo"
 msgid "Show Kernel packages"
 msgstr ""
 
-msgid "Show LCN in channel selection"
-msgstr ""
-
 msgid "Show Live in MiniTV"
 msgstr "Telekanal MiniTV-s"
 
@@ -17735,6 +17814,9 @@ msgstr "Näita lisaseadistusi"
 msgid "Show all"
 msgstr ""
 
+msgid "Show all Information screens"
+msgstr ""
+
 msgid "Show all available services"
 msgstr ""
 
@@ -17870,6 +17952,9 @@ msgstr ""
 
 msgid "Show in Extension Menu"
 msgstr "Kas kuvada laienduste menüüs?"
+
+msgid "Show in Plugin Browser"
+msgstr ""
 
 msgid "Show in Standby"
 msgstr "Kuva ooteseisundis"
@@ -19701,9 +19786,6 @@ msgstr "Soome"
 msgid "Terrestrial"
 msgstr "Maapealne TV (DVB-T)"
 
-msgid "Terrestrial bouquet:"
-msgstr "DVB-T lemmiknimekiri:"
-
 msgid "Test"
 msgstr ""
 
@@ -19789,6 +19871,9 @@ msgstr ""
 
 #, python-format
 msgid "The '%s' file can't be retrieved, please try again later."
+msgstr ""
+
+msgid "The AI-Powered Translation service will be optimized to provide the best performance based on the the Internet connection upload speed selected."
 msgstr ""
 
 msgid ""
@@ -20922,6 +21007,9 @@ msgstr ""
 msgid "Transcoding: "
 msgstr "Transkodeerimine: "
 
+msgid "Translate Subs On This Service"
+msgstr ""
+
 #
 msgid "Translation"
 msgstr "Tõlge"
@@ -21094,6 +21182,9 @@ msgid "Tuner type %s"
 msgstr "Tuuneri tüüp %s"
 
 msgid "Tuners"
+msgstr ""
+
+msgid "Tuners, Scanning & Reception"
 msgstr ""
 
 msgid "Tuning algorithm"
@@ -21289,6 +21380,9 @@ msgstr "Unicable Matrix"
 msgid "Uninstall"
 msgstr ""
 
+msgid "Unique numbering"
+msgstr ""
+
 msgid "United Arab Emirates"
 msgstr "Araabia Ühendemiraadid"
 
@@ -21405,6 +21499,9 @@ msgid "Up"
 msgstr "Üles"
 
 msgid "Up / Active"
+msgstr ""
+
+msgid "Up to 50 Mbps"
 msgstr ""
 
 msgid "Up/Down button mode"
@@ -21617,6 +21714,9 @@ msgstr "Ringpolar LNB kasutamine"
 msgid "Use defaults"
 msgstr ""
 
+msgid "Use description lines"
+msgstr ""
+
 msgid "Use extended List"
 msgstr "Kasuta laiendatud vaadet"
 
@@ -21651,9 +21751,6 @@ msgstr "Kasuta nupuasetust *"
 msgid "Use legacy navigation"
 msgstr ""
 
-msgid "Use logarithmic steps"
-msgstr ""
-
 msgid "Use official channel numbering"
 msgstr "Kasuta ametlikku kanalinumeratsiooni"
 
@@ -21674,6 +21771,12 @@ msgstr "Kasuta voolutarbe mõõtmist"
 
 msgid "Use small screen"
 msgstr "Kasuta kitsast vaadet"
+
+msgid "Use spacer lines"
+msgstr ""
+
+msgid "Use spacer lines to pad the bouquet to make the #SERVICE line numbers match the LCN."
+msgstr ""
 
 msgid "Use the LEFT/RIGHT buttons on your remote to adjust the height of the OSD. LEFT button decreases the height, RIGHT increases the height."
 msgstr ""
@@ -21919,6 +22022,9 @@ msgstr ""
 msgid "Venezuela, Bolivarian Republic of"
 msgstr "Venezuela"
 
+msgid "Verbose"
+msgstr ""
+
 msgid "Version"
 msgstr ""
 
@@ -22158,17 +22264,20 @@ msgstr ""
 msgid "Volume Adjust Settings"
 msgstr ""
 
-msgid "Volume display timer"
-msgstr ""
-
 msgid "Volume down"
 msgstr "Heli maha"
 
 msgid "Volume keys on the receiver remote will control the TV volume. If this feature is not supported the volume keys have no function!"
 msgstr ""
 
+msgid "Volume steps"
+msgstr ""
+
 msgid "Volume up"
 msgstr "Heli juurde"
+
+msgid "Volume/Mute display timer"
+msgstr ""
 
 msgid "Vu+ MultiBoot"
 msgstr ""
@@ -22485,9 +22594,6 @@ msgstr "Kui lubatud, dekodeeritakse sisenevad http vood alati. See võtab rohkem
 msgid "When enabled, authentication is required to watch http streams."
 msgstr "Kui lubatud, on http voogude vaatamiseks vajalik autentimine."
 
-msgid "When enabled, channel numbering will start at '1' for each bouquet."
-msgstr "Kui lubatud, algavad kanali numbrid igas lemmiknimekirjas numbriga '1'."
-
 msgid "When enabled, content with an aspect ratio of 4:3 will be stretched to fit the screen."
 msgstr "Kui lubatud, venitatakse 4:3 sisuga pilti täitmaks kogu ekraani."
 
@@ -22528,9 +22634,6 @@ msgstr "Kui lubatud, viib '0' vajutus alati kanalile 1 ja kustutab kanalivahetus
 # Subtitle 5.1 ersetzt : Rewrap teletext subtitles description
 msgid "When enabled, reformat subtitles to match the width of the screen."
 msgstr "Kui lubatud, seatakse subtiitrid vastavusse ekraani laiusega."
-
-msgid "When enabled, show LCN in the channel selection screen."
-msgstr ""
 
 msgid "When enabled, show channel numbers in the channel selection screen."
 msgstr "Kui lubatud, kuvatakse kanalinimekirjas kanali numbrid."
@@ -24275,6 +24378,55 @@ msgstr "Jah (säilita fiidid)"
 
 msgid "®"
 msgstr ""
+
+#~ msgid "Audio volume step size"
+#~ msgstr "Helitugevuse sammu suurus"
+
+#~ msgid "Audio volume step size fast mode"
+#~ msgstr "Helitugevuse sammu suurus kiirrežiimis"
+
+#~ msgid "Configure the fast mode audio volume step size (limit 1-10). Activated when volume key permanent press or press fast in a row."
+#~ msgstr "Seadista helitugevuse kiirrežiimi sammu suurus (vahemikus 1-10). Aktiveeritakse helitugevuse nupu pikal või kiirel järjestikusel vajutusel."
+
+#~ msgid "Configure the general audio volume step size (limit 1-10)."
+#~ msgstr "Seadista helitugevuse muutuse sammu suurus (vahemik 1-10)."
+
+#~ msgid "Hide mute notification"
+#~ msgstr "Peida vaigistamise sümbol"
+
+#~ msgid "If muted, hide mute icon or mute information after few seconds."
+#~ msgstr "Heli vaigistamisel peida vaigistamise ikoon või info mõne sekundi pärast."
+
+#, fuzzy
+#~ msgid "Reception"
+#~ msgstr "Üldnimekirjad"
+
+#~ msgid "Enable terrestrial LCN:"
+#~ msgstr "Luba dvb-t LCN:"
+
+#~ msgid "LCN plugin for DVB-T/T2 services"
+#~ msgstr "LCN plugin DVB-T/T2 kanalitele"
+
+#~ msgid "LCN rules:"
+#~ msgstr "LCN reeglid:"
+
+#~ msgid "No entry in lcn db. Please do a service scan."
+#~ msgstr "LCN andmebaas on tühi. Soorita kanaliotsing."
+
+#~ msgid "Rebuild"
+#~ msgstr "Loo uuesti"
+
+#~ msgid "Rebuild LCN bouquet now?"
+#~ msgstr "Kas luua LCN lemmiknimekiri uuesti?"
+
+#~ msgid "Terrestrial bouquet:"
+#~ msgstr "DVB-T lemmiknimekiri:"
+
+#~ msgid "Alternative numbering mode"
+#~ msgstr "Alternatiivne numeratsioon"
+
+#~ msgid "When enabled, channel numbering will start at '1' for each bouquet."
+#~ msgstr "Kui lubatud, algavad kanali numbrid igas lemmiknimekirjas numbriga '1'."
 
 #, fuzzy
 #~ msgid "Installing feeds from IPK ..."

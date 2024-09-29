@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 15:20+0000\n"
-"PO-Revision-Date: 2024-07-25 08:42+0000\n"
+"POT-Creation-Date: 2024-09-12 21:03+0000\n"
+"PO-Revision-Date: 2024-09-15 14:23+0000\n"
 "Last-Translator: Snoete <snoete@hotmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/nl/>\n"
 "Language: nl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.8-dev\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: ..\n"
 
@@ -1192,7 +1192,7 @@ msgstr "%s is uitgeschakeld."
 
 #, python-format
 msgid "%s imported from remote receiver."
-msgstr "%s van de Fallback tuner geïmporteerd"
+msgstr "%s van de Fallback tuner geïmporteerd."
 
 #. TRANSLATORS: The satellite with name '%s' is no longer used after a configuration change. The user is asked whether or not the satellite should be deleted.
 #, python-format
@@ -1484,6 +1484,9 @@ msgstr "4x"
 msgid "5"
 msgstr "5"
 
+msgid "50-200 Mbps"
+msgstr "50-200 Mbps"
+
 msgid "6"
 msgstr "6"
 
@@ -1698,16 +1701,19 @@ msgstr "AC3plus transcodering"
 msgid "AFL"
 msgstr "AFL"
 
-msgid "AI-Powered translation color"
+msgid "AI-Powered Translation color"
 msgstr "Kleur van de door AI vertaalde ondertiteling"
 
-msgid "AI-Powered translation enabled"
+msgid "AI-Powered Translation enabled"
 msgstr "AI vertaling geactiveerd"
 
-msgid "AI-Powered translation language"
+msgid "AI-Powered Translation language"
 msgstr "Taal voor AI vertaling"
 
-msgid "AI-Powered translation subscription code"
+msgid "AI-Powered Translation optimization"
+msgstr "Verbeteren van AI vertaling"
+
+msgid "AI-Powered Translation subscription code"
 msgstr "Abonnement-code voor door AI vertaalde ondertiteling"
 
 msgid "ARM"
@@ -1757,6 +1763,9 @@ msgstr "openATV"
 
 msgid "About to start"
 msgstr "Start binnenkort"
+
+msgid "Above 200 Mbps"
+msgstr "Boven 200 Mbps"
 
 msgid "Access point"
 msgstr "Access point"
@@ -1982,6 +1991,12 @@ msgstr "Voeg een opname toe (stop na huidige uitzending)"
 
 msgid "Add service"
 msgstr "Zender toevoegen"
+
+msgid "Add service names"
+msgstr "Zendernamen toevoegen"
+
+msgid "Add service names to each #SERVICE entry."
+msgstr "Zendernamen aan elke #ZENDER invoer toevoegen."
 
 msgid "Add service to AutoCam"
 msgstr "Zender aan AutoCam toevoegen"
@@ -2244,6 +2259,9 @@ msgstr "Importeer ook indien de ontvanger vanuit stand-by opstart"
 msgid "Also on standby"
 msgstr "Tevens bij stand-by"
 
+msgid "Also use a #DESCRIPTION line after each #SERVICE line to hold the service's name."
+msgstr "Ook een #OMSCHRIJVING na elke #ZENDER toevoegen om de zendernaam te behouden."
+
 msgid "Alternative"
 msgstr "Alternatieven"
 
@@ -2258,9 +2276,6 @@ msgstr "[alternatieven bewerken]"
 
 msgid "Alternative URLs for DVB-T/C or ATSC"
 msgstr "Alternatieve URL's t.b.v. DVB-T/C of ATSC"
-
-msgid "Alternative numbering mode"
-msgstr "Alternatieve nummering"
 
 msgid "Alternative radio mode"
 msgstr "Alternatieve radio modus"
@@ -2361,6 +2376,18 @@ msgstr "Gebruik de geselecteerde Taal en Exit "
 msgid "Arabic"
 msgstr "Arabisch"
 
+msgid "Arabic (Egyptian)"
+msgstr "Arabisch (Egyptisch)"
+
+msgid "Arabic (Moroccan)"
+msgstr "Arabisch (Marokkaans)"
+
+msgid "Arabic (Syro-Lebanese)"
+msgstr "Arabisch (Syro-Libanees)"
+
+msgid "Arabic (Tunisian)"
+msgstr "Arabisch (Tunesisch)"
+
 msgid "Aragonese"
 msgstr "Aragonees"
 
@@ -2384,7 +2411,7 @@ msgid "Are you sure to remove all cable services?"
 msgstr "Wilt u definitief alle kabel (DVB-C) zenders verwijderen?"
 
 msgid "Are you sure to remove all terrestrial services?"
-msgstr "Wilt u definitief alle terrestrische (DVB-T) zenders verwijderen?"
+msgstr "Wilt u definitief alle DVB-T zenders verwijderen?"
 
 msgid "Are you sure to remove this entry?"
 msgstr "Weet u zeker dat u dit item wilt verwijderen?"
@@ -2583,12 +2610,6 @@ msgstr "Audio taalkeuze 4"
 msgid "Audio options..."
 msgstr "Audio opties..."
 
-msgid "Audio volume step size"
-msgstr "Audio volume stap grootte"
-
-msgid "Audio volume step size fast mode"
-msgstr "Audio volume - stap grootte in de fast mode"
-
 msgid "Australia"
 msgstr "Australië"
 
@@ -2669,6 +2690,9 @@ msgstr "AutoFS"
 
 msgid "AutoMountManager"
 msgstr "Auto mount beheer"
+
+msgid "AutoRefresh"
+msgstr "AutoRefresh"
 
 msgid "AutoTimer"
 msgstr "AutoTimer"
@@ -3103,6 +3127,9 @@ msgstr "Favorietenlijst navigatie Acties"
 msgid "Bouquets"
 msgstr "Favorietenlijsten"
 
+msgid "Bouquets start at 1"
+msgstr "Favorieten beginnen bij 1"
+
 msgid "Bouvet Island"
 msgstr "Bouvet Eilanden"
 
@@ -3157,6 +3184,9 @@ msgstr "Bufferend %d%%"
 
 msgid "Buffers"
 msgstr "Buffers"
+
+msgid "Build"
+msgstr "Build"
 
 msgid "Build Brand"
 msgstr "Build merk"
@@ -4049,10 +4079,10 @@ msgid "Choose whether AAC sound tracks should be transcoded."
 msgstr "Selecteer of AAC geluid moet worden getranscodeerd."
 
 msgid "Choose whether AC3 Plus sound tracks should be transcoded to AC3."
-msgstr "Selecteer of AC3 Plus geluidssporen getranscodeerd moeten worden naar AC3."
+msgstr "Selecteer of AC3 Plus geluidssporen omgezet moeten worden naar AC3."
 
 msgid "Choose whether AC3 sound tracks should be downmixed to stereo."
-msgstr "Selecteer of AC3 geluidsspoor moet worden teruggebracht naar stereo."
+msgstr "Selecteer of een AC3 geluidsspoor (Dolby Digital) moet worden teruggebracht naar stereo."
 
 msgid "Choose whether DTS channel sound tracks should be downmixed or transcoded."
 msgstr "Selecteer of DTS-geluid moeten worden gedownmixed of getranscodeerd."
@@ -4302,6 +4332,9 @@ msgstr "Opdracht om uit te voeren"
 msgid "Command type"
 msgstr "Type opdracht"
 
+msgid "Commit"
+msgstr "Commit"
+
 msgid "Commit Information Actions"
 msgstr "Commit Informatie Acties"
 
@@ -4470,9 +4503,6 @@ msgstr ""
 msgid "Configure remote control type"
 msgstr "Configureer type afstandsbediening"
 
-msgid "Configure the AI-Powered translation language."
-msgstr "Taal van de AI vertaling kiezen."
-
 msgid "Configure the DiSEqC mode for this LNB."
 msgstr "Configureer de DiSEqC modus voor deze LNB."
 
@@ -4538,9 +4568,6 @@ msgstr "De helderheid van het display in uw %s %s instellen bij normaal gebruik.
 msgid "Configure the brightness level of the front panel display for standby."
 msgstr "De helderheid van het display in uw %s %s instellen voor Stand-by."
 
-msgid "Configure the color of the AI-Powered translations."
-msgstr "Kleur van de door AI vertaalde ondertiteling kiezen."
-
 msgid "Configure the color of the external subtitles, alternative (normal in white, italic in yellow, bold in cyan, underscore in green), white or yellow."
 msgstr "Kleur van de externe ondertitels: Alternatief (standaard in het wit, cursief in geel, vet in cyaan of onderstreept in groen), Wit of Geel."
 
@@ -4577,9 +4604,6 @@ msgstr "Configureer de eind-coördinaat in x van het weergavegebied van Teleteks
 
 msgid "Configure the end coordinate in y of the teletext display area."
 msgstr "Configureer de eind-coördinaat in y van het weergavegebied van Teletekst."
-
-msgid "Configure the fast mode audio volume step size (limit 1-10). Activated when volume key permanent press or press fast in a row."
-msgstr "Configureer de snel-modus audiovolume stap-grootte (maximum 1-10). Geactiveerd wanneer de volume knop permanent wordt ingedrukt of druk snel achter elkaar."
 
 msgid "Configure the first audio language (highest priority)."
 msgstr "De eerste audiotaal instellen (hoogste prioriteit)."
@@ -4627,9 +4651,6 @@ msgstr "De functie van de < en > knoppen instellen."
 
 msgid "Configure the gateway."
 msgstr "Configureer uw gateway."
-
-msgid "Configure the general audio volume step size (limit 1-10)."
-msgstr "Configureer de standaard audio volume stap grootte (maximaal 1-10)."
 
 msgid "Configure the hard disk drive to go to standby after the specified idle time when the box is in standby."
 msgstr "Configureer de harde schijf om in stand-by te gaan, na de verstreken inactieve tijd als de box al in stand-by staat."
@@ -6596,6 +6617,9 @@ msgstr "Dominicaanse Republiek"
 msgid "Don't Center DVB Subs On This Service"
 msgstr "Centreer geen DVB-ondertitels bij deze zender"
 
+msgid "Don't Translate Subs On This Service"
+msgstr "Ondertiteling bij deze zender niet vertalen"
+
 msgid "Don't add this recording"
 msgstr "Deze opname niet toevoegen"
 
@@ -6969,9 +6993,6 @@ msgstr "Activeer %s pro:"
 msgid "Enable 5V for active antenna"
 msgstr "5V voor actieve antenne inschakelen"
 
-msgid "Enable AI-Powered translation for all teletext and DVB subtitles."
-msgstr "AI vertaling voor Teletekst en DVB ondertiteling activeren."
-
 msgid "Enable Autorecord"
 msgstr "Aktiveer automatische opname"
 
@@ -7078,6 +7099,9 @@ msgstr "Auto Fastscan inschakelen"
 msgid "Enable auto fast scan for %s"
 msgstr "Activeer snelle auto scan voor %s"
 
+msgid "Enable autorefresh templates."
+msgstr "AutoRefresh sjablonen activeren."
+
 msgid "Enable blinking rec symbol on the LCD Display in Standby."
 msgstr "Toon tijdens stand-by een knipperend REC-symbool op het display (dit is niet alle ontvangers mogelijk) ."
 
@@ -7150,9 +7174,6 @@ msgstr "Indien geactiveerd, wordt een verbinding met een externe enigma2 ontvang
 msgid "Enable teletext caching"
 msgstr "Teletekst caching inschakelen"
 
-msgid "Enable terrestrial LCN:"
-msgstr "Activeer DVB-T LCN:"
-
 msgid "Enable the advanced HDMI-CEC setting options."
 msgstr "Activeer de geavanceerde instellingen voor HDMI-CEC."
 
@@ -7162,8 +7183,14 @@ msgstr "Schakel deze optie in om MultiBoot-informatie die tijdens het opstarten 
 msgid "Enable this option to add action map / remote control mapping data to the debug log file."
 msgstr "Activeer deze optie om gebruik van de afstandsbediening mee te nemen in het debug log bestand."
 
+msgid "Enable this option to add extra DVB details to the debug log file."
+msgstr "Activeren, om extra DVB-details aan het debug-log bestand toe te voegen."
+
 msgid "Enable this option to add extra DVB scan data to the debug log file."
 msgstr "Activeer deze optie om extra DVB scan gegevens toe te voegen aan het debug log-bestand."
+
+msgid "Enable this option to add extra DVB time sync data to the debug log file."
+msgstr "Activeren, om extra DVB-timesync-data aan het debug-log bestand toe te voegen."
 
 msgid "Enable this option to add extra EPG data to the debug log file."
 msgstr "Activeer deze optie om extra EPG gegevens toe te voegen aan het debug log-bestand."
@@ -7185,6 +7212,9 @@ msgstr "Activeer deze optie om schermnamen en resolutiegegevens mee te nemen in 
 
 msgid "Enable this option to add timer debugging data to the debug log file."
 msgstr "Activeer deze optie om Timer debug gegevens mee te nemen in het debug log bestand."
+
+msgid "Enable this option to show all the available Information screens in the Information menu item list."
+msgstr "Activeren, om alle beschikbare informatie-schermen in het informatie-menu te tonen."
 
 msgid "Enable this setting if your aerial system needs power."
 msgstr "Schakel deze optie in indien de antenne een externe voeding nodig heeft."
@@ -7380,6 +7410,9 @@ msgstr "Voor het in de positioner opgeslagen nummer in dat overeen komt met deze
 msgid "Enter the service pin"
 msgstr "Voer de zender pincode in"
 
+msgid "Enter the subscription code to fully enable the AI-Powered Translation plugin, the unified code for trial is 15."
+msgstr "Abonnement-code voor AI vertaling invoeren, de code voor de testperiode is 15."
+
 msgid "Enter your current latitude. This is the number of degrees you are from the equator as a decimal."
 msgstr "Voor de huidige latitude in. Dit is het aantal (decimale) graden dat u verwijderd bent van de evenaar."
 
@@ -7394,9 +7427,6 @@ msgstr "Voer de occillatorfrequentie van de lage band in. Voor meer info raadple
 
 msgid "Enter your personal feed URL to allow you to select packages from your personal feed."
 msgstr "Uw persoonlijke Feed-URL invullen zodat u uw eigen Feed kunt gebruiken."
-
-msgid "Enter your subscription code, the unified code for trial is 15."
-msgstr "Abonnement-code voor AI vertaling invoeren, de code voor de testperiode is 15."
 
 msgid "Entertainment"
 msgstr "Entertainment"
@@ -7566,11 +7596,20 @@ msgstr ""
 "Fout bij het ophalen van een link via %s\n"
 "%s"
 
+msgid "Error moving 'epg.dat' to its destination!"
+msgstr "Fout bij het verplaatsen van epg.dat !"
+
 msgid "Error opening recording file"
 msgstr "Fout bij het openen van de opname"
 
 msgid "Error reading webpage!"
 msgstr "Fout bij lezen webpagina!"
+
+msgid "Error retrieving 'epg.dat' from the remote receiver!"
+msgstr "Fout bij het lezen van epg.dat vanaf de Fallback tuner!"
+
+msgid "Error retrieving location of 'epg.dat' on the remote receiver!"
+msgstr "Fout bij het lezen van de epg.dat locatie op de Fallback tuner!"
 
 msgid "Error text:"
 msgstr "Fouttekst:"
@@ -7578,15 +7617,6 @@ msgstr "Fouttekst:"
 #, python-format
 msgid "Error unzipping image '%s'!"
 msgstr "Fout bij het uitpakken van het image '%s'!"
-
-msgid "Error writing 'epg.dat' on the remote receiver!"
-msgstr "Fout bij het schrijven van epg.dat naar de Fallback tuner!"
-
-msgid "Error moving 'epg.dat' to its destination!"
-msgstr "Fout bij het verplaatsen van epg.dat !"
-
-msgid "Error retrieving 'epg.dat' from the remote receiver!"
-msgstr "Fout bij het lezen van epg.dat vanaf de Fallback tuner!"
 
 #, python-format
 msgid ""
@@ -7596,8 +7626,11 @@ msgstr ""
 "Fout tijdens het ophalen van de Fallback timer informatie\n"
 "%s"
 
-msgid "Error retrieving location of 'epg.dat' on the remote receiver!"
-msgstr "Fout bij het lezen van de epg.dat locatie op de Fallback tuner!"
+msgid "Error writing '/etc/enigma2/epg.dat' on the remote receiver!"
+msgstr "Fout bij het schrijven van '/etc/enigma2/epg.dat' naar de remote receiver!"
+
+msgid "Error writing 'epg.dat' on the remote receiver!"
+msgstr "Fout bij het schrijven van epg.dat naar de Fallback tuner!"
 
 msgid "Error, unknown Result!"
 msgstr "Fout, onbekende uitkomst!"
@@ -9144,9 +9177,6 @@ msgstr "Foutmeldingen van de Common Interface-module verbergen."
 msgid "Hide known extensions"
 msgstr "Verberg extensies van bekende bestandsformaten"
 
-msgid "Hide mute notification"
-msgstr "Verberg mute-icon"
-
 msgid "Hide number markers"
 msgstr "Verberg de numerieke markeringen"
 
@@ -9503,9 +9533,6 @@ msgstr "Bij 'Ja' wordt een tijdsvenster gebruikt om het uit deep stand-by ontwak
 msgid "If logs are using the set maximum space used the eldest will be deleted."
 msgstr "Maximale ruimte die de logs in beslag mogen nemen. Als dat overschreden wordt, worden de oudste het eerste verwijderd."
 
-msgid "If muted, hide mute icon or mute information after few seconds."
-msgstr "Wanneer het geluid wordt gedempt, verdwijnt het mute-icon of mute-informatie na enkele seconden."
-
 msgid "If possible, x minutes before a timer starts VPS-Plugin will control whether the programme begins earlier. (0 disables feature)"
 msgstr "Indien mogelijk zal de plugin x minuten voor de ingestelde starttijd controleren of een programma eerder begint. (0 schakelt deze optie uit)"
 
@@ -9616,10 +9643,6 @@ msgstr "Importeer zenders en/of EPG van de Fallback tuner, na het starten van de
 msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
 msgstr "Importeer zenders en/of EPG van de Fallback tuner, na het starten van de ontvanger OF Enigma2."
 
-#, python-format
-msgid "Import from remote receiver failed, %s!"
-msgstr "Import vanaf de Fallback tuner mislukt! %s"
-
 msgid "Import from remote receiver URL"
 msgstr "Importeer data vanaf een externe ontvanger"
 
@@ -9678,8 +9701,14 @@ msgstr "AIT aan opnames toevoegen"
 msgid "Include CI assignment"
 msgstr "CI toewijzingen gebruiken"
 
+msgid "Include DVB details"
+msgstr "Inclusief DVB-details"
+
 msgid "Include DVB scan data"
 msgstr "DVB scan gegevens meenemen"
+
+msgid "Include DVB timesync data"
+msgstr "Inclusief DVB-timesync-data"
 
 msgid "Include ECM in http streams"
 msgstr "ECM toevoegen aan http-streams"
@@ -10256,9 +10285,6 @@ msgstr "Kuanyama / Kwanyama"
 msgid "Kurdish"
 msgstr "Koerdisch"
 
-msgid "Kurdish (Sorani)"
-msgstr "Koerdisch (Sorani)"
-
 msgid "Kurdistan"
 msgstr "Koerdistan"
 
@@ -10283,11 +10309,23 @@ msgstr "Display scroll snelheid"
 msgid "LCD/Front panel *"
 msgstr "Displayskin *"
 
-msgid "LCN plugin for DVB-T/T2 services"
-msgstr "LCN plugin voor DVB-T/T2 services"
+msgid "LCN Scanner"
+msgstr "LCN Scanner"
 
-msgid "LCN rules:"
-msgstr "LCN regels:"
+msgid "LCN Scanner Actions"
+msgstr "LCN Scanner Acties"
+
+msgid "LCN Scanner Settings"
+msgstr "LCN Scanner instellingen"
+
+msgid "LCN Scanner plugin for DVB-C/T/T2 services"
+msgstr "LCN Scanner plugin voor DVB-C/T/T2 zenders"
+
+msgid "LCN numbering"
+msgstr "LCN nummering"
+
+msgid "LCN rules"
+msgstr "LCN regels"
 
 msgid "LCN style QuickSelect entry selection"
 msgstr "Quickselect via zendernummer"
@@ -10722,6 +10760,9 @@ msgstr "Lange bestandsnamen"
 
 msgid "Long press emulation with button"
 msgstr "Lang indrukken emuleren met knop"
+
+msgid "Long press volume steps"
+msgstr "Geluidsvolume bij VOLUME +/- lang"
 
 #, python-format
 msgid "Long press: %s"
@@ -11341,6 +11382,9 @@ msgstr "Een scherm naar beneden"
 msgid "Move down a screen"
 msgstr "Een scherm naar beneden"
 
+msgid "Move down a screen / Move to next item"
+msgstr "Volgend scherm / Naar volgend item"
+
 msgid "Move down a screen in the panel"
 msgstr "Een beeldscherm naar beneden"
 
@@ -11486,11 +11530,17 @@ msgstr "Ga naar de laatste regel / het laatste beeldscherm"
 msgid "Move to the next category in the list"
 msgstr "Ga naar de volgende categorie in de lijst"
 
+msgid "Move to the next item"
+msgstr "Naar het volgende item gaan"
+
 msgid "Move to the next item in the list"
 msgstr "Ga naar het volgende item in de lijst"
 
 msgid "Move to the previous category in the list"
 msgstr "Ga naar de vorige categorie in de lijst"
+
+msgid "Move to the previous item"
+msgstr "Naar het vorige item gaan"
 
 msgid "Move to the previous item in list"
 msgstr "Ga naar het vorige item in de lijst"
@@ -11509,6 +11559,9 @@ msgstr "Een scherm naar boven"
 
 msgid "Move up a screen"
 msgstr "Een scherm naar boven"
+
+msgid "Move up a screen / Move to previous item"
+msgstr "Vorig scherm / Naar het vorige item"
 
 msgid "Move up a screen in the panel"
 msgstr "Een beeldscherm omhoog"
@@ -11998,6 +12051,9 @@ msgstr "Niue"
 msgid "No"
 msgstr "Nee"
 
+msgid "No 'epg.dat' file found on the remote receiver!"
+msgstr "Geen epg.dat gevonden op de Fallback tuner!"
+
 msgid "No (supported) DVDROM found!"
 msgstr "Geen (ondersteunde) DVD-ROM gevonden!"
 
@@ -12058,12 +12114,6 @@ msgstr "Geen demux beschikbaar"
 
 msgid "No displayable files on this medium found!"
 msgstr "Geen weer te geven bestanden op dit medium gevonden!"
-
-msgid "No entry in lcn db. Please do a service scan."
-msgstr "Geen vermelding in lcn db. Doe een zender scan."
-
-msgid "No 'epg.dat' file found on the remote receiver!"
-msgstr "Geen epg.dat gevonden op de Fallback tuner!"
 
 msgid "No error"
 msgstr "Geen fout"
@@ -12403,6 +12453,9 @@ msgstr "Aantal rijen om weer te geven."
 
 msgid "Number or SMS style data entry"
 msgstr "Nummer of SMS stijl gegevens invoer"
+
+msgid "Numbering mode"
+msgstr "Nummering volgorde"
 
 msgid "OEM model"
 msgstr "OEM model"
@@ -13377,6 +13430,9 @@ msgstr "Even geduld"
 msgid "Please wait for activation of your network configuration..."
 msgstr "Even geduld uw netwerkconfiguratie wordt nu geactiveerd..."
 
+msgid "Please wait while LCN bouquets are created/updated..."
+msgstr "A.u.b. wachten tot de LCN-Favorietenlijsten zijn gecreëerd/geactualiseerd..."
+
 msgid "Please wait while feeds are updated..."
 msgstr "Een ogenblik geduld terwijl de feeds worden bijgewerkt..."
 
@@ -14266,12 +14322,6 @@ msgstr "Achter"
 msgid "Reboot"
 msgstr "Herstarten"
 
-msgid "Rebuild"
-msgstr "Opnieuw opbouwen"
-
-msgid "Rebuild LCN bouquet now?"
-msgstr "LCN-favorietenlijst nu opnieuw maken?"
-
 msgid "Rec"
 msgstr "Rec"
 
@@ -14293,9 +14343,6 @@ msgstr "Ontvanger informatie voor uw %s %s"
 
 msgid "Receiver name"
 msgstr "Ontvanger naam"
-
-msgid "Reception"
-msgstr "Ontvangst"
 
 msgid "Reception Lists"
 msgstr "Satellieten"
@@ -14608,7 +14655,7 @@ msgid "Remove Service"
 msgstr "Verwijder service"
 
 msgid "Remove Terrestrial Services"
-msgstr "Terrestrische zenders verwijderen"
+msgstr "DVB-T zenders verwijderen"
 
 msgid "Remove a DNS entry"
 msgstr "DNS invoer verwijderen"
@@ -15422,6 +15469,9 @@ msgstr ""
 msgid "Scan for local extensions and install them."
 msgstr "Naar lokale plugins zoeken en die installeren."
 
+msgid "Scan for terrestrial LCNs and create LCN bouquets"
+msgstr "DVB-T LCN's scannen en daarmee LCN-Favorietenlijsten maken"
+
 msgid "Scan wireless networks"
 msgstr "Zoek naar WiFi netwerken"
 
@@ -15618,6 +15668,9 @@ msgstr "Selecteer 'polarisatie als u een universele LNB gebruikt. Consulteer de 
 msgid "Select 'Provider' to scan from the predefined list of cable multiplexes. Select 'Bands' to only scan certain parts of the spectrum. Select 'Steps' to scan in steps of a particular frequency bandwidth."
 msgstr "Selecteer 'provider' om te scannen vanuit de voor gedefinieerde lijst van kabel multiplexen. Kies 'band' om alleen een deel van het spectrum te scannen. Kies 'stappen' om in stappen een bepaald deel van het spectrum te scannen."
 
+msgid "Select 'Unique numbering' to assign unique numbers for every service in every bouquet. Use 'Bouquets start at 1' to start numbering each bouquet from 1. Use 'LCN numbering' to use consistent service LCNs where ever that service is used."
+msgstr "Kies 'Unieke nummering' om een uniek nummer aan elke zender in elke favorietenlijst toe te kennen. Gebruik 'Favorieten beginnen bij 1' om in elke favorietenlijst te beginnen bij 1. Gebruik 'LCN nummering' om een logische zender volgorde toe te passen waar deze LCN-service wordt aangeboden."
+
 msgid "Select 'Yes' if an end time is required for this timer."
 msgstr "Kies 'Ja' wanneer een eindtijd noodzakelijk is voor deze timer."
 
@@ -15632,6 +15685,15 @@ msgstr "Kies 'Ja' wanneer de volumewijzigingen toegepast moeten worden op het Do
 
 msgid "Select 'Yes' if you are using a multi-switch which requires a DiSEqC Port-A command signal. Select 'No' for all other setups."
 msgstr "Selecteer alleen 'ja' als u een multiswich gebruikt die een DiSEqC Port-A commando gebruikt. In alle andere gevallen kiest u 'nee'."
+
+msgid "Select 'Yes' if you want to wake the TV for a 'Wakeup' power timer is starting."
+msgstr "Kies 'Ja' wanneer de TV door een PowerTimer moet worden ingeschakeld."
+
+msgid "Select 'Yes' if you want to wake the TV for a 'Zap and Record' recording timer is starting."
+msgstr "Kies 'Ja' wanneer u de TV wil inschakelen bij het starten van een 'Zappen en Opnemen' timer."
+
+msgid "Select 'Yes' if you want to wake the TV for a 'Zap' recording timer is starting."
+msgstr "Kies 'Ja' wanneer de TV bij het starten van een 'Zappen en Opnemen' timer moet worden ingeschakeld."
 
 msgid "Select 'Yes' the keep the InfoBar displayed, with no timeout, while media playback is paused."
 msgstr "Bij 'ja' zal de informatiebalk continu worden getoond wanneer het afspelen is gepauzeerd."
@@ -15667,6 +15729,9 @@ msgstr "Kies 'ja' wanneer u zendernummers op de informatiebalk wilt zien."
 
 msgid "Select 'Yes' to display unknown files in the File Commander file viewer, select 'No' to not process unknown files."
 msgstr "Selecteer 'Ja' om onbekende bestanden weer te geven in de File Commander bestandsviewer, selecteer 'Nee' om onbekende bestanden niet te verwerken."
+
+msgid "Select 'Yes' to enable AI-Powered Translation for all teletext and DVB subtitles."
+msgstr "AI vertaling voor Teletekst en DVB ondertiteling activeren."
 
 msgid "Select 'Yes' to enable editing of this device's settings. Selecting 'No' resets the devices settings to their default values."
 msgstr "Kies 'Ja' om wijziging van instellingen op dit apparaat mogelijk te maken. Kies 'Nee' om de instellingen te resetten naar default."
@@ -15815,6 +15880,9 @@ msgstr "Bij 'ja' wordt altijd eerst de zenderlijst getoond na het overschakelen 
 
 msgid "Select 'Yes' to show the current directory in the list of directories. Note that File Commander must be restarted for this change to take effect."
 msgstr "Selecteer 'Ja' om de huidige map in de lijst met mappen weer te geven. Merk op dat File Commander opnieuw moet worden opgestart om deze wijziging door te voeren."
+
+msgid "Select 'Yes' to show this plugin in the Plugin Browser."
+msgstr "Kies 'Ja' om deze plugin in de Plugin Browser in te tonen."
 
 msgid "Select 'Yes' to show web link packages in the Download Plugins screen."
 msgstr "Kies 'Ja' om Weblinks in het plugin download-scherm weer te geven."
@@ -16016,8 +16084,8 @@ msgstr "Selecteer hoe lang de pop-up voor een toetsfout moet worden weergegeven.
 msgid "Select how long to display the task and script message pop up."
 msgstr "Selecteer hoe lang taak- en het scriptberichten moeten worden weergegeven."
 
-msgid "Select how long, in seconds, that the volume display is shown before it automatically hides."
-msgstr "Kies hoe lang (in seconden) het volume symbool wordt getoond voor dat deze automatisch verdwijnt."
+msgid "Select how long, in seconds, that the volume and mute displays are shown before they automatically hide."
+msgstr "Hoeveel seconden moet het Volume en Mute symbool worden getoond."
 
 msgid "Select how often this timer is to be repeated."
 msgstr "Opgeven hoe vaak deze timer herhaald moet worden."
@@ -16131,6 +16199,9 @@ msgstr "Selecteer de sorteervolgorde van de tijdelijke bestanden in de huidige k
 msgid "Select the %s entry"
 msgstr "Invoer %s selecteren"
 
+msgid "Select the AI-Powered Translation target language."
+msgstr "Taal van de AI vertaling kiezen."
+
 msgid "Select the No / False response"
 msgstr "Selecteer het onjuiste antwoord"
 
@@ -16186,6 +16257,9 @@ msgstr "Kies de zender die voor deze timer gebruikt moet worden."
 
 msgid "Select the character or action under the keyboard cursor"
 msgstr "Selecteer het karakter of de actie onder de cursor van het virtuele toetsenbord"
+
+msgid "Select the color to be used for the AI-Powered Translation text."
+msgstr "Kleur van de door AI vertaalde ondertiteling kiezen."
 
 msgid "Select the current bookmarked location and exit"
 msgstr "Selecteer de huidige locatie met bladwijzers en exit"
@@ -16290,6 +16364,9 @@ msgstr ""
 "LET OP: De wijziging is pas zichtbaar nadat\n"
 "de Plugin Browser opnieuw is gestart!"
 
+msgid "Select the list of LCN rules to be applied to the scan."
+msgstr "Kies de lijst met LCN-regels die op de scan toegepast moeten worden."
+
 msgid "Select the locale from a menu"
 msgstr "Selecteer de landinstellingen voor het virtuele toetsenbord in het menu"
 
@@ -16370,6 +16447,12 @@ msgstr "Selecteer de SHIFT karakterset voor het virtuele toetsenbord"
 
 msgid "Select the shifted character set for the next character only"
 msgstr "Selecteer de SHIFT karakterset voor het virtuele toetsenbord alleen voor de volgende letter"
+
+msgid "Select the size of the volume step when the VOLUME buttons are pressed."
+msgstr "Selecteer het aantal volumestappen bij het indrukken van de VOLUME +/- toetsen."
+
+msgid "Select the size of the volume steps when the VOLUME buttons are held down."
+msgstr "Selecteer het aantal volumestappen bij het LANG indrukken van de VOLUME +/- toetsen."
 
 msgid "Select the sort order for the file lines:"
 msgstr "Kies de sorteervolgorde voor de bestandsregels:"
@@ -16466,9 +16549,6 @@ msgstr ""
 "Selecteer het draadloze netwerk waarmee u verbinding wilt maken.\n"
 "\n"
 "Druk op OK om verder te gaan."
-
-msgid "Select to use logarithmic step size with more steps at the lower volume levels."
-msgstr "Selecteer of bij een laag volume het aantal stappen logaritmisch moet worden vergroot."
 
 msgid "Select update source location"
 msgstr "Selecteer de locatie waar de updates zijn opgeslagen"
@@ -16672,6 +16752,9 @@ msgstr "Zendernummer en zendernaam"
 
 msgid "Service Number, Picon and Service Name"
 msgstr "Zendernummer, Picon en zendernaam"
+
+msgid "Service Scan"
+msgstr "Zenders scannen"
 
 msgid "Service Selection Actions"
 msgstr "Zender selectie acties"
@@ -17346,9 +17429,6 @@ msgstr "Toon informatie"
 msgid "Show Kernel packages"
 msgstr "Kernel"
 
-msgid "Show LCN in channel selection"
-msgstr "LCN in de zenderlijst tonen"
-
 msgid "Show Live in MiniTV"
 msgstr "Toon Live in MiniTV"
 
@@ -17492,6 +17572,9 @@ msgstr "Toon geavanceerde instellingen"
 msgid "Show all"
 msgstr "Alles tonen"
 
+msgid "Show all Information screens"
+msgstr "Alle informatie-schermen tonen"
+
 msgid "Show all available services"
 msgstr "Alle beschikbare zenders tonen"
 
@@ -17626,6 +17709,9 @@ msgstr "Afbeelding weergeven en opslaan als '%s'"
 
 msgid "Show in Extension Menu"
 msgstr "Weergeven in het Extensies-menu? (BLAUW-lang)"
+
+msgid "Show in Plugin Browser"
+msgstr "In de Plugin Browser tonen"
 
 msgid "Show in Standby"
 msgstr "Toon in stand-by"
@@ -19403,10 +19489,7 @@ msgid "Tennis"
 msgstr "Tennis"
 
 msgid "Terrestrial"
-msgstr "Terrestrial"
-
-msgid "Terrestrial bouquet:"
-msgstr "Terrestrische favorietenlijst:"
+msgstr "DVB-T"
 
 msgid "Test"
 msgstr "Test"
@@ -19501,6 +19584,9 @@ msgstr "Het %s commit log overzicht bevat geen informatie."
 #, python-format
 msgid "The '%s' file can't be retrieved, please try again later."
 msgstr "Het '%s' bestand is niet beschikbaar, a.u.b. later nog een keer proberen."
+
+msgid "The AI-Powered Translation service will be optimized to provide the best performance based on the the Internet connection upload speed selected."
+msgstr "De AI vertaling wordt geoptimaliseerd, om het beste resultaat te behalen gebaseerd op de geselecteerde upload snelheid van uw internetverbinding."
 
 msgid ""
 "The AutoTimer plugin is not installed!\n"
@@ -20668,6 +20754,9 @@ msgstr "Transcoding"
 msgid "Transcoding: "
 msgstr "Transcodering: "
 
+msgid "Translate Subs On This Service"
+msgstr "Ondertiteling bij deze zender vertalen"
+
 msgid "Translation"
 msgstr "Vertaling"
 
@@ -20740,7 +20829,7 @@ msgid "Try to find used transponders in cable network.. please wait..."
 msgstr "Probeert gebruikte transponders op het kabelnetwerk te vinden. Een ogenblik ..."
 
 msgid "Try to find used transponders in terrestrial network.. please wait..."
-msgstr "Probeer gebruikte transponders te vinden in het Terrestrische netwerk... Een ogenblik geduld..."
+msgstr "Probeer gebruikte transponders te vinden in het DVB-T netwerk... Een ogenblik geduld..."
 
 msgid "Try to prevent reboots for software errors and maintain of the availability for the receiver."
 msgstr "Probeer herstarten te voorkomen voor software fouten, en behoud de beschikbaarheid van de ontvanger."
@@ -20833,6 +20922,9 @@ msgstr "Tuner type %s"
 
 msgid "Tuners"
 msgstr "Tuners"
+
+msgid "Tuners, Scanning & Reception"
+msgstr "Tuners & Ontvangst"
 
 msgid "Tuning algorithm"
 msgstr "Afstemalgoritme"
@@ -21023,6 +21115,9 @@ msgstr "Unicable matrix"
 msgid "Uninstall"
 msgstr "Verwijderen"
 
+msgid "Unique numbering"
+msgstr "Unieke nummering"
+
 msgid "United Arab Emirates"
 msgstr "Verenigde Arabische Emiraten"
 
@@ -21136,6 +21231,9 @@ msgstr "Omhoog"
 
 msgid "Up / Active"
 msgstr "Up / Actief"
+
+msgid "Up to 50 Mbps"
+msgstr "Tot 50 Mbps"
 
 msgid "Up/Down button mode"
 msgstr "OMHOOG/OMLAAG knoppen"
@@ -21346,6 +21444,9 @@ msgstr "Gebruik de circulaire LNB"
 msgid "Use defaults"
 msgstr "Default waarden"
 
+msgid "Use description lines"
+msgstr "Gebruik omschrijvingen"
+
 msgid "Use extended List"
 msgstr "Uitgebreide lijst gebruiken"
 
@@ -21379,9 +21480,6 @@ msgstr "Gebruik keymap *"
 msgid "Use legacy navigation"
 msgstr "Oude navigatie gebruiken"
 
-msgid "Use logarithmic steps"
-msgstr "Gebruik logaritmische stappen"
-
 msgid "Use official channel numbering"
 msgstr "Gebruik officiële zendernummers"
 
@@ -21402,6 +21500,12 @@ msgstr "Meet stroom verbruik"
 
 msgid "Use small screen"
 msgstr "Gebruik klein scherm"
+
+msgid "Use spacer lines"
+msgstr "Gebruik koppeltekens"
+
+msgid "Use spacer lines to pad the bouquet to make the #SERVICE line numbers match the LCN."
+msgstr "Gebruik koppeltekens bij het vullen van de Favorietenlijst om de #ZENDER nummers overeen te laten komen met de LCN."
 
 msgid "Use the LEFT/RIGHT buttons on your remote to adjust the height of the OSD. LEFT button decreases the height, RIGHT increases the height."
 msgstr "De knoppen LINKS/RECHTS gebruiken om de hoogte van de Gebruikersinterface/OSD in te stellen. LINKS is lager, RECHTS is hoger."
@@ -21668,6 +21772,9 @@ msgstr "Venda"
 msgid "Venezuela, Bolivarian Republic of"
 msgstr "Bolivariaanse Republiek Venezuela"
 
+msgid "Verbose"
+msgstr "Uitgebreid"
+
 msgid "Version"
 msgstr "Versie"
 
@@ -21899,17 +22006,20 @@ msgstr "Volume aanpassing zender selectie"
 msgid "Volume Adjust Settings"
 msgstr "Volume Offset instellingen"
 
-msgid "Volume display timer"
-msgstr "Volume symbool timer"
-
 msgid "Volume down"
 msgstr "Volume -"
 
 msgid "Volume keys on the receiver remote will control the TV volume. If this feature is not supported the volume keys have no function!"
 msgstr "U kunt het volume van de TV instellen via de volume knoppen op de afstandsbediening van uw ontvanger. Wanneer deze optie niet wordt ondersteund hebben de volumeknoppen geen functie!"
 
+msgid "Volume steps"
+msgstr "Volumestappen"
+
 msgid "Volume up"
 msgstr "Volume +"
+
+msgid "Volume/Mute display timer"
+msgstr "Tijdsduur voor Volume en Mute symbool"
 
 msgid "Vu+ MultiBoot"
 msgstr "Vu+ MultiBoot"
@@ -22218,9 +22328,6 @@ msgstr "Wanneer geactiveerd, zullen ontvangen http-streams altijd gedecodeerd wo
 msgid "When enabled, authentication is required to watch http streams."
 msgstr "Bij 'Ja', moet een wachtwoord worden opgegeven om http-streams te kunnen zien."
 
-msgid "When enabled, channel numbering will start at '1' for each bouquet."
-msgstr "Indien geactiveerd, dan zullen de zendernummers van iedere favorietenlijst beginnen bij '1'."
-
 msgid "When enabled, content with an aspect ratio of 4:3 will be stretched to fit the screen."
 msgstr "Indien geactiveerd, dan zal een 4:3 weergave omgezet worden tot een passend beeld op het scherm."
 
@@ -22262,9 +22369,6 @@ msgstr "Indien geactiveerd, zapt '0' naar de eerste zender van de eerste favorie
 
 msgid "When enabled, reformat subtitles to match the width of the screen."
 msgstr "Breedte van de ondertitels automatisch aanpassen aan de breedte van het beeldscherm."
-
-msgid "When enabled, show LCN in the channel selection screen."
-msgstr "Bij 'Ja' wordt LCN in de zenderlijst getoond. (Logical Channel Numbering)"
 
 msgid "When enabled, show channel numbers in the channel selection screen."
 msgstr "Bij 'Ja' wordt een zendernummer bij elke zender in de lijst weergegeven."
@@ -22877,7 +22981,7 @@ msgid "Zap Up/Down"
 msgstr "Zap Omhoog/Omlaag"
 
 msgid "Zap and record"
-msgstr "Opname en zap"
+msgstr "Zappen en opnemen"
 
 msgid "Zap back to previously tuned service?"
 msgstr "Wilt u terug naar de vorige zender?"
@@ -22922,7 +23026,7 @@ msgid "Zap up"
 msgstr "Zap omhoog"
 
 msgid "Zap+Record next"
-msgstr "Opname+ZAP volgende"
+msgstr "Naar de volgende uitzending Zappen en Opnemen"
 
 msgid "Zgemma H.S/H.2S/H.2H/H5/H7 old Model"
 msgstr "Zgemma H.S/H.2S/H.2H/H5/H7 oud model"
@@ -23988,6 +24092,79 @@ msgstr "ja (bewaar feeds)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Kurdish (Sorani)"
+#~ msgstr "Koerdisch (Sorani)"
+
+#~ msgid "Audio volume step size"
+#~ msgstr "Audio volume stap grootte"
+
+#~ msgid "Audio volume step size fast mode"
+#~ msgstr "Audio volume - stap grootte in de fast mode"
+
+#~ msgid "Configure the fast mode audio volume step size (limit 1-10). Activated when volume key permanent press or press fast in a row."
+#~ msgstr "Configureer de snel-modus audiovolume stap-grootte (maximum 1-10). Geactiveerd wanneer de volume knop permanent wordt ingedrukt of druk snel achter elkaar."
+
+#~ msgid "Configure the general audio volume step size (limit 1-10)."
+#~ msgstr "Configureer de standaard audio volume stap grootte (maximaal 1-10)."
+
+#~ msgid "Hide mute notification"
+#~ msgstr "Verberg mute-icon"
+
+#~ msgid "If muted, hide mute icon or mute information after few seconds."
+#~ msgstr "Wanneer het geluid wordt gedempt, verdwijnt het mute-icon of mute-informatie na enkele seconden."
+
+#~ msgid "Select how long, in seconds, that the volume display is shown before it automatically hides."
+#~ msgstr "Kies hoe lang (in seconden) het volume symbool wordt getoond voor dat deze automatisch verdwijnt."
+
+#~ msgid "Select to use logarithmic step size with more steps at the lower volume levels."
+#~ msgstr "Selecteer of bij een laag volume het aantal stappen logaritmisch moet worden vergroot."
+
+#~ msgid "Use logarithmic steps"
+#~ msgstr "Gebruik logaritmische stappen"
+
+#~ msgid "Volume display timer"
+#~ msgstr "Volume symbool timer"
+
+#~ msgid "Reception"
+#~ msgstr "Ontvangst"
+
+#~ msgid "Enable terrestrial LCN:"
+#~ msgstr "Activeer DVB-T LCN:"
+
+#~ msgid "LCN plugin for DVB-T/T2 services"
+#~ msgstr "LCN plugin voor DVB-T/T2 services"
+
+#~ msgid "LCN rules:"
+#~ msgstr "LCN regels:"
+
+#~ msgid "No entry in lcn db. Please do a service scan."
+#~ msgstr "Geen vermelding in lcn db. Doe een zender scan."
+
+#~ msgid "Rebuild"
+#~ msgstr "Opnieuw opbouwen"
+
+#~ msgid "Rebuild LCN bouquet now?"
+#~ msgstr "LCN-favorietenlijst nu opnieuw maken?"
+
+#~ msgid "Terrestrial bouquet:"
+#~ msgstr "Terrestrische favorietenlijst:"
+
+#~ msgid "Alternative numbering mode"
+#~ msgstr "Alternatieve nummering"
+
+#, python-format
+#~ msgid "Import from remote receiver failed, %s!"
+#~ msgstr "Import vanaf de Fallback tuner mislukt! %s"
+
+#~ msgid "Show LCN in channel selection"
+#~ msgstr "LCN in de zenderlijst tonen"
+
+#~ msgid "When enabled, channel numbering will start at '1' for each bouquet."
+#~ msgstr "Indien geactiveerd, dan zullen de zendernummers van iedere favorietenlijst beginnen bij '1'."
+
+#~ msgid "When enabled, show LCN in the channel selection screen."
+#~ msgstr "Bij 'Ja' wordt LCN in de zenderlijst getoond. (Logical Channel Numbering)"
 
 #~ msgid "Installing feeds from IPK ..."
 #~ msgstr "Installeert feeds uit IPK ..."

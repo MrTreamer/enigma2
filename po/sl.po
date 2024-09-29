@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 15:20+0000\n"
+"POT-Creation-Date: 2024-09-12 21:03+0000\n"
 "PO-Revision-Date: 2016-04-02 23:18+0200\n"
 "Last-Translator: Andy Blackburn <andyblac@icloud.com>\n"
 "Language-Team: OldSkul from www.linux-sprejemniki.info\n"
@@ -1669,6 +1669,9 @@ msgstr ""
 msgid "5"
 msgstr ""
 
+msgid "50-200 Mbps"
+msgstr ""
+
 msgid "6"
 msgstr ""
 
@@ -1886,16 +1889,19 @@ msgstr ""
 msgid "AFL"
 msgstr "PAL"
 
-msgid "AI-Powered translation color"
+msgid "AI-Powered Translation color"
 msgstr ""
 
-msgid "AI-Powered translation enabled"
+msgid "AI-Powered Translation enabled"
 msgstr ""
 
-msgid "AI-Powered translation language"
+msgid "AI-Powered Translation language"
 msgstr ""
 
-msgid "AI-Powered translation subscription code"
+msgid "AI-Powered Translation optimization"
+msgstr ""
+
+msgid "AI-Powered Translation subscription code"
 msgstr ""
 
 msgid "ARM"
@@ -1953,6 +1959,9 @@ msgstr ""
 #
 msgid "About to start"
 msgstr "se bo zagnalo"
+
+msgid "Above 200 Mbps"
+msgstr ""
 
 msgid "Access point"
 msgstr ""
@@ -2223,6 +2232,12 @@ msgstr ""
 #, fuzzy
 msgid "Add service"
 msgstr "dodajanje kanala"
+
+msgid "Add service names"
+msgstr ""
+
+msgid "Add service names to each #SERVICE entry."
+msgstr ""
 
 msgid "Add service to AutoCam"
 msgstr ""
@@ -2513,6 +2528,9 @@ msgstr ""
 msgid "Also on standby"
 msgstr ""
 
+msgid "Also use a #DESCRIPTION line after each #SERVICE line to hold the service's name."
+msgstr ""
+
 #
 #, fuzzy
 msgid "Alternative"
@@ -2533,9 +2551,6 @@ msgid "Alternative Edit"
 msgstr "[alternativno urejanje]"
 
 msgid "Alternative URLs for DVB-T/C or ATSC"
-msgstr ""
-
-msgid "Alternative numbering mode"
 msgstr ""
 
 msgid "Alternative radio mode"
@@ -2643,6 +2658,18 @@ msgstr ""
 #
 msgid "Arabic"
 msgstr "Arabsko"
+
+msgid "Arabic (Egyptian)"
+msgstr ""
+
+msgid "Arabic (Moroccan)"
+msgstr ""
+
+msgid "Arabic (Syro-Lebanese)"
+msgstr ""
+
+msgid "Arabic (Tunisian)"
+msgstr ""
 
 msgid "Aragonese"
 msgstr ""
@@ -2883,12 +2910,6 @@ msgstr "Jezik zvočne sledi - 4"
 msgid "Audio options..."
 msgstr ""
 
-msgid "Audio volume step size"
-msgstr ""
-
-msgid "Audio volume step size fast mode"
-msgstr ""
-
 #
 #, fuzzy
 msgid "Australia"
@@ -2983,6 +3004,9 @@ msgid "AutoFS"
 msgstr ""
 
 msgid "AutoMountManager"
+msgstr ""
+
+msgid "AutoRefresh"
 msgstr ""
 
 msgid "AutoTimer"
@@ -3466,6 +3490,9 @@ msgstr ""
 msgid "Bouquets"
 msgstr ""
 
+msgid "Bouquets start at 1"
+msgstr ""
+
 msgid "Bouvet Island"
 msgstr ""
 
@@ -3520,6 +3547,9 @@ msgid "Buffering %d%%"
 msgstr ""
 
 msgid "Buffers"
+msgstr ""
+
+msgid "Build"
 msgstr ""
 
 msgid "Build Brand"
@@ -4750,6 +4780,9 @@ msgstr ""
 msgid "Command type"
 msgstr "Zaporedje ukazov"
 
+msgid "Commit"
+msgstr ""
+
 msgid "Commit Information Actions"
 msgstr ""
 
@@ -4909,9 +4942,6 @@ msgstr ""
 msgid "Configure remote control type"
 msgstr ""
 
-msgid "Configure the AI-Powered translation language."
-msgstr ""
-
 msgid "Configure the DiSEqC mode for this LNB."
 msgstr ""
 
@@ -4964,9 +4994,6 @@ msgstr ""
 msgid "Configure the brightness level of the front panel display for standby."
 msgstr ""
 
-msgid "Configure the color of the AI-Powered translations."
-msgstr ""
-
 msgid "Configure the color of the external subtitles, alternative (normal in white, italic in yellow, bold in cyan, underscore in green), white or yellow."
 msgstr ""
 
@@ -5000,9 +5027,6 @@ msgstr ""
 msgid "Configure the end coordinate in y of the teletext display area."
 msgstr ""
 
-msgid "Configure the fast mode audio volume step size (limit 1-10). Activated when volume key permanent press or press fast in a row."
-msgstr ""
-
 msgid "Configure the first audio language (highest priority)."
 msgstr ""
 
@@ -5034,9 +5058,6 @@ msgid "Configure the function of the < and > buttons."
 msgstr ""
 
 msgid "Configure the gateway."
-msgstr ""
-
-msgid "Configure the general audio volume step size (limit 1-10)."
 msgstr ""
 
 msgid "Configure the hard disk drive to go to standby after the specified idle time when the box is in standby."
@@ -7099,6 +7120,9 @@ msgstr ""
 msgid "Don't Center DVB Subs On This Service"
 msgstr ""
 
+msgid "Don't Translate Subs On This Service"
+msgstr ""
+
 msgid "Don't add this recording"
 msgstr ""
 
@@ -7506,9 +7530,6 @@ msgstr "omogoči"
 msgid "Enable 5V for active antenna"
 msgstr "Omogoči 5V za potrebe aktivne antene"
 
-msgid "Enable AI-Powered translation for all teletext and DVB subtitles."
-msgstr ""
-
 msgid "Enable Autorecord"
 msgstr ""
 
@@ -7630,6 +7651,9 @@ msgstr ""
 msgid "Enable auto fast scan for %s"
 msgstr ""
 
+msgid "Enable autorefresh templates."
+msgstr ""
+
 msgid "Enable blinking rec symbol on the LCD Display in Standby."
 msgstr ""
 
@@ -7711,9 +7735,6 @@ msgstr ""
 msgid "Enable teletext caching"
 msgstr "Predpolnjenje teleteksta"
 
-msgid "Enable terrestrial LCN:"
-msgstr ""
-
 msgid "Enable the advanced HDMI-CEC setting options."
 msgstr ""
 
@@ -7723,7 +7744,13 @@ msgstr ""
 msgid "Enable this option to add action map / remote control mapping data to the debug log file."
 msgstr ""
 
+msgid "Enable this option to add extra DVB details to the debug log file."
+msgstr ""
+
 msgid "Enable this option to add extra DVB scan data to the debug log file."
+msgstr ""
+
+msgid "Enable this option to add extra DVB time sync data to the debug log file."
 msgstr ""
 
 msgid "Enable this option to add extra EPG data to the debug log file."
@@ -7745,6 +7772,9 @@ msgid "Enable this option to add screen names and resolution data to the debug l
 msgstr ""
 
 msgid "Enable this option to add timer debugging data to the debug log file."
+msgstr ""
+
+msgid "Enable this option to show all the available Information screens in the Information menu item list."
 msgstr ""
 
 msgid "Enable this setting if your aerial system needs power."
@@ -7953,6 +7983,9 @@ msgstr ""
 msgid "Enter the service pin"
 msgstr "Vnesite PIN kodo za kanale"
 
+msgid "Enter the subscription code to fully enable the AI-Powered Translation plugin, the unified code for trial is 15."
+msgstr ""
+
 msgid "Enter your current latitude. This is the number of degrees you are from the equator as a decimal."
 msgstr ""
 
@@ -7966,9 +7999,6 @@ msgid "Enter your low band local oscillator frequency. For more information cons
 msgstr ""
 
 msgid "Enter your personal feed URL to allow you to select packages from your personal feed."
-msgstr ""
-
-msgid "Enter your subscription code, the unified code for trial is 15."
 msgstr ""
 
 #
@@ -8133,10 +8163,19 @@ msgid ""
 "%s"
 msgstr ""
 
+msgid "Error moving 'epg.dat' to its destination!"
+msgstr ""
+
 msgid "Error opening recording file"
 msgstr ""
 
 msgid "Error reading webpage!"
+msgstr ""
+
+msgid "Error retrieving 'epg.dat' from the remote receiver!"
+msgstr ""
+
+msgid "Error retrieving location of 'epg.dat' on the remote receiver!"
 msgstr ""
 
 msgid "Error text:"
@@ -8146,22 +8185,16 @@ msgstr ""
 msgid "Error unzipping image '%s'!"
 msgstr ""
 
-msgid "Error writing 'epg.dat' on the remote receiver!"
-msgstr ""
-
-msgid "Error moving 'epg.dat' to its destination!"
-msgstr ""
-
-msgid "Error retrieving 'epg.dat' from the remote receiver!"
-msgstr ""
-
 #, python-format
 msgid ""
 "Error while retrieving fallback timer information\n"
 "%s"
 msgstr ""
 
-msgid "Error retrieving location of 'epg.dat' on the remote receiver!"
+msgid "Error writing '/etc/enigma2/epg.dat' on the remote receiver!"
+msgstr ""
+
+msgid "Error writing 'epg.dat' on the remote receiver!"
 msgstr ""
 
 msgid "Error, unknown Result!"
@@ -9845,9 +9878,6 @@ msgstr ""
 msgid "Hide known extensions"
 msgstr "Poglejte oznake"
 
-msgid "Hide mute notification"
-msgstr ""
-
 #
 #, fuzzy
 msgid "Hide number markers"
@@ -10243,9 +10273,6 @@ msgstr ""
 msgid "If logs are using the set maximum space used the eldest will be deleted."
 msgstr ""
 
-msgid "If muted, hide mute icon or mute information after few seconds."
-msgstr ""
-
 msgid "If possible, x minutes before a timer starts VPS-Plugin will control whether the programme begins earlier. (0 disables feature)"
 msgstr ""
 
@@ -10356,10 +10383,6 @@ msgstr "Naslov rezervnega oddaljenega sprejemnika"
 msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
 msgstr ""
 
-#, python-format
-msgid "Import from remote receiver failed, %s!"
-msgstr ""
-
 msgid "Import from remote receiver URL"
 msgstr "Naslov rezervnega oddaljenega sprejemnika"
 
@@ -10417,7 +10440,13 @@ msgstr ""
 msgid "Include CI assignment"
 msgstr ""
 
+msgid "Include DVB details"
+msgstr ""
+
 msgid "Include DVB scan data"
+msgstr ""
+
+msgid "Include DVB timesync data"
 msgstr ""
 
 #
@@ -11070,9 +11099,6 @@ msgstr ""
 msgid "Kurdish"
 msgstr ""
 
-msgid "Kurdish (Sorani)"
-msgstr ""
-
 msgid "Kurdistan"
 msgstr ""
 
@@ -11103,10 +11129,22 @@ msgstr ""
 msgid "LCD/Front panel *"
 msgstr ""
 
-msgid "LCN plugin for DVB-T/T2 services"
+msgid "LCN Scanner"
 msgstr ""
 
-msgid "LCN rules:"
+msgid "LCN Scanner Actions"
+msgstr ""
+
+msgid "LCN Scanner Settings"
+msgstr ""
+
+msgid "LCN Scanner plugin for DVB-C/T/T2 services"
+msgstr ""
+
+msgid "LCN numbering"
+msgstr ""
+
+msgid "LCN rules"
 msgstr ""
 
 msgid "LCN style QuickSelect entry selection"
@@ -11602,6 +11640,9 @@ msgid "Long filenames"
 msgstr "Dolga imena datotek"
 
 msgid "Long press emulation with button"
+msgstr ""
+
+msgid "Long press volume steps"
 msgstr ""
 
 #
@@ -12290,6 +12331,9 @@ msgstr ""
 msgid "Move down a screen"
 msgstr ""
 
+msgid "Move down a screen / Move to next item"
+msgstr ""
+
 msgid "Move down a screen in the panel"
 msgstr ""
 
@@ -12444,10 +12488,16 @@ msgstr ""
 msgid "Move to the next category in the list"
 msgstr ""
 
+msgid "Move to the next item"
+msgstr ""
+
 msgid "Move to the next item in the list"
 msgstr ""
 
 msgid "Move to the previous category in the list"
+msgstr ""
+
+msgid "Move to the previous item"
 msgstr ""
 
 msgid "Move to the previous item in list"
@@ -12468,6 +12518,9 @@ msgid "Move up a page / screen"
 msgstr ""
 
 msgid "Move up a screen"
+msgstr ""
+
+msgid "Move up a screen / Move to previous item"
 msgstr ""
 
 msgid "Move up a screen in the panel"
@@ -13031,6 +13084,9 @@ msgstr ""
 msgid "No"
 msgstr "Ne"
 
+msgid "No 'epg.dat' file found on the remote receiver!"
+msgstr ""
+
 #
 msgid "No (supported) DVDROM found!"
 msgstr "Ne najdem (podprte oblike) DVDROM!"
@@ -13103,12 +13159,6 @@ msgstr "Opis ni na voljo."
 #
 msgid "No displayable files on this medium found!"
 msgstr "Na pogonu ni datotek, ki jih lahko prikažem!"
-
-msgid "No entry in lcn db. Please do a service scan."
-msgstr ""
-
-msgid "No 'epg.dat' file found on the remote receiver!"
-msgstr ""
 
 #
 #, fuzzy
@@ -13490,6 +13540,9 @@ msgid "Number of rows to display."
 msgstr ""
 
 msgid "Number or SMS style data entry"
+msgstr ""
+
+msgid "Numbering mode"
 msgstr ""
 
 msgid "OEM model"
@@ -14570,6 +14623,9 @@ msgstr "Prosim počakajte..."
 msgid "Please wait for activation of your network configuration..."
 msgstr "Počakajte na aktivacijo omrežnih nastavitev..."
 
+msgid "Please wait while LCN bouquets are created/updated..."
+msgstr ""
+
 msgid "Please wait while feeds are updated..."
 msgstr ""
 
@@ -15575,12 +15631,6 @@ msgstr ""
 msgid "Reboot"
 msgstr "Ponovni zagon"
 
-msgid "Rebuild"
-msgstr ""
-
-msgid "Rebuild LCN bouquet now?"
-msgstr ""
-
 msgid "Rec"
 msgstr ""
 
@@ -15603,11 +15653,6 @@ msgstr ""
 
 msgid "Receiver name"
 msgstr ""
-
-#
-#, fuzzy
-msgid "Reception"
-msgstr "Opis"
 
 msgid "Reception Lists"
 msgstr ""
@@ -16871,6 +16916,9 @@ msgstr ""
 msgid "Scan for local extensions and install them."
 msgstr "Iskanje in nameščanje lokalnih razširitev."
 
+msgid "Scan for terrestrial LCNs and create LCN bouquets"
+msgstr ""
+
 #
 #, fuzzy
 msgid "Scan wireless networks"
@@ -17093,6 +17141,9 @@ msgstr ""
 msgid "Select 'Provider' to scan from the predefined list of cable multiplexes. Select 'Bands' to only scan certain parts of the spectrum. Select 'Steps' to scan in steps of a particular frequency bandwidth."
 msgstr ""
 
+msgid "Select 'Unique numbering' to assign unique numbers for every service in every bouquet. Use 'Bouquets start at 1' to start numbering each bouquet from 1. Use 'LCN numbering' to use consistent service LCNs where ever that service is used."
+msgstr ""
+
 msgid "Select 'Yes' if an end time is required for this timer."
 msgstr ""
 
@@ -17106,6 +17157,15 @@ msgid "Select 'Yes' if volume adjustments should be applied to Dolby sound track
 msgstr ""
 
 msgid "Select 'Yes' if you are using a multi-switch which requires a DiSEqC Port-A command signal. Select 'No' for all other setups."
+msgstr ""
+
+msgid "Select 'Yes' if you want to wake the TV for a 'Wakeup' power timer is starting."
+msgstr ""
+
+msgid "Select 'Yes' if you want to wake the TV for a 'Zap and Record' recording timer is starting."
+msgstr ""
+
+msgid "Select 'Yes' if you want to wake the TV for a 'Zap' recording timer is starting."
 msgstr ""
 
 msgid "Select 'Yes' the keep the InfoBar displayed, with no timeout, while media playback is paused."
@@ -17139,6 +17199,9 @@ msgid "Select 'Yes' to display the channel number in the InfoBar."
 msgstr ""
 
 msgid "Select 'Yes' to display unknown files in the File Commander file viewer, select 'No' to not process unknown files."
+msgstr ""
+
+msgid "Select 'Yes' to enable AI-Powered Translation for all teletext and DVB subtitles."
 msgstr ""
 
 msgid "Select 'Yes' to enable editing of this device's settings. Selecting 'No' resets the devices settings to their default values."
@@ -17283,6 +17346,9 @@ msgid "Select 'Yes' to show the channel list after switching between Radio and T
 msgstr ""
 
 msgid "Select 'Yes' to show the current directory in the list of directories. Note that File Commander must be restarted for this change to take effect."
+msgstr ""
+
+msgid "Select 'Yes' to show this plugin in the Plugin Browser."
 msgstr ""
 
 msgid "Select 'Yes' to show web link packages in the Download Plugins screen."
@@ -17502,7 +17568,7 @@ msgstr ""
 msgid "Select how long to display the task and script message pop up."
 msgstr ""
 
-msgid "Select how long, in seconds, that the volume display is shown before it automatically hides."
+msgid "Select how long, in seconds, that the volume and mute displays are shown before they automatically hide."
 msgstr ""
 
 msgid "Select how often this timer is to be repeated."
@@ -17625,6 +17691,9 @@ msgstr ""
 msgid "Select the %s entry"
 msgstr ""
 
+msgid "Select the AI-Powered Translation target language."
+msgstr ""
+
 msgid "Select the No / False response"
 msgstr ""
 
@@ -17679,6 +17748,9 @@ msgid "Select the channel or service to be used for this timer."
 msgstr ""
 
 msgid "Select the character or action under the keyboard cursor"
+msgstr ""
+
+msgid "Select the color to be used for the AI-Powered Translation text."
 msgstr ""
 
 msgid "Select the current bookmarked location and exit"
@@ -17778,6 +17850,9 @@ msgstr ""
 msgid "Select the layout of the installed plugins in the Plugin Browser screen. NOTE: The change is not immediate but will be seen when Plugin Browser is restarted!"
 msgstr ""
 
+msgid "Select the list of LCN rules to be applied to the scan."
+msgstr ""
+
 #
 #, fuzzy
 msgid "Select the locale from a menu"
@@ -17860,6 +17935,12 @@ msgid "Select the shifted character set"
 msgstr "Izberite pot do posnetka"
 
 msgid "Select the shifted character set for the next character only"
+msgstr ""
+
+msgid "Select the size of the volume step when the VOLUME buttons are pressed."
+msgstr ""
+
+msgid "Select the size of the volume steps when the VOLUME buttons are held down."
 msgstr ""
 
 msgid "Select the sort order for the file lines:"
@@ -17955,9 +18036,6 @@ msgid ""
 "Select the wireless network to which you want to connect.\n"
 "\n"
 "Press OK to continue."
-msgstr ""
-
-msgid "Select to use logarithmic step size with more steps at the lower volume levels."
 msgstr ""
 
 msgid "Select update source location"
@@ -18163,6 +18241,9 @@ msgid "Service Number and Service Name"
 msgstr ""
 
 msgid "Service Number, Picon and Service Name"
+msgstr ""
+
+msgid "Service Scan"
 msgstr ""
 
 #, fuzzy
@@ -18868,9 +18949,6 @@ msgstr "Informacije"
 msgid "Show Kernel packages"
 msgstr ""
 
-msgid "Show LCN in channel selection"
-msgstr ""
-
 #
 #, fuzzy
 msgid "Show Live in MiniTV"
@@ -19030,6 +19108,9 @@ msgstr ""
 msgid "Show all"
 msgstr ""
 
+msgid "Show all Information screens"
+msgstr ""
+
 msgid "Show all available services"
 msgstr ""
 
@@ -19179,6 +19260,9 @@ msgid "Show image and save as '%s'"
 msgstr ""
 
 msgid "Show in Extension Menu"
+msgstr ""
+
+msgid "Show in Plugin Browser"
 msgstr ""
 
 #
@@ -21174,9 +21258,6 @@ msgstr "Finsko"
 msgid "Terrestrial"
 msgstr "Zemeljski"
 
-msgid "Terrestrial bouquet:"
-msgstr ""
-
 msgid "Test"
 msgstr ""
 
@@ -21267,6 +21348,9 @@ msgstr ""
 
 #, python-format
 msgid "The '%s' file can't be retrieved, please try again later."
+msgstr ""
+
+msgid "The AI-Powered Translation service will be optimized to provide the best performance based on the the Internet connection upload speed selected."
 msgstr ""
 
 msgid ""
@@ -22397,6 +22481,9 @@ msgstr ""
 msgid "Transcoding: "
 msgstr ""
 
+msgid "Translate Subs On This Service"
+msgstr ""
+
 msgid "Translation"
 msgstr ""
 
@@ -22596,6 +22683,9 @@ msgid "Tuner type %s"
 msgstr "Vrsta kanalnika"
 
 msgid "Tuners"
+msgstr ""
+
+msgid "Tuners, Scanning & Reception"
 msgstr ""
 
 msgid "Tuning algorithm"
@@ -22798,6 +22888,9 @@ msgstr ""
 msgid "Uninstall"
 msgstr ""
 
+msgid "Unique numbering"
+msgstr ""
+
 msgid "United Arab Emirates"
 msgstr ""
 
@@ -22920,6 +23013,9 @@ msgid "Up"
 msgstr ""
 
 msgid "Up / Active"
+msgstr ""
+
+msgid "Up to 50 Mbps"
 msgstr ""
 
 msgid "Up/Down button mode"
@@ -23136,6 +23232,9 @@ msgstr ""
 msgid "Use defaults"
 msgstr ""
 
+msgid "Use description lines"
+msgstr ""
+
 msgid "Use extended List"
 msgstr ""
 
@@ -23171,9 +23270,6 @@ msgstr ""
 msgid "Use legacy navigation"
 msgstr ""
 
-msgid "Use logarithmic steps"
-msgstr ""
-
 msgid "Use official channel numbering"
 msgstr ""
 
@@ -23195,6 +23291,12 @@ msgid "Use power measurement"
 msgstr "Uporaba merjenja moči"
 
 msgid "Use small screen"
+msgstr ""
+
+msgid "Use spacer lines"
+msgstr ""
+
+msgid "Use spacer lines to pad the bouquet to make the #SERVICE line numbers match the LCN."
 msgstr ""
 
 msgid "Use the LEFT/RIGHT buttons on your remote to adjust the height of the OSD. LEFT button decreases the height, RIGHT increases the height."
@@ -23445,6 +23547,9 @@ msgid "Venda"
 msgstr ""
 
 msgid "Venezuela, Bolivarian Republic of"
+msgstr ""
+
+msgid "Verbose"
 msgstr ""
 
 msgid "Version"
@@ -23701,16 +23806,19 @@ msgstr ""
 msgid "Volume Adjust Settings"
 msgstr ""
 
-msgid "Volume display timer"
-msgstr ""
-
 msgid "Volume down"
 msgstr ""
 
 msgid "Volume keys on the receiver remote will control the TV volume. If this feature is not supported the volume keys have no function!"
 msgstr ""
 
+msgid "Volume steps"
+msgstr ""
+
 msgid "Volume up"
+msgstr ""
+
+msgid "Volume/Mute display timer"
 msgstr ""
 
 msgid "Vu+ MultiBoot"
@@ -24042,9 +24150,6 @@ msgstr ""
 msgid "When enabled, authentication is required to watch http streams."
 msgstr ""
 
-msgid "When enabled, channel numbering will start at '1' for each bouquet."
-msgstr ""
-
 msgid "When enabled, content with an aspect ratio of 4:3 will be stretched to fit the screen."
 msgstr ""
 
@@ -24082,9 +24187,6 @@ msgid "When enabled, pressing '0' will zap you to the first channel in your firs
 msgstr ""
 
 msgid "When enabled, reformat subtitles to match the width of the screen."
-msgstr ""
-
-msgid "When enabled, show LCN in the channel selection screen."
 msgstr ""
 
 msgid "When enabled, show channel numbers in the channel selection screen."
@@ -25936,6 +26038,11 @@ msgstr "Da (obdrži feed-e)"
 
 msgid "®"
 msgstr ""
+
+#
+#, fuzzy
+#~ msgid "Reception"
+#~ msgstr "Opis"
 
 #
 #, fuzzy

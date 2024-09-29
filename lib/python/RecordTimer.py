@@ -134,8 +134,8 @@ class RecordTimer(Timer):
 			if timer.dontSave:
 				continue
 			timerEntry = ["\t<timer"]
-			timerEntry.append(f"begin=\"{timer.begin}\"")
-			timerEntry.append(f"end=\"{timer.end}\"")
+			timerEntry.append(f"begin=\"{int(timer.begin)}\"")
+			timerEntry.append(f"end=\"{int(timer.end)}\"")
 			timerEntry.append(f"marginBefore=\"{timer.marginBefore}\"")
 			timerEntry.append(f"eventBegin=\"{timer.eventBegin}\"")
 			timerEntry.append(f"eventEnd=\"{timer.eventEnd}\"")
@@ -454,7 +454,7 @@ class RecordTimer(Timer):
 		return [timer for timer in self.fallbackTimerlist if timer.serviceRefString == service]
 
 	def getTimers(self, service):
-		return [timer for timer in self.timer_list if timer.serviceRefString == service] + self.getFallbackTimers(service)
+		return [timer for timer in self.timer_list + self.processed_timers if timer.serviceRefString == service] + self.getFallbackTimers(service)
 
 	def hasTimers(self, service):
 		return self.getTimers(service) != []
@@ -464,6 +464,7 @@ class RecordTimer(Timer):
 		timerType = 0
 		timeMatch = 0
 		isAutoTimer = 0
+		isDisabled = 0
 		beginTime = None
 		checkOffsetTimeRecord = not config.recording.margin_before.value and not config.recording.margin_after.value
 		checkOffsetTimeZap = not config.recording.zap_margin_before.value and not config.recording.zap_margin_after.value
@@ -471,6 +472,7 @@ class RecordTimer(Timer):
 		for timer in self.getTimers(service):
 			checkOffsetTime = checkOffsetTimeZap if timer.justplay else checkOffsetTimeRecord
 			isAutoTimer = 0
+			isDisabled = timer.disabled
 			if timer.isAutoTimer == 1:
 				isAutoTimer |= 1
 			if timer.ice_timer_id:
@@ -576,8 +578,10 @@ class RecordTimer(Timer):
 						timeMatch = end - begin
 						timerType = typeOffset + 2
 			if timeMatch:
+				if isDisabled and timerType in (2, 7, 12):
+					timerType = 15
 				returnValue = (timeMatch, timerType, isAutoTimer, timer) if getTimer else (timeMatch, timerType, isAutoTimer)
-				if timerType in (2, 7, 12):  # When full recording do not look further.
+				if timerType in (2, 7, 12, 15):  # When full recording do not look further.
 					break
 		return returnValue
 
@@ -961,8 +965,8 @@ class RecordTimerEntry(TimerEntry):
 			NavigationInstance.instance.RecordTimer.saveTimers()
 			boxInStandby = Screens.Standby.inStandby
 			tvNotActive = Screens.Standby.TVinStandby.getTVstate("notactive")
-			isStillRecording = NavigationInstance.instance.RecordTimer.getStillRecording()
 			nextRecordingTime = NavigationInstance.instance.RecordTimer.getNextRecordingTime()
+			isStillRecording = NavigationInstance.instance.RecordTimer.getStillRecording()
 			isRecordTime = abs(nextRecordingTime - int(time())) <= 900 or isStillRecording
 			if DEBUG:
 				print(f"[RecordTimer] boxInStandby='{boxInStandby}', tvNotActive='{tvNotActive}', wasRecTimerWakeup='{wasRecTimerWakeup}', self.wasInStandby='{self.wasInStandby}', self.afterEvent='{self.afterEvent}', isRecordTime='{isRecordTime}', nextRecordingTime='{nextRecordingTime}', isStillRecording='{isStillRecording}'.")

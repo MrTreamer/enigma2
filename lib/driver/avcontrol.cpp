@@ -75,7 +75,7 @@ eAVControl *eAVControl::m_instance = nullptr;
 
 eAVControl::eAVControl()
 {
-	struct stat buffer;
+	struct stat buffer = {};
 
 #ifdef HAVE_HDMIIN_DM
 	m_b_has_proc_hdmi_rx_monitor = (stat(proc_hdmi_rx_monitor, &buffer) == 0);
@@ -278,6 +278,8 @@ int eAVControl::getFrameRate(int defaultVal, int flags) const
 
 #ifdef DREAMNEXTGEN
 	const char *fileName = "/proc/stb/vmpeg/0/frame_rate";
+#elif DREAMBOX
+	const char *fileName = "/proc/stb/vmpeg/0/fallback_framerate";
 #else
 	const char *fileName = "/proc/stb/vmpeg/0/framerate";
 #endif
